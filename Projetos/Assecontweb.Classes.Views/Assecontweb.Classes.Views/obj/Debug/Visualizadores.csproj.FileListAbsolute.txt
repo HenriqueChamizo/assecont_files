@@ -1,0 +1,10 @@
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Visualizadores\Visualizadores\bin\Debug\Assecontweb.Classes.Views.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Visualizadores\Visualizadores\bin\Debug\Assecontweb.Classes.Views.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Visualizadores\Visualizadores\obj\Debug\Assecontweb.Classes.Views.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Visualizadores\Visualizadores\obj\Debug\Assecontweb.Classes.Views.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Visualizadores\Visualizadores\bin\Debug\Telerik.Web.UI.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Visualizadores\Visualizadores\bin\Debug\Assecontweb.Classes.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Visualizadores\Visualizadores\bin\Debug\Assecontweb.Types.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Visualizadores\Visualizadores\obj\Debug\Assecontweb.Classes.Views.Properties.Resources.resources
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Visualizadores\Visualizadores\obj\Debug\Visualizadores.csproj.GenerateResource.Cache
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Visualizadores\Visualizadores\obj\Debug\Visualizadores.csprojResolveAssemblyReference.cache

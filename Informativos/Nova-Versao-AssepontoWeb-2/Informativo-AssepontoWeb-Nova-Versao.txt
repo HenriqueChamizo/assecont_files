@@ -1,0 +1,6 @@
+<div style="width: 100%;max-width: 700px; float:none;margin: 15px auto 0px auto">
+	<img src="http://www.assecont.com.br/Imagens/informativos/I3-Nova-Versao-AssepontoWeb-2/informativo.jpg" style="width:100%" usemap="#info" />
+	<map name="info">
+		<area shape="rect" coords="130,522,558,560" alt="info" href="http://www.assecont.com.br/Imagens/informativos/I3-Nova-Versao-AssepontoWeb-2/Saiba-Mais.html">
+	</map>
+</div>

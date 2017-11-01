@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="Assecont2.Holerite.Default" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="~/holerite/Site.css" rel="stylesheet"/>
+    <link href="~/holerite/Imagens/iconAssecontHolerite.ico" rel="icon" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <div id="bodywrapper">
+            <div id="siteheaderwrapper">
+                <div>
+                    <asp:Image ID="sitetopologotipo" runat="server" ImageUrl="~/holerite/Imagens/Logo.png" />
+                </div>
+                <div id="login">
+                    <asp:LinkButton ID="lbNomeLogin" runat="server" ForeColor="White"></asp:LinkButton>
+                    &nbsp;<asp:LinkButton ID="lbSair" runat="server" ForeColor="White" OnClick="lbSair_Click">Sair</asp:LinkButton>
+                </div>
+            </div>
+            <div id="siteconteudowrapper">
+                <div id="siteconteudo">
+                    <asp:ContentPlaceHolder ID="ContentPlaceWebSite" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <div id="sitecorpo">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>
+            <div id="siteRodape" style="text-align: center">
+                <asp:Label ID="Label1" runat="server" Text=" End.: Rua Mario, 194 - Vila Romana – São Paulo/SP – CEP.: 05048-010 - Tel.: (11)
+            2173-8888"></asp:Label>
+                <br />
+                <asp:Label ID="Label2" runat="server" Text="©2013 Assecont Contabilidade LTDA - Todos os direitos reservados."></asp:Label>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

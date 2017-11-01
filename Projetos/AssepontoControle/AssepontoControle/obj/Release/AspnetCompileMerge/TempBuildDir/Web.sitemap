@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--attributos:
+
+redirectafterdbupdate = redireciona a página logo após um insert ou update. Instanciar BDHistoricoApp.
+fieldredirectindice = campo a ser usado em redirectafterdbupdate, por exemplo, edicao do certificado, redirecionar para a listagem de certificados daquele cliente
+addredirectindice = usado em redirectafterdbupdate, adiciona o indice na querystring
+image = Imagem Título em PageTitle, exemplo: image="minhaimagem.png"
+imagecolor = Cor de fundo da imagem, exemplo:
+hidetitle = Ocultar PageTitle da página
+urlsearch = Url da pesquisa
+showtitleseparator = exibe o separador abaixo do título: showtitleseparator="true"-->
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/default.aspx" title="" image="">
+    <siteMapNode url="~/suporte/default.aspx" title="Home Asseponto" image="">
+      <siteMapNode url="~/suporte/revendas/default.aspx" title="Home Revendas" image="">
+        <siteMapNode url="~/suporte/revendas/revendas.aspx" title="Revendas" image="">
+          <siteMapNode url="~/suporte/revendas/revenda.aspx" title="Revenda" image="">
+            <siteMapNode url="~/suporte/revendas/clientes.aspx" title="Clientes da Revenda" image=""/>
+          </siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="~/suporte/Atendimento/SolicitacoesDesbloqueioRevenda.aspx" title="Solicitações Revendas" image="" />
+      </siteMapNode>
+      <siteMapNode url="~/suporte/clientes/default.aspx" title="Home Clientes" image="">
+        <siteMapNode url="~/suporte/clientes/clientes.aspx" title="Clientes" image="">
+          <siteMapNode url="~/suporte/clientes/cliente.aspx" title="Cliente" image="">
+            <siteMapNode url="~/suporte/clientes/faturamento.aspx" title="Faturamento" image="" />
+            <siteMapNode url="~/suporte/clientes/pendencias.aspx" title="Pendências" image="">
+              <siteMapNode url="~/suporte/clientes/pendencia.aspx" title="Pendência" image=""/>
+            </siteMapNode>
+            <siteMapNode url="~/suporte/Treinamentos/addAgendaCliente.aspx" title="Enviar ID" image=""/>
+          </siteMapNode>
+        </siteMapNode>
+
+        <siteMapNode url="~/suporte/Treinamentos/default.aspx" title="Home Treinamento" image="" >
+          <siteMapNode url="~/suporte/Treinamentos/addAgendaCompromisso.aspx" title="Agendar Treinamento" image=""/>
+          <siteMapNode url="~/suporte/Treinamentos/Compromisso.aspx" title="Treinamento" image=""/>
+        </siteMapNode>
+
+        <siteMapNode url="~/suporte/clientes/manutencoes.aspx" title="Manutenções" image="">
+          <siteMapNode url="~/suporte/clientes/manutencoescliente.aspx" title="Manutenção" image=""/>
+        </siteMapNode>
+        <siteMapNode url="~/suporte/clientes/manutencoesexpirar.aspx" title="Manutenções a Expirar" image=""/>
+      </siteMapNode>
+      <siteMapNode url="~/suporte/atendimento/default.aspx" title="Atendimento" image="">
+        <siteMapNode url="~/suporte/atendimento/clientes.aspx" title="Atendimento a Clientes" image="">
+          <siteMapNode url="~/suporte/atendimento/cliente.aspx" title="Atendimento ao Cliente" image="">
+            <siteMapNode url="~/suporte/atendimento/pendencia.aspx" title="Pendência" image=""/>
+            <siteMapNode url="~/suporte/atendimento/senhas.aspx" title="Senhas Liberadas" image=""/>
+          </siteMapNode>
+          <siteMapNode url="~/suporte/atendimento/pendencias.aspx" title="Pendências" image=""/>
+        </siteMapNode>
+        <siteMapNode url="~/suporte/atendimento/solicitacoesdesbloqueio.aspx" title="Solicitações de Desbloqueio" image="">
+          <siteMapNode url="~/suporte/atendimento/solicitacaodesbloqueio.aspx" title="Solicitação de Desbloqueio" image=""/>
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="~/suporte/pedidos/default.aspx" title="Home Pedidos" image="">
+        <siteMapNode url="~/suporte/pedidos/pedido.aspx" title="Pedido" image=""/>
+        <siteMapNode url="~/suporte/pedidos/pedidoassefin.aspx" title="Pedido Assefin" image=""/>
+        <siteMapNode url="~/suporte/pedidos/pedidoimplantacaoenviado.aspx" title="Pedido Enviado para Implantação" image="" hidetitle="1"/>
+      </siteMapNode>
+      <siteMapNode url="~/suporte/implantacoes/default.aspx" title="Home Implantações" image="">
+        <siteMapNode url="~/suporte/implantacoes/implantacaoAssefin.aspx" title="Implantação Assefin" image="" />
+        <siteMapNode url="~/suporte/implantacoes/implantacao.aspx" title="Implantação" image="">
+          <siteMapNode url="~/suporte/implantacoes/Agenda.aspx" title="Agenda" image="" />
+          <siteMapNode url="~/suporte/implantacoes/pendencias.aspx" title="Pendências de Implantação" image="">
+            <siteMapNode url="~/suporte/implantacoes/pendencia.aspx" title="Pendência de Implantação" image=""/>
+          </siteMapNode>
+        </siteMapNode>
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="~/suporte/manutencao/default.aspx" title="Manunteção" image="" />
+
+    <siteMapNode url="~/suporte/usuarios/default.aspx" title="Home Usuário" image="">
+      <siteMapNode url="~/suporte/usuarios/AddUsuario.aspx" title="Novo Usuário" image="" />
+    </siteMapNode>
+
+    <siteMapNode url="~/suporte/relatorios/RelatorioContratoManutencao.aspx" title="Relatório de Contrato de Manutenção" image=""/>
+    <siteMapNode url="~/suporte/relatorios/RelatorioClientesExpirados.aspx" title="Relatório de Clientes Expirados" image=""/>
+    <siteMapNode url="~/suporte/relatorios/RelatorioImplatacoes.aspx" title="Relatório de Pedidos" image=""/>
+    <siteMapNode url="~/suporte/relatorios/RelatorioImplantacoesFinalizadasCompleta.aspx" title="Relatório de Implantações Completas" image=""/>
+    <siteMapNode url="~/suporte/relatorios/RelatorioImplantacoesFinalizadasIncompleta.aspx" title="Relatório de Implatações Incompletas" image=""/>
+    <siteMapNode url="~/suporte/relatorios/RelatorioTreinamento.aspx" title="Relatório de Treinamento" image=""/>
+
+    <siteMapNode url="~/suporte/relatorios/RelatorioRevenda.aspx" title="Relatório de Revendas" image=""/>
+    <siteMapNode url="~/suporte/relatorios/RelatorioAtestados.aspx" title="Atestados Técnico" image="" />
+
+    <siteMapNode url="~/suporte/formulario/FormPedidoCliFinal.aspx" title="Cliente Final" image="" />
+
+    <siteMapNode url="~/suporte/Pesquisa/default.aspx" title="Pesquisa Atendimento - Totalizado" image="" >
+      <siteMapNode url="~/suporte/Pesquisa/pesquisaTreinamento.aspx" title="Pesquisa" image="" />
+      <siteMapNode url="~/suporte/Pesquisa/pesquisaAsseponto.aspx" title="Pesquisa Software " image="" />
+      <siteMapNode url="~/suporte/Pesquisa/pesquisaBeAnywhereUpload.aspx" title="Importação BeAnywhere" image="" />
+
+      <siteMapNode url="~/suporte/Pesquisa/pesquisaAssepontoDetalhado.aspx" title="Pesquisa Software - Detalhado" image="" />
+      <siteMapNode url="~/suporte/Pesquisa/pesquisaTreinamentoDetalhado.aspx" title="Pesquisa Treinamento - Detalhado" image="" />
+      <siteMapNode url="~/suporte/Pesquisa/pesquisaTecnicoDetalhado.aspx" title="Pesquisa Atendimento - Detalhado" image="" />
+    </siteMapNode>
+
+    <siteMapNode url="~/revenda/default.aspx" title="Home Revenda" image="" >
+      <siteMapNode url="~/revenda/clientes/default.aspx" title="Clientes" image="">
+        <siteMapNode url="~/suporte/revenda/manutencao.aspx" title="Manutenções" image="" />
+        <siteMapNode url="~/revenda/clientes/cliente.aspx" title="Cliente" image="">
+          <siteMapNode url="~/revenda/clientes/pendencias.aspx" title="Pendências" image="">
+            <siteMapNode url="~/revenda/clientes/pendencia.aspx" title="Pendência" image=""/>
+          </siteMapNode>
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="~/revenda/pedidos/default.aspx" title="Home Pedidos" image="">
+        <siteMapNode url="~/revenda/pedidos/pedido.aspx" title="Pedido" image=""/>
+        <siteMapNode url="~/revenda/pedidos/pedidoenviado.aspx" title="Pedido Enviado" image="" hidetitle="1"/>
+      </siteMapNode>
+      <siteMapNode url="~/revenda/implantacoes/default.aspx" title="Home Implantações" image="">
+        <siteMapNode url="~/revenda/implantacoes/implantacao.aspx" title="Implantação" image=""/>
+        <siteMapNode url="~/revenda/implantacoes/pendencias.aspx" title="Pendências de Implantação" image="">
+          <siteMapNode url="~/revenda/implantacoes/pendencia.aspx" title="Pendência de Implantação" image=""/>
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="~/revenda/arquivos/default.aspx" title="Arquivos" image=""/>
+      <siteMapNode url="~/revenda/cadastro/cadasatroRep.aspx" title="Relógios Comercializados" image=""/>
+      <siteMapNode url="~/revenda/cadastro/cadastroDados.aspx" title="Dados da Empresa" image=""/>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
+

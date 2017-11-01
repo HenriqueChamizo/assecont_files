@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+        body
+        {
+            font-family: 'Segoe UI';
+            font-size: 10pt;
+            margin: 0 auto;
+            width: 780px;
+        }
+
+        .texto, .assunto
+        {
+            padding-bottom: 10px;
+            padding-top: 6px;
+            text-align: left;
+        }
+
+        .assunto
+        {
+            padding-left: 10px;
+            font-weight: bold;
+            width: 200px;
+        }
+
+        #titulo
+        {
+            padding-top: 4px;
+            padding-bottom: 8px;
+            font-size: 14pt;
+            text-align: center;
+            border-bottom: 1px solid gray;
+        }
+    </style>
+</head>
+<body>
+    <div align="center">
+        <table border="0" cellspacing="0" cellpadding="0" style="width: 780px;">
+            <tr>
+                <td colspan="2">
+                    <img alt="" src="http://www.assecont.com.br/assecont/Imagens/Email/Topo.png" width="780" />
+                </td>
+            </tr>
+            <tr>
+                <td id="titulo" colspan="2">Solicitação de atualização de Email no Boleto</td>
+            </tr>
+            <tr>
+                <td class="assunto">Cliente: 
+                </td>
+                <td class="texto">%EMPRESANOME%</td>
+            </tr>
+            <tr>
+                <td class="assunto">CNPJ/CPF: 
+                </td>
+                <td class="texto">%CNPJ%</td>
+            </tr>
+            <tr>
+                <td class="assunto" valign="top">Email 1:
+                </td>
+                <td class="texto">%EMAIL1%</td>
+            </tr>
+            <tr>
+                <td class="assunto" valign="top">Email 2:
+                </td>
+                <td class="texto">%EMAIL2%</td>
+            </tr>
+            <tr>
+                <td class="assunto" valign="top">Email 3:
+                </td>
+                <td class="texto">%EMAIL3%</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <img alt="" src="http://www.assecont.com.br/assecont/Imagens/Email/Rodape.png" width="780" />
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

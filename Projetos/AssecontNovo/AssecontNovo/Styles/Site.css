@@ -1,0 +1,829 @@
+﻿body
+{
+    font: 10pt 'Segoe UI', 'Segoe UI Light';
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+    top: 0px;
+    color: #424242;
+}
+
+#bxInformativo table, #bxDepoimentos table
+{
+    padding-right: 20px;
+}
+
+#bxInformativo .titulo, #bxInformativo .titulo a, #bxDepoimentos .titulo a
+{
+    text-shadow: 0px 0px 0px #A7ABB4;
+    color: #1A4C83;
+}
+
+#bxDepoimentos .titulo a
+{
+    font-size: 11pt;
+}
+
+#bxDepoimentos .titulo
+{
+    padding-bottom: 10px;
+}
+
+#bxInformativo .titulo, #bxInformativo .titulo a
+{
+    font-size: 14pt;
+}
+
+.tituloSecundario
+{
+    font-family: 'Segoe UI Light';
+    font-size: 14pt;
+    text-shadow: 0 0 0;
+}
+
+a
+{
+    text-decoration: none;
+    border: 0;
+}
+
+    a:hover
+    {
+        text-decoration: underline;
+    }
+
+img
+{
+    vertical-align: middle;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+input[type="text"], input[type="submit"]
+{
+    outline: 0;
+}
+
+#Menu
+{
+    padding-left: 3px;
+}
+
+    #Menu a
+    {
+        font-size: 11.5pt;
+        color: white;
+        cursor: pointer;
+    }
+
+    #Menu .Cont
+    {
+        padding-right: 20px;
+    }
+
+#subMenu a, #subMenu
+{
+    color: #424242;
+    letter-spacing: 0.5px;
+    font-size: 8.2pt;
+    text-transform: uppercase;
+    text-shadow: 0 0 0;
+}
+
+    #subMenu td
+    {
+        padding-left: 6px;
+    }
+
+.sitepadroesinvisible
+{
+    visibility: hidden;
+    position: absolute;
+}
+
+#HeaderMain, #HeaderMainAssecont, #HeaderMainTecnologia, #HeaderMainContabil, #HeaderMainJuridico, footer
+{
+    width: 100%;
+}
+
+#NavHolerite, #FootNoteAddressHolerite
+{
+    background-color: #2D2D2D;
+    _background-color: #FF0099; /*Outubro Rosa*/
+    _background-color: #2D2D2D; /*Halloween*/
+}
+
+#NavContabil, #FootNoteAddressContabil
+{
+    _background-color: #FF0099; /*Outubro Rosa*/
+    _background-color: #2D2D2D; /*Halloween*/
+    _background-color: #004D13; /*Feliz Natal*/
+    background-color: #EF3737; /* #ed1c24;*/
+}
+
+#NavTec, #FootNoteAddressTec
+{
+    background-color: #5A5A5A;
+    _background-color: #FF0099; /*Outubro Rosa*/
+    _background-color: #2D2D2D; /*Halloween*/
+}
+
+#NavPortal, #FootNoteAddressPortal
+{
+    background-color: #1A4C83;
+    _background-color: #FF0099; /*Outubro Rosa*/
+    _background-color: #2D2D2D; /*Halloween*/
+}
+
+#NavContabil, #NavTec, #NavPortal, #SectionNavPortal, #SectionNavTec, #SectionNavContabil, #SectionNavHolerite
+{
+    height: 30px;
+    _box-shadow: 0 -2px 1px -1px #0F0F0F inset;
+}
+
+.SectionHeader, #SectiontWebsite, .FootNote, #SectionNavPortal, #SectionNavTec, #SectionNavContabil, .tableNav, #SectionNavHolerite
+{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#SectionLog
+{
+    background: rgba(211, 211, 211, 0.3);
+    border-top: 1px solid lightgrey;
+}
+
+#SectiontWebsite
+{
+    _padding: 100px 0px 30px 30px; /*FIXED*/
+    padding: 0px 0px 60px 0px;
+    min-height: 460px;
+    position: relative;
+    overflow: hidden;
+}
+
+.SectionContent
+{
+    padding: 20px 0px 0px 0px;
+}
+
+.imgFloat
+{
+    padding-right: 6px;
+    float: left;
+}
+
+.imgRight
+{
+    padding-left: 6px;
+    float: Right;
+}
+
+p
+{
+    margin-top: 6px;
+}
+
+.lista li
+{
+    padding-bottom: 10px;
+}
+
+    .lista li span
+    {
+        font-weight: normal;
+        font-size: 10pt;
+    }
+
+.siteButtonBoleto
+{
+    width: 180px;
+    text-align: center;
+    padding-bottom: 5px;
+    _border-top: 1px solid white;
+}
+
+.numerico
+{
+    list-style-type: decimal;
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.lista2, .linksFooter
+{
+    -webkit-padding-start: 15px;
+    margin: 2px;
+}
+
+.alfabeto
+{
+    list-style-type: lower-alpha;
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.headerBlocks
+{
+    font-size: 12.5pt;
+    letter-spacing: 0.2px;
+    text-shadow: 0px 0px 0px #A7ABB4;
+}
+
+footer
+{
+    bottom: 0;
+    font-size: 9pt;
+    min-width: 1000px;
+}
+
+.FootNote
+{
+    _border-top: 2px solid rgb(255, 216, 171);
+    min-height: 160px;
+    padding-top: 20px;
+}
+
+#FootNoteTable
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#FootNoteTable, .linksFooter, .linksFooter a, .linksFooter a:hover, articleBox a:hover, articleBox a
+{
+    color: #545454;
+}
+
+.MiniArticleBox
+{
+    width: 200px;
+}
+
+    .MiniArticleBox .texto
+    {
+        width: 120px;
+        text-align: left;
+    }
+
+.MiniArtititleSubscleBox .texto a
+{
+    color: #424242;
+}
+
+.divisao
+{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #E4E6E7;
+}
+
+.tituloFooter a, .tituloFooter
+{
+    font-size: 10pt;
+    font-weight: bold;
+    color: #EF3737;
+    _letter-spacing: 1px;
+}
+
+#FootNoteAddressPortal, #FootNoteAddressContabil, #FootNoteAddressTec, #FootNoteAddressHolerite
+{
+    padding: 2px;
+    color: white;
+    text-align: center;
+}
+
+Address
+{
+    letter-spacing: 1.0px;
+    font-style: inherit;
+}
+
+/* PlaceHolder*/
+::-webkit-input-placeholder
+{
+    color: GrayText;
+    font-style: italic;
+    font-family: 'Segoe UI';
+}
+
+:-moz-placeholder
+{
+    color: GrayText;
+    font-style: italic;
+    font-family: 'Segoe UI';
+}
+
+::-moz-placeholder
+{
+    color: GrayText;
+    font-style: italic;
+    font-family: 'Segoe UI';
+}
+
+:-ms-input-placeholder
+{
+    color: GrayText;
+    font-style: italic;
+    font-family: 'Segoe UI';
+}
+
+/*Page Title*/
+#sitetitle
+{
+    padding-top: 10px;
+    margin-left: -3px;
+    padding-bottom: 20px;
+}
+
+    #sitetitle .descricaoGrupo, #sitetitle .subdescricao,
+    #sitetitle .descricaoTecnologia, #sitetitle .descricaoContabilidade, .titleSubs
+    {
+        display: block;
+        color: #1A4C83;
+        text-shadow: 0px 1px 2px #A7ABB4;
+    }
+
+    #sitetitle .descricaoGrupo, #sitetitle .descricaoTecnologia,
+    #sitetitle .descricaoContabilidade, .titleSubs
+    {
+        font-size: 20pt;
+        font-family: 'Segoe UI';
+        _font-style: italic;
+        letter-spacing: 1px;
+    }
+
+    #sitetitle .subdescricao, #sitetitle .smalltitle
+    {
+        font-size: 11pt;
+        padding-left: 2px;
+        font-weight: lighter;
+        font-family: 'Segoe UI';
+    }
+
+    #sitetitle img, .titleSubs img
+    {
+        margin: 8px 0px 10px 0px;
+        width: 24px;
+        height: 24px;
+        top: 0px;
+        padding: 7px;
+        border-radius: 3px;
+        background-color: #1A4C83;
+        box-shadow: -2px 2px 3px #A7ABB4;
+    }
+
+.liksRapidos a, #Informativos a:hover, #HyNotaFiscal, .lista li span a:hover, .link:hover
+{
+    color: #424242;
+    font-style: italic;
+    text-shadow: 0 0 0;
+}
+
+    .liksRapidos a:hover, #Informativos a, #HyNotaFiscal a, .lista li span a, .link
+    {
+        text-decoration: none;
+        color: #EF3737;
+        font-style: italic;
+        text-shadow: 0 0 0;
+    }
+
+        .liksRapidos a:hover, .lista li span a:hover, .link:hover
+        {
+            text-decoration: underline;
+        }
+
+.blue
+{
+    background-color: #1A4C83;
+}
+
+.font_blue
+{
+    Color: #1A4C83;
+}
+
+.font_gray
+{
+    Color: #424242;
+}
+
+.grayDark
+{
+    background-color: #424242;
+}
+
+.red
+{
+    background-color: #EF3737;
+}
+
+.font_red
+{
+    Color: #EF3737;
+}
+
+.lightBlue, .MapsGoogle
+{
+    background-color: #0086E7;
+}
+
+.font_lightBlue
+{
+    Color: #0086E7;
+}
+
+.textbox
+{
+    font-family: 'Segoe UI';
+    padding: 1px;
+    border: 1px solid #cccccc;
+    background-color: white;
+    color: black;
+    resize: none;
+    outline: none;
+    padding: 2px 0px 3px 0px;
+}
+
+.sitebutton, .siteButtonBoleto, .sitebuttonwhite
+{
+    padding: 2px 10px 4px 10px;
+    display: inline-block;
+    line-height: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    /* text-align: center; */
+    /* border-radius: 5px; */
+}
+
+.center, .center input[type="text"]
+{
+    text-align: center;
+}
+
+.sitebutton img, .sitebuttonwhite img
+{
+    _padding-bottom: 2px;
+    border: 0px !important;
+}
+
+.sitebutton:hover
+{
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+.sitebuttonwhite:hover
+{
+    text-decoration: underline;
+    opacity: 0.8;
+    background-color: #C1EBFF;
+}
+
+.ContentText
+{
+    width: 790px;
+    text-align: justify;
+    float: left;
+    display: inline-block;
+}
+
+.MapsGoogle
+{
+    padding: 5px 5px 3px 5px;
+}
+
+/*Validadores*/
+.sitevalidator
+{
+    padding: 4px 12px 20px 12px;
+    background: no-repeat;
+    color: #FFFFFF;
+    position: absolute;
+    background-image: url('../Imagens/Site/Balao.png');
+    _margin-top: -38px;
+    _margin-left: -20px;
+    margin-top: -32px;
+    margin-left: 240px;
+    font-family: segoe ui;
+    font-size: 10pt;
+}
+
+.sitevalidator2
+{
+    padding: 4px 12px 17px 13px;
+    background: url('../Imagens/Site/Balao2.png') no-repeat;
+    color: #FFFFFF;
+}
+
+.sectionSucessoTable
+{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+    .sectionSucessoTable img
+    {
+        border-radius: 50px;
+        vertical-align: middle;
+        padding: 10px;
+    }
+
+.comunicados
+{
+    width: 970px;
+    font-size: 12pt;
+}
+
+.formviewsubtitle
+{
+    color: #0f62ac;
+    font-size: 18px;
+    padding: 0px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
+}
+
+.Date
+{
+    text-align: right;
+    text-transform: initial;
+    font-size: 10pt;
+    padding-top: 5px;
+}
+
+.Manual
+{
+    width: 320px;
+    height: 350px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 12pt;
+    background: url('http://www.assecont.com.br/Imagens/Tecnologia/folhaCaderno.png') no-repeat;
+}
+
+
+.niceform input[type=radio]
+{
+    opacity: 0;
+    margin-right: -12px;
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+}
+
+    .niceform input[type=radio] + span:before
+    {
+        content: " ";
+        background-color: #ccc;
+        display: inline-block;
+        margin-right: 15px;
+        width: 6px;
+        height: 6px;
+        border: 3px solid #fff;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        visibility: visible;
+        box-shadow: 0 0 0px 2px #999;
+    }
+
+    .niceform input[type=radio]:checked + span:before
+    {
+        background-color: #052;
+    }
+
+.niceform input[type=checkbox]
+{
+    opacity: 0;
+    margin-right: -12px;
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+}
+
+    .niceform input[type=checkbox] + span:before
+    {
+        content: "0a0";
+        display: inline-block;
+        margin-right: 15px;
+        width: 12px;
+        height: 12px;
+        visibility: visible;
+        border: 2px dashed #999;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+        line-height: 12px;
+        font-size: 14px;
+        text-align: center;
+        font-weight: bold;
+        color: #052;
+    }
+
+    .niceform input[type=checkbox]:checked + span:before
+    {
+        content: "0d7";
+    }
+
+.TreeViewNode
+{
+    display: inline-block;
+}
+
+#sitecorpobox, .sitecorpobox
+{
+    _float: right;
+    border-left: 2px solid #E4E6E7;
+    overflow: hidden;
+    min-height: 400px;
+}
+
+.sitecorpobox
+{
+    padding-left: 15px;
+}
+
+#boxLogin
+{
+    border-left: 2px solid #E4E6E7;
+    min-width: 380px;
+}
+
+.sitetable
+{
+    font-size: 12pt;
+    padding: 10px;
+}
+
+.text
+{
+    font-size: 12pt;
+    padding: 10px 20px 10px 10px;
+    text-align: justify;
+}
+
+.sitetable td
+{
+    padding: 4px 4px 4px 4px;
+    vertical-align: baseline;
+}
+
+.divMenuTitle
+{
+    padding: 6px 0px 0px 10px;
+    color: #0086E7;
+    display: -webkit-box;
+    font-size: 14pt;
+}
+
+/*Menu Esquerdo*/
+.sitemenuesquerdo
+{
+    float: left;
+    margin-right: 15px;
+    min-width: 100px;
+}
+
+    .sitemenuesquerdo ul
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .sitemenuesquerdo li
+    {
+        list-style: none;
+    }
+
+.Upload input
+{
+    font-family: 'Segoe UI' !important;
+    _padding: 4px;
+    border: 1px solid #b8cbde;
+    background-color: #E4E4E4;
+    color: #616161;
+    outline: none;
+    resize: none;
+    font-size: 11pt;
+}
+
+    .Upload input[type="file"], .Upload input[type="file"]:hover
+    {
+        border: 0px;
+    }
+
+    .Upload input:hover
+    {
+        _border: 1px solid #71A2BD;
+    }
+
+    .Upload input[type="file"]::-webkit-file-upload-button
+{
+    background-position: center center;
+    border-width: 0;
+    display: inline-block;
+    background-color: #FF6600;
+    color: White;
+    width: 42px;
+    height: 42px;
+    _padding: 4px 14px 4px 10px;
+    font-size: 0pt;
+    vertical-align: baseline;
+    cursor: pointer;
+    background-image: url('../Imagens/48x48/arrowUpload.png');
+    background-repeat: no-repeat;
+}
+
+        .Upload input[type="file"]::-webkit-file-upload-button:hover
+        {
+            text-decoration: underline;
+            opacity: 0.6;
+        }
+
+.imgEtapas
+{
+    padding: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.AjaxLoadCenter
+{
+    position: absolute;
+    background-color: #FAFAFA;
+    z-index: 2147483647 !important;
+    opacity: 0.8;
+    overflow: hidden;
+    text-align: center;
+    top: 0;
+    left: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding-top: 20%;
+}
+
+.checkbox
+{
+    float: left;
+}
+
+    .checkbox input[type=checkbox]:empty
+    {
+        margin-left: -999px;
+    }
+
+        .checkbox input[type=checkbox]:empty ~ label
+        {
+            position: relative;
+            float: left;
+            line-height: 1.6em;
+            text-indent: 2.2em;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            margin-right: 20px;
+            padding-bottom: 4px;
+            padding-left: 4px;
+        }
+
+            .checkbox input[type=checkbox]:empty ~ label:before
+            {
+                position: absolute;
+                display: block;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                content: '';
+                border: 1px solid #ccc;
+                width: 2em;
+                border-radius: 2px;
+            }
+
+    .checkbox input[type=checkbox]:hover:not(:checked) ~ label
+    {
+        color: #0083E0;
+        text-decoration: underline;
+    }
+
+    .checkbox input[type=checkbox]:checked ~ label:before
+    {
+        content: 'X';
+        text-indent: .35em;
+        font-size: 16pt;
+        font-weight: bold;
+        width: 1.26em;
+    }
+
+    .checkbox input[type=checkbox]:checked ~ label
+    {
+        color: #0083E0;
+        padding-bottom: 4px;
+    }

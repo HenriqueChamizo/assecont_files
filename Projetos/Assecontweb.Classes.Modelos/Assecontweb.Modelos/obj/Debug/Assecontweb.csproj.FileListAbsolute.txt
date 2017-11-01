@@ -1,0 +1,15 @@
+H:\Arquivos\ProgsComponentes\ComponentesC#\Assecontweb.Classes.Modelos\AssecontWeb.Modelos\bin\Debug\Assecontweb.Classes.Modelos.dll
+H:\Arquivos\ProgsComponentes\ComponentesC#\Assecontweb.Classes.Modelos\AssecontWeb.Modelos\bin\Debug\Assecontweb.Classes.Modelos.pdb
+H:\Arquivos\ProgsComponentes\ComponentesC#\Assecontweb.Classes.Modelos\AssecontWeb.Modelos\bin\Debug\Assecontweb.Classes.dll
+H:\Arquivos\ProgsComponentes\ComponentesC#\Assecontweb.Classes.Modelos\AssecontWeb.Modelos\bin\Debug\Assecontweb.Classes.Email.dll
+H:\Arquivos\ProgsComponentes\ComponentesC#\Assecontweb.Classes.Modelos\AssecontWeb.Modelos\bin\Debug\Assecontweb.Classes.Sms.dll
+H:\Arquivos\ProgsComponentes\ComponentesC#\Assecontweb.Classes.Modelos\AssecontWeb.Modelos\bin\Debug\Assecontweb.Types.dll
+H:\Arquivos\ProgsComponentes\ComponentesC#\Assecontweb.Classes.Modelos\AssecontWeb.Modelos\bin\Debug\HumanAPIClient.dll
+H:\Arquivos\ProgsComponentes\ComponentesC#\Assecontweb.Classes.Modelos\AssecontWeb.Modelos\bin\Debug\Wr.Classes.dll
+H:\Arquivos\ProgsComponentes\ComponentesC#\Assecontweb.Classes.Modelos\AssecontWeb.Modelos\obj\Debug\Assecontweb.csprojResolveAssemblyReference.cache
+H:\Arquivos\ProgsComponentes\ComponentesC#\Assecontweb.Classes.Modelos\AssecontWeb.Modelos\obj\Debug\Assecontweb.Classes.Modelos.dll
+H:\Arquivos\ProgsComponentes\ComponentesC#\Assecontweb.Classes.Modelos\AssecontWeb.Modelos\obj\Debug\Assecontweb.Classes.Modelos.pdb
+H:\Arquivos\ProgsComponentes\ComponentesC#\Assecontweb.Classes.Modelos\AssecontWeb.Modelos\bin\Debug\Excel.dll
+H:\Arquivos\ProgsComponentes\ComponentesC#\Assecontweb.Classes.Modelos\AssecontWeb.Modelos\bin\Debug\ICSharpCode.SharpZipLib.dll
+H:\Arquivos\ProgsComponentes\ComponentesC#\Assecontweb.Classes.Modelos\AssecontWeb.Modelos\bin\Debug\Wr.Classes.pdb
+H:\Arquivos\ProgsComponentes\ComponentesC#\Assecontweb.Classes.Modelos\AssecontWeb.Modelos\bin\Debug\Microsoft.Win32.TaskScheduler.dll

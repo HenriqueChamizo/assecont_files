@@ -1,0 +1,523 @@
+﻿body
+{
+    font: 10pt 'Segoe UI', 'Segoe UI Light';
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+    top: 0px;
+    color: #424242;
+}
+
+#bxInformativo table, #bxDepoimentos table
+{
+    padding-left: 35px;
+    padding-right: 20px;
+}
+
+#bxInformativo .titulo, #bxInformativo .titulo a, #bxDepoimentos .titulo a
+{
+    font-size: 11.5pt;
+    text-shadow: 0px 0px 0px #A7ABB4;
+    color: #1A4C83;
+}
+
+a
+{
+    text-decoration: none;
+    border: 0;
+}
+
+    a:hover
+    {
+        text-decoration: underline;
+    }
+
+img
+{
+    vertical-align: middle;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+input[type="text"], input[type="submit"]
+{
+    outline: 0;
+}
+
+#Menu
+{
+    padding-left: 3px;
+}
+
+    #Menu a
+    {
+        font-size: 11.5pt;
+        color: white;
+        cursor: pointer;
+    }
+
+    #Menu .Cont
+    {
+        padding-right: 20px;
+    }
+
+#subMenu a, #subMenu
+{
+    color: #424242;
+    letter-spacing: 0.5px;
+    font-size: 8.2pt;
+    text-transform: uppercase;
+    text-shadow: 0 0 0;
+}
+
+    #subMenu td
+    {
+        padding-left: 6px;
+    }
+
+.sitepadroesinvisible
+{
+    visibility: hidden;
+    position: absolute;
+}
+
+#HeaderMain, #HeaderMainAssecont, #HeaderMainTecnologia, #HeaderMainContabil, #HeaderMainJuridico, footer
+{
+    width: 100%;
+    _background-color: #FFF5F5;
+    _background-color: #FFB440; /*Halloween*/
+}
+
+#_NavContabil, #FootNoteAddressContabil, #SectionNavContabil
+{
+    _background-color: #FF0099; /*Outubro Rosa*/
+    _background-color: #2D2D2D; /*Halloween*/
+    background-color: #004D13; /*Feliz Natal*/
+    _background-color: #ed1c24;
+}
+
+#_NavTec, #FootNoteAddressTec, #SectionNavTec
+{
+    _background-color: #FF0099; /*Outubro Rosa*/
+    _background-color: #2D2D2D; /*Halloween*/
+    background-color: #004D13; /*Feliz Natal*/
+    _background-color: #5A5A5A;
+}
+
+#_NavPortal, #FootNoteAddressPortal, #SectionNavPortal
+{
+    _background-color: #FF0099; /*Outubro Rosa*/
+    _background-color: #2D2D2D; /*Halloween*/
+    background-color: #004D13; /*Feliz Natal*/
+    _background-color: #1A4C83;
+}
+
+#NavContabil, #NavTec, #NavPortal, #SectionNavPortal, #SectionNavTec, #SectionNavContabil
+{
+    height: 30px;
+    _box-shadow: 0 -2px 1px -1px #0F0F0F inset;
+}
+
+.SectionHeader, #SectiontWebsite, .FootNote, #SectionNavPortal, #SectionNavTec, #SectionNavContabil, .tableNav
+{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#SectionLog, .tableNav
+{
+    color: white;
+    background: #a90329; /* Old browsers */
+    background: -moz-linear-gradient(left, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #a90329 0%,#8f0222 44%,#6d0019 100%); /* IE10+ */
+    background: linear-gradient(to right, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=1 ); /* IE6-9 */
+}
+
+#SectiontWebsite
+{
+    _padding: 100px 0px 30px 30px; /*FIXED*/
+    padding: 0px 0px 30px 0px;
+    min-height: 395px;
+    position: relative;
+    overflow: hidden;
+}
+
+.SectionContent
+{
+    padding: 20px 0px 0px 0px;
+}
+
+.imgFloat
+{
+    padding-right: 6px;
+    float: left;
+}
+
+.imgRight
+{
+    padding-left: 6px;
+    float: Right;
+}
+
+p
+{
+    margin-top: 6px;
+}
+
+.lista li
+{
+    padding-bottom: 10px;
+}
+
+    .lista li span
+    {
+        font-weight: normal;
+        font-size: 10pt;
+    }
+
+.siteButtonBoleto
+{
+    width: 180px;
+    text-align: center;
+    padding-bottom: 5px;
+    border-top: 1px solid white;
+}
+
+.numerico
+{
+    list-style-type: decimal;
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.lista2, .linksFooter
+{
+    -webkit-padding-start: 15px;
+    margin: 2px;
+}
+
+.alfabeto
+{
+    list-style-type: lower-alpha;
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.headerBlocks
+{
+    font-size: 12.5pt;
+    letter-spacing: 0.2px;
+    text-shadow: 0px 0px 0px #A7ABB4;
+}
+
+footer
+{
+    bottom: 0;
+    font-size: 9pt;
+    min-width: 1000px;
+}
+
+.FootNote
+{
+    border-top: 4px double #BDBDBD;
+    min-height: 160px;
+    padding-top: 20px;
+}
+
+#FootNoteTable
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#FootNoteTable, .linksFooter, .linksFooter a, .linksFooter a:hover, articleBox a:hover, articleBox a
+{
+    color: #545454;
+}
+
+.MiniArticleBox
+{
+    width: 200px;
+}
+
+    .MiniArticleBox .texto
+    {
+        width: 120px;
+        text-align: left;
+    }
+
+        .MiniArticleBox .texto a
+        {
+            color: #424242;
+        }
+
+.divisao
+{
+    margin-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.tituloFooter a, .tituloFooter
+{
+    font-size: 10pt;
+    font-weight: bold;
+    color: #ed1c24;
+    letter-spacing: 1px;
+}
+
+#FootNoteAddressPortal, #FootNoteAddressContabil, #FootNoteAddressTec
+{
+    padding: 2px;
+    color: white;
+    text-align: center;
+}
+
+Address
+{
+    letter-spacing: 1.0px;
+    font-style: inherit;
+}
+
+::-webkit-input-placeholder
+{
+    color: GrayText;
+    font-style: italic;
+    font-family: 'Segoe UI';
+}
+
+:-moz-placeholder
+{
+    color: GrayText;
+    font-style: italic;
+    font-family: 'Segoe UI';
+}
+
+::-moz-placeholder
+{
+    color: GrayText;
+    font-style: italic;
+    font-family: 'Segoe UI';
+}
+
+:-ms-input-placeholder
+{
+    color: GrayText;
+    font-style: italic;
+    font-family: 'Segoe UI';
+}
+
+/*Page Title*/
+#sitetitle
+{
+    padding-top: 10px;
+    margin-left: -3px;
+}
+
+    #sitetitle .descricaoGrupo, #sitetitle .subdescricao,
+    #sitetitle .descricaoTecnologia, #sitetitle .descricaoContabilidade, .titleSubs
+    {
+        display: block;
+        color: #1A4C83;
+        text-shadow: -1px 1px 2px #A7ABB4;
+    }
+
+    #sitetitle .descricaoGrupo, #sitetitle .descricaoTecnologia,
+    #sitetitle .descricaoContabilidade, .titleSubs
+    {
+        font-size: 20pt;
+        font-family: 'Segoe UI';
+        font-style: italic;
+        letter-spacing: 1px;
+    }
+
+    #sitetitle .subdescricao, #sitetitle .smalltitle
+    {
+        font-size: 11pt;
+        padding-left: 2px;
+        font-weight: lighter;
+        font-family: 'Segoe UI';
+    }
+
+    #sitetitle img, .titleSubs img
+    {
+        margin: 8px 0px 10px 0px;
+        width: 24px;
+        height: 24px;
+        top: 0px;
+        padding: 7px;
+        border-radius: 3px;
+        background-color: #1A4C83;
+        box-shadow: -2px 2px 3px #A7ABB4;
+    }
+
+.liksRapidos a, #Informativos a:hover, #HyNotaFiscal, .lista li span a:hover, .link:hover
+{
+    color: #424242;
+    font-style: italic;
+    text-shadow: 0 0 0;
+}
+
+    .liksRapidos a:hover, #Informativos a, #HyNotaFiscal a, .lista li span a, .link
+    {
+        text-decoration: none;
+        color: #ed1c24;
+        font-style: italic;
+        text-shadow: 0 0 0;
+    }
+
+        .liksRapidos a:hover, .lista li span a:hover, .link:hover
+        {
+            text-decoration: underline;
+        }
+
+.blue
+{
+    background-color: #1A4C83;
+}
+
+.font_blue
+{
+    Color: #1A4C83;
+}
+
+.font_gray
+{
+    Color: #424242;
+}
+
+.grayDark
+{
+    background-color: #424242;
+}
+
+.red
+{
+    background-color: #ed1c24;
+}
+
+.font_red
+{
+    Color: #ed1c24;
+}
+
+.textbox
+{
+    font-family: 'Segoe UI';
+    padding: 1px;
+    border: 1px solid #cccccc;
+    background-color: white;
+    color: black;
+    resize: none;
+    outline: none;
+    padding: 2px 0px 3px 0px;
+}
+
+.sitebutton, .siteButtonBoleto
+{
+    padding: 4px 10px 2px 10px;
+    display: inline-block;
+    /* line-height: 19px; */
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    /* text-align: center; */
+    /* border-radius: 5px; */
+}
+
+    .sitebutton img
+    {
+        padding-bottom: 2px;
+        border: 0px !important;
+    }
+
+    .sitebutton:hover
+    {
+        text-decoration: underline;
+        opacity: 0.8;
+    }
+
+.ContentText
+{
+    width: 790px;
+    text-align: justify;
+    float: left;
+    display: inline-block;
+}
+
+.MapsGoogle
+{
+    padding: 5px 5px 3px 5px;
+    background-color: #0071A2;
+}
+
+/*Validadores*/
+.sitevalidator
+{
+    padding: 4px 12px 21px 13px;
+    background: no-repeat;
+    color: #FFFFFF;
+    position: absolute;
+    background-image: url('../Imagens/Site/Balao.png');
+    margin-top: -38px;
+    margin-left: -20px;
+    font-family: segoe ui light, segoe ui;
+}
+
+.sitevalidator2
+{
+    padding: 4px 12px 17px 13px;
+    background: url('../Imagens/Site/Balao2.png') no-repeat;
+    color: #FFFFFF;
+}
+
+.sectionSucessoTable
+{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+    .sectionSucessoTable img
+    {
+        border-radius: 50px;
+        vertical-align: middle;
+        padding: 10px;
+    }
+
+.comunicados
+{
+    width: 970px;
+    font-size: 12pt;
+}
+
+.formviewsubtitle
+{
+    color: #0f62ac;
+    font-size: 18px;
+    padding: 0px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
+}
+
+.Date
+{
+    text-align: right;
+    text-transform: initial;
+    font-size: 10pt;
+    padding-top: 5px;
+}
+
+.Manual
+{
+    width: 320px;
+    height: 350px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 12pt;
+    background: url('http://www.assecont.com.br/assecont/Imagens/Tecnologia/folhaCaderno.png') no-repeat;
+}

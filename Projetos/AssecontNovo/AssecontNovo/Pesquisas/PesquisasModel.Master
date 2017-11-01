@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PesquisasModel.Master.cs" Inherits="AssecontNovo.Pesquisas.PesquisasModel" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="Description" content="Assecont" />
+    <title>Assecont Contabilidade</title>
+    <link rel="shortcut icon" href="http://www.assecont.com.br/Imagens/Site/icon.ico" />
+
+    <link href="../Styles/Site.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body style="background-color:#8FADFA; ">
+    <form id="form1" runat="server">
+        <telerik:RadScriptManager ID="RadScriptManager1" runat="server"></telerik:RadScriptManager>
+        <section style="background-image: url('../Imagens/Site/fundoPesquisa.png'); margin: 0 auto; width: 1000px; min-height: 700px; background-repeat: no-repeat;">
+            <header id="HeaderMainAssecont" runat="server" style="background: #EF3737; height: 6px; margin: 0 auto; width: 1000px;">
+            </header>
+
+            <section id="SectiontWebsite" runat="server" style="background: white;  min-height: 600px; padding: 10px 0px 40px 0px !important;">
+                <asp:ContentPlaceHolder ID="ContentPlaceWebSite" runat="server"></asp:ContentPlaceHolder>
+            </section>
+
+
+            <footer>
+                <aside style="color: white; padding: 2px 0px; background: brown; margin: 0 auto; width: 1000px; text-align: center;">
+                    <address>
+                        <%= (new AssecontNovo.Classes.Util()).Andress() %>
+                    </address>
+                </aside>
+            </foote>
+        </section>
+    </form>
+</body>
+</html>

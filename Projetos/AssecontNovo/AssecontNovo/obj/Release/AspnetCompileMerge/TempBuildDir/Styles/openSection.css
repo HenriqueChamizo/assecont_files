@@ -1,0 +1,84 @@
+﻿.seta-baixo
+{
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 8px solid #424242;
+    width: 0;
+    height: 0;
+    float: right;
+    margin-top: 6px;
+    margin-left: 3px;
+}
+
+.seta-cima
+{
+   border-left: 5px solid transparent;
+border-right: 5px solid transparent;
+border-bottom: 5px solid black;
+    width: 0;
+    height: 0;
+    _float: right;
+    margin-top: 7px;
+    margin-left: 258px;
+}
+
+.OpenButton
+{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    color: #545454;
+}
+
+.OpenBox
+{
+    position: absolute;
+    right: 0;
+    display: none;
+    z-index: 1500;
+    margin-top: -5px;
+}
+
+.OpenButton.active
+{
+    border-radius: 3px 3px 0 0;
+}
+
+    .OpenButton.active span
+    {
+        background-position: 53px -76px;
+    }
+
+    .OpenButton.active em
+    {
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        bottom: -1px;
+    }
+
+.OpenForm
+{
+    min-width: 220px;
+    color: #000000;
+}
+
+.OpenTable
+{
+    box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.5);
+    background: #f1e767; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #f1e767 0%, #feb645 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#f1e767), color-stop(100%,#feb645)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg, #f1e767 0%,#feb645 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg, #f1e767 0%,#feb645 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg, #f1e767 0%,#feb645 100%); /* IE10+ */
+    background: linear-gradient(135deg, #f1e767 0%,#feb645 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    padding: 6px;
+}
+
+/* Sign In Button */
+.OpenForm .OpenTable
+{
+    _border: 2px solid indianred;
+}

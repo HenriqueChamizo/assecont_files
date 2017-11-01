@@ -1,0 +1,35 @@
+--LARGURA#200,100,100#
+--TITULO#Empresa BcoHoras Credito Debito Saldo#
+DECLARE @DATAINICIAL SMALLDATETIME = %DATAINICIAL%,
+        @DATAFINAL SMALLDATETIME = %DATAFINAL%,
+        @DEPSELECIONADOIND INT = %DEPSELECIONADOIND%
+
+select EMP_NOME as Nome, banco.credito as 'Crédito', banco.debito as 'Débito', banco.saldo as 'Banco de Horas'
+from Empresas 
+outer apply(
+    select dbo.fn_minutetohourlong(a.credito) as credito,  
+		   dbo.fn_minutetohourlong(a.debito) as debito,  
+		   dbo.fn_minutetohourlong(a.saldo) as saldo 
+    from (
+        select sum(case when substring(BCO_VALOR, 1, 1) = '-'
+                        then 0
+                        else (convert(int, replace(BCO_VALOR, substring(BCO_VALOR, (len(BCO_VALOR) - 2), 3), '')) * 60) + 
+                             (convert(int, substring(BCO_VALOR, (len(BCO_VALOR) - 1), 2)))
+                   end) as credito, 
+			   sum(case when substring(BCO_VALOR, 1, 1) = '-'
+                        then -(convert(int, replace(replace(BCO_VALOR, '-', ''), substring(BCO_VALOR, (len(BCO_VALOR) - 2), 3), '')) * 60) +
+                              (convert(int, replace(substring(BCO_VALOR, (len(BCO_VALOR) - 1), 2), '-', '')))
+                        else 0
+                   end) as debito, 
+			   sum(case when substring(BCO_VALOR, 1, 1) = '-'
+                        then -(convert(int, replace(replace(BCO_VALOR, '-', ''), substring(BCO_VALOR, (len(BCO_VALOR) - 2), 3), '')) * 60) +
+                              (convert(int, replace(substring(BCO_VALOR, (len(BCO_VALOR) - 1), 2), '-', '')))
+                        else (convert(int, replace(BCO_VALOR, substring(BCO_VALOR, (len(BCO_VALOR) - 2), 3), '')) * 60) + 
+                             (convert(int, substring(BCO_VALOR, (len(BCO_VALOR) - 1), 2)))
+                   end) as saldo 
+        from BcoHoras
+        inner join Funcionarios on FUNC_IND = BCO_FUNC
+        where BCO_DATA >= @DATAINICIAL and BCO_DATA <= @DATAFINAL and
+              FUNC_DT_DEM is null and FUNC_EMPRESA = EMP_IND
+    ) a 
+)banco

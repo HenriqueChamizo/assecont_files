@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+        body
+        {
+            font-family: 'Segoe UI';
+            font-size: 10pt;
+            margin: 0 auto;
+            width: 780px;
+        }
+
+       .texto, .assunto
+        {
+            _border-top: 1px solid gray;
+            _border-bottom: 1px solid gray;
+            padding-bottom: 10px;
+            padding-top: 6px;
+            text-align: left;
+            width: 600px;
+        }
+
+        .assunto
+        {
+            padding-left: 10px;
+            font-weight: bold;
+            width: 150px;
+        }
+
+        #titulo
+        {
+            padding-top: 4px;
+            padding-bottom: 8px;
+            font-size: 14pt;
+            text-align: center;
+            border-bottom: 1px solid gray;
+        }
+    </style>
+</head>
+<body>
+    <div align="center">
+        <table border="0" cellspacing="0" cellpadding="0" style="width: 780px;">
+            <tr>
+                <td colspan="2">
+                    <img alt="" src="http://www.assecont.com.br/assecont/Imagens/Email/Topo.png" width="780" />
+                </td>
+            </tr>
+            <tr>
+                <td id="titulo" colspan="2">SAC - Serviço de Atendimento ao Consumidor</td>
+            </tr>
+            <tr>
+                <td class="assunto">Cliente Assecont : 
+                </td>
+                <td class="texto">%CLIENTE%</td>
+            </tr>
+            <tr>
+                <td class="assunto">Tipo da Mensagem : 
+                </td>
+                <td class="texto">%MENSAGEM%</td>
+            </tr>
+            <tr>
+                <td class="assunto">Produtos/Serviços :
+                </td>
+                <td class="texto">%PRODUTO%</td>
+            </tr>
+            <tr>
+                <td class="assunto" valign="top">Assunto: 
+                </td>
+                <td class="texto" colspan="2">%ASSUNTO%</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <img alt="" src="http://www.assecont.com.br/assecont/Imagens/Email/Rodape.png" width="780" />
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+﻿.RadComboBoxDropDown
+{
+    position: absolute;
+    cursor: pointer;
+    border: 1px solid #cccccc !important;
+    _margin-left: 2px !important;
+}
+
+    .RadComboBoxDropDown .RadComboBox, .RadComboBox .rcbInput, .RadComboBoxDropDown
+    {
+        font: 11pt 'Segoe UI', 'Segoe UI Light' !important;
+        white-space: nowrap;
+        text-align: left;        
+        _border: 1px solid #b8cbde !important;
+        _background: #dedede !important;
+    }
+
+.RadComboBox .rcbInputCell .rcbEmptyMessage, .RadComboBox .rcbReadOnly .rcbInput, .RadComboBox_flv .rcbFocused .rcbReadOnly .rcbInputCell .rcbInput
+{
+    cursor: pointer !important;
+    font-style: normal !important;
+    color: #1A4C83;
+}
+
+table.rcbFocused, .RadComboBox table
+{
+        border: 1px solid #cccccc !important;
+}
+
+.RadComboBox .rcbReadOnly td.rcbArrowCell a, div.RadComboBox_flv table td.rcbArrowCell
+{
+    cursor: pointer !important;
+}
+
+div.RadComboBox_flv table td.rcbArrowCell
+{
+    border: 0px;
+    _border-left: 1px solid #808080;
+    padding-right: 0px;
+    background: url('http://www.asseponto.com.br/Assepontocontrole/skins/ComboBox/rcbSprite.png') no-repeat -15px 50%, white !important;
+}
+
+.RadComboBox .rcbReadOnly td.rcbArrowCell a
+{
+    width: 30px !important;
+}
+
+.RadComboBoxDropDown .rcbScroll
+{
+    _min-height: 50px;
+}
+
+.RadComboBox .rcbInput
+{
+    _padding: 3px !important;
+    padding-left: 5px !important;
+}
+
+.RadComboBox table td.rcbInputCell
+{
+    padding-left: 0px !important;
+}
+
+
+.RadComboBox table td.rcbInputCell, .RadComboBox .rcbInputCell .rcbInput
+{
+    _border-right: 1px solid silver !important;
+    background-color: white;
+}
+
+.RadComboBoxDropDown_flv .rcbList
+{
+    background: #FeFeFe;
+    _border-top: 1px solid silver;
+    _border-left: 2px solid #336CAB;
+}
+
+html > body .RadComboBoxDropDown .rcbHovered, html > body .RadComboBoxDropDown .rcbItem :hover, li.rcbItem.rcbTemplate:hover
+{
+    background: #336CAB;
+    cursor: pointer;
+    color: white;
+}
+
+.RadComboBoxDropDown .rcbItem, .RadComboBoxDropDown .rcbHovered, .RadComboBoxDropDown .rcbDisabled, .RadComboBoxDropDown .rcbLoading, .RadComboBoxDropDown .rcbCheckAllItems, .RadComboBoxDropDown .rcbCheckAllItemsHovered
+{
+    margin: 0 !important;
+}

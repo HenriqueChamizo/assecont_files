@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HoleriteCliente.Master.cs" Inherits="AssecontNovo.MasterPages.HoleriteCliente" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="Description" content="Assecont Contabilidade" />
+    <meta name="author" content="Flávia Rangel" />
+    <title>Assecont Contabilidade</title>
+    <link rel="shortcut icon" href="../Imagens/Holerite/iconAssecontHolerite.ico" />
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <header id="HeaderMainContabil">
+            <section class="SectionHeader">
+                <table style="width: 100%; min-height: 55px; border-spacing: 0;">
+                    <tr>
+                        <td style="padding-top: 8px;">
+                            <a id="HomePortal" runat="server" target="_blank" href="http://www.assecont.com.br/">
+                                <asp:Image ID="imgLogo" runat="server" ImageUrl="../Imagens/logos/Logo.png" BorderWidth="0" />
+                            </a>
+                        </td>
+                        <td style="text-align: right; width: 450px;">
+                            <img src="../Imagens/logos/holeriteOnline.png" width="400" /></td>
+                    </tr>
+                </table>
+            </section>
+            <nav id="NavHolerite">
+                <section id="SectionNavHolerite">
+                </section>
+            </nav>
+        </header>
+
+        <section id="SectiontWebsite" runat="server" style="margin-top: 40px;">
+            <asp:ContentPlaceHolder ID="ContentPlaceWebSite" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+        <footer>
+            <flv:wbfooter runat="server" id="WbFooter" />
+            <aside id="FootNoteAddressHolerite">
+                <address>
+                    <%= (new AssecontNovo.Classes.Util()).Andress() %>
+                </address>
+            </aside>
+        </footer>
+    </form>
+</body>
+</html>

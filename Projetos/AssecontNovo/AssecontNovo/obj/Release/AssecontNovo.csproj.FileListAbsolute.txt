@@ -1,0 +1,130 @@
+S:\USUARIOS\Renne\Projetos\AssecontNovo\AssecontNovo\bin\AssecontNovo.dll
+S:\USUARIOS\Renne\Projetos\AssecontNovo\AssecontNovo\bin\AssecontNovo.pdb
+S:\USUARIOS\Renne\Projetos\AssecontNovo\AssecontNovo\bin\Assecontweb.Classes.dll
+S:\USUARIOS\Renne\Projetos\AssecontNovo\AssecontNovo\bin\Assecontweb.Classes.Views.dll
+S:\USUARIOS\Renne\Projetos\AssecontNovo\AssecontNovo\bin\Assecontweb.Types.dll
+S:\USUARIOS\Renne\Projetos\AssecontNovo\AssecontNovo\bin\itextsharp.dll
+S:\USUARIOS\Renne\Projetos\AssecontNovo\AssecontNovo\bin\Telerik.Web.UI.dll
+S:\USUARIOS\Renne\Projetos\AssecontNovo\AssecontNovo\bin\Telerik.Web.UI.Skins.dll
+S:\USUARIOS\Renne\Projetos\AssecontNovo\AssecontNovo\bin\Wr.Classes.dll
+S:\USUARIOS\Renne\Projetos\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.dll
+S:\USUARIOS\Renne\Projetos\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.pdb
+S:\USUARIOS\Renne\Projetos\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\AssecontNovo\AssecontNovo\bin\HumanAPIClient.dll
+C:\Disco D\Trabalhos\Projetos\AssecontNovo\AssecontNovo\bin\AssecontNovo.dll
+C:\Disco D\Trabalhos\Projetos\AssecontNovo\AssecontNovo\bin\AssecontNovo.pdb
+C:\Disco D\Trabalhos\Projetos\AssecontNovo\AssecontNovo\bin\Assecontweb.Classes.dll
+C:\Disco D\Trabalhos\Projetos\AssecontNovo\AssecontNovo\bin\Assecontweb.Types.dll
+C:\Disco D\Trabalhos\Projetos\AssecontNovo\AssecontNovo\bin\HumanAPIClient.dll
+C:\Disco D\Trabalhos\Projetos\AssecontNovo\AssecontNovo\bin\itextsharp.dll
+C:\Disco D\Trabalhos\Projetos\AssecontNovo\AssecontNovo\bin\Telerik.Web.UI.dll
+C:\Disco D\Trabalhos\Projetos\AssecontNovo\AssecontNovo\bin\Telerik.Web.UI.Skins.dll
+C:\Disco D\Trabalhos\Projetos\AssecontNovo\AssecontNovo\bin\Wr.Classes.dll
+C:\Disco D\Trabalhos\Projetos\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.dll
+C:\Disco D\Trabalhos\Projetos\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.pdb
+E:\Henrique\Trabalhos\Assecont\Projetos\AssecontNovo - N sobrescrever\AssecontNovo\bin\AssecontNovo.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\AssecontNovo - N sobrescrever\AssecontNovo\bin\AssecontNovo.pdb
+E:\Henrique\Trabalhos\Assecont\Projetos\AssecontNovo - N sobrescrever\AssecontNovo\bin\Assecontweb.Classes.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\AssecontNovo - N sobrescrever\AssecontNovo\bin\Assecontweb.Types.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\AssecontNovo - N sobrescrever\AssecontNovo\bin\HumanAPIClient.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\AssecontNovo - N sobrescrever\AssecontNovo\bin\itextsharp.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\AssecontNovo - N sobrescrever\AssecontNovo\bin\Telerik.Web.UI.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\AssecontNovo - N sobrescrever\AssecontNovo\bin\Telerik.Web.UI.Skins.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\AssecontNovo - N sobrescrever\AssecontNovo\bin\Wr.Classes.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\AssecontNovo - N sobrescrever\AssecontNovo\obj\Release\AssecontNovo.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\AssecontNovo - N sobrescrever\AssecontNovo\obj\Release\AssecontNovo.pdb
+D:\Projetos\TeamFundation\AssecontNovo\AssecontNovo\bin\AssecontNovo.dll.config
+D:\Projetos\TeamFundation\AssecontNovo\AssecontNovo\bin\AssecontNovo.dll
+D:\Projetos\TeamFundation\AssecontNovo\AssecontNovo\bin\AssecontNovo.pdb
+D:\Projetos\TeamFundation\AssecontNovo\AssecontNovo\bin\Assecontweb.Classes.dll
+D:\Projetos\TeamFundation\AssecontNovo\AssecontNovo\bin\Assecontweb.Types.dll
+D:\Projetos\TeamFundation\AssecontNovo\AssecontNovo\bin\HumanAPIClient.dll
+D:\Projetos\TeamFundation\AssecontNovo\AssecontNovo\bin\itextsharp.dll
+D:\Projetos\TeamFundation\AssecontNovo\AssecontNovo\bin\Telerik.Web.UI.dll
+D:\Projetos\TeamFundation\AssecontNovo\AssecontNovo\bin\Telerik.Web.UI.Skins.dll
+D:\Projetos\TeamFundation\AssecontNovo\AssecontNovo\bin\Wr.Classes.dll
+D:\Projetos\TeamFundation\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.csprojResolveAssemblyReference.cache
+D:\Projetos\TeamFundation\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.dll
+D:\Projetos\TeamFundation\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.pdb
+D:\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\bin\AssecontNovo.dll
+D:\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\bin\AssecontNovo.pdb
+D:\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\bin\HumanAPIClient.dll
+D:\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\bin\itextsharp.dll
+D:\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\bin\Telerik.Web.UI.dll
+D:\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\bin\Telerik.Web.UI.Skins.dll
+D:\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.csprojResolveAssemblyReference.cache
+D:\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.dll
+D:\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.pdb
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\bin\AssecontNovo.dll.config
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\bin\AssecontNovo.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\bin\AssecontNovo.pdb
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\bin\Assecontweb.Classes.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\bin\Assecontweb.Types.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\bin\HumanAPIClient.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\bin\itextsharp.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\bin\Telerik.Web.UI.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\bin\Telerik.Web.UI.Skins.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\bin\Wr.Classes.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.csprojResolveAssemblyReference.cache
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.pdb
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\bin\Excel.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\bin\ICSharpCode.SharpZipLib.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\bin\Assecontweb.Classes.Views.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\bin\Assecontweb.Classes.Sms.dll
+D:\Projetos\SemTeamFundation\AssecontNovo\AssecontNovo\bin\AssecontNovo.dll.config
+S:\USUARIOS\Renne\Projetos\AssecontNovo\AssecontNovo\bin\Assecontweb.Classes.Sms.dll
+S:\USUARIOS\Renne\Projetos\AssecontNovo\AssecontNovo\bin\Excel.dll
+S:\USUARIOS\Renne\Projetos\AssecontNovo\AssecontNovo\bin\ICSharpCode.SharpZipLib.dll
+D:\Git\Assecont\SemTeamFundation\AssecontNovo\AssecontNovo\bin\AssecontNovo.dll.config
+D:\Git\Assecont\SemTeamFundation\AssecontNovo\AssecontNovo\bin\AssecontNovo.dll
+D:\Git\Assecont\SemTeamFundation\AssecontNovo\AssecontNovo\bin\AssecontNovo.pdb
+D:\Git\Assecont\SemTeamFundation\AssecontNovo\AssecontNovo\bin\Assecontweb.Classes.dll
+D:\Git\Assecont\SemTeamFundation\AssecontNovo\AssecontNovo\bin\Assecontweb.Classes.Views.dll
+D:\Git\Assecont\SemTeamFundation\AssecontNovo\AssecontNovo\bin\Assecontweb.Types.dll
+D:\Git\Assecont\SemTeamFundation\AssecontNovo\AssecontNovo\bin\HumanAPIClient.dll
+D:\Git\Assecont\SemTeamFundation\AssecontNovo\AssecontNovo\bin\itextsharp.dll
+D:\Git\Assecont\SemTeamFundation\AssecontNovo\AssecontNovo\bin\Telerik.Web.UI.dll
+D:\Git\Assecont\SemTeamFundation\AssecontNovo\AssecontNovo\bin\Telerik.Web.UI.Skins.dll
+D:\Git\Assecont\SemTeamFundation\AssecontNovo\AssecontNovo\bin\Wr.Classes.dll
+D:\Git\Assecont\SemTeamFundation\AssecontNovo\AssecontNovo\bin\Assecontweb.Classes.Sms.dll
+D:\Git\Assecont\SemTeamFundation\AssecontNovo\AssecontNovo\bin\Excel.dll
+D:\Git\Assecont\SemTeamFundation\AssecontNovo\AssecontNovo\bin\ICSharpCode.SharpZipLib.dll
+D:\Git\Assecont\SemTeamFundation\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.csprojResolveAssemblyReference.cache
+D:\Git\Assecont\SemTeamFundation\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.dll
+D:\Git\Assecont\SemTeamFundation\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.pdb
+D:\BitBucket\Assecont\Projetos\AssecontNovo\AssecontNovo\bin\AssecontNovo.dll.config
+D:\BitBucket\Assecont\Projetos\AssecontNovo\AssecontNovo\bin\AssecontNovo.dll
+D:\BitBucket\Assecont\Projetos\AssecontNovo\AssecontNovo\bin\AssecontNovo.pdb
+D:\BitBucket\Assecont\Projetos\AssecontNovo\AssecontNovo\bin\Assecontweb.Classes.dll
+D:\BitBucket\Assecont\Projetos\AssecontNovo\AssecontNovo\bin\Assecontweb.Classes.Views.dll
+D:\BitBucket\Assecont\Projetos\AssecontNovo\AssecontNovo\bin\Assecontweb.Types.dll
+D:\BitBucket\Assecont\Projetos\AssecontNovo\AssecontNovo\bin\HumanAPIClient.dll
+D:\BitBucket\Assecont\Projetos\AssecontNovo\AssecontNovo\bin\itextsharp.dll
+D:\BitBucket\Assecont\Projetos\AssecontNovo\AssecontNovo\bin\Telerik.Web.UI.dll
+D:\BitBucket\Assecont\Projetos\AssecontNovo\AssecontNovo\bin\Telerik.Web.UI.Skins.dll
+D:\BitBucket\Assecont\Projetos\AssecontNovo\AssecontNovo\bin\Wr.Classes.dll
+D:\BitBucket\Assecont\Projetos\AssecontNovo\AssecontNovo\bin\Assecontweb.Classes.Sms.dll
+D:\BitBucket\Assecont\Projetos\AssecontNovo\AssecontNovo\bin\Excel.dll
+D:\BitBucket\Assecont\Projetos\AssecontNovo\AssecontNovo\bin\ICSharpCode.SharpZipLib.dll
+D:\BitBucket\Assecont\Projetos\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.dll
+D:\BitBucket\Assecont\Projetos\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.pdb
+D:\BitBucket\Assecont\Projetos\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.csprojResolveAssemblyReference.cache
+C:\Disco D\BitBucket\assecont\Projetos\AssecontNovo\AssecontNovo\bin\AssecontNovo.dll.config
+C:\Disco D\BitBucket\assecont\Projetos\AssecontNovo\AssecontNovo\bin\AssecontNovo.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssecontNovo\AssecontNovo\bin\AssecontNovo.pdb
+C:\Disco D\BitBucket\assecont\Projetos\AssecontNovo\AssecontNovo\bin\Assecontweb.Classes.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssecontNovo\AssecontNovo\bin\Assecontweb.Classes.Views.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssecontNovo\AssecontNovo\bin\Assecontweb.Types.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssecontNovo\AssecontNovo\bin\HumanAPIClient.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssecontNovo\AssecontNovo\bin\itextsharp.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssecontNovo\AssecontNovo\bin\Telerik.Web.UI.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssecontNovo\AssecontNovo\bin\Telerik.Web.UI.Skins.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssecontNovo\AssecontNovo\bin\Wr.Classes.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssecontNovo\AssecontNovo\bin\Assecontweb.Classes.Sms.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssecontNovo\AssecontNovo\bin\Excel.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssecontNovo\AssecontNovo\bin\ICSharpCode.SharpZipLib.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.csprojResolveAssemblyReference.cache
+C:\Disco D\BitBucket\assecont\Projetos\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.csproj.CoreCompileInputs.cache
+C:\Disco D\BitBucket\assecont\Projetos\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.pdb

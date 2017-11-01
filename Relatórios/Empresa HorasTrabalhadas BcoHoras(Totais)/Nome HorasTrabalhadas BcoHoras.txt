@@ -1,0 +1,33 @@
+--LARGURA#200,100,100#
+--TITULO#Total Mensal de Horas Trabalhadas e Banco de Horas#
+DECLARE @DATAINICIAL SMALLDATETIME = %DATAINICIAL%,
+        @DATAFINAL SMALLDATETIME = %DATAFINAL%,
+        @DEPSELECIONADOIND INT = %DEPSELECIONADOIND%
+select EMP_NOME as Nome, trab.Horas as 'Horas Trabalhadas', banco.Horas as 'Banco de Horas'
+from Empresas 
+outer apply(
+    select dbo.fn_minutetohourlong(a.Horas) as Horas 
+    from (
+        select sum(case when substring(BCO_VALOR, 0, 1) = '-'
+                        then -(convert(int, replace(replace(BCO_VALOR, '-', ''), substring(BCO_VALOR, (len(BCO_VALOR) - 3), 3), '')) * 60) 
++
+                              (convert(int, replace(substring(BCO_VALOR, (len(BCO_VALOR) - 2), 2), '-', '')))
+                        else (convert(int, replace(BCO_VALOR, substring(BCO_VALOR, (len(BCO_VALOR) - 3), 3), '')) * 60) + 
+                             (convert(int, substring(BCO_VALOR, (len(BCO_VALOR) - 1), 2)))
+                   end) as Horas
+        from BcoHoras
+        inner join Funcionarios on FUNC_IND = BCO_FUNC
+        where BCO_DATA >= @DATAINICIAL and BCO_DATA <= @DATAFINAL and
+              FUNC_DT_DEM is null and FUNC_EMPRESA = EMP_IND
+    ) a 
+)banco
+outer apply(
+    select dbo.fn_minutetohourlong(a.Horas) as Horas 
+    from (
+        select sum(dbo.fn_smalldatetimetominute(CAL_TRAB)) as Horas
+        from Calculo 
+        inner join Funcionarios on FUNC_IND = CAL_FUNC
+        where CAL_DATA >= @DATAINICIAL and CAL_DATA <= @DATAFINAL AND
+              FUNC_EMPRESA = EMP_IND
+    ) a
+)trab

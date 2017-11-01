@@ -1,0 +1,22 @@
+--GRUPOQUEBRA#0#
+--GRUPONREGISTROS#0#
+--COLUNAGRUPO#0#
+--TITULO#Credito maior que 2hrs#
+DECLARE @DATAINICIAL SMALLDATETIME = %DATAINICIAL%,
+        @DATAFINAL SMALLDATETIME = %DATAFINAL%
+
+--LARGURA#400,400,50,180,60#
+SELECT A.EMP_NOME AS Empresa, B.EMP_NOME AS Departamento, FUNC_REG as Registro, FUNC_NOME as Nome, dbo.fn_getdate(APO_DATA) AS Data
+FROM Funcionarios
+INNER JOIN Aponta ON APO_FUNC = FUNC_IND
+INNER JOIN Expedientes ON INT_IND = APO_H
+INNER JOIN Empresas A ON A.EMP_IND = FUNC_EMPRESA 
+INNER JOIN Empresas B ON B.EMP_IND = dbo.fn_getempresafuncionario(FUNC_IND)
+WHERE INT_TIPOTEMPO = 'F' AND
+((INT_PERIODO_UNICO = 0 AND ((APO_MARCACAO1 IS NOT NULL AND 
+  dbo.fn_smalldatetimetominute(APO_H1) - dbo.fn_smalldatetimetominute(APO_MARCACAO1) > 120) OR
+ (APO_MARCACAO4 IS NOT NULL AND dbo.fn_smalldatetimetominute(APO_MARCACAO4) - dbo.fn_smalldatetimetominute(APO_H4) > 120))) OR
+ (INT_PERIODO_UNICO = 1 AND ((APO_MARCACAO1 IS NOT NULL AND 
+ dbo.fn_smalldatetimetominute(APO_H1) - dbo.fn_smalldatetimetominute(APO_MARCACAO1) > 120) OR 
+ (APO_MARCACAO2 IS NOT NULL AND dbo.fn_smalldatetimetominute(APO_MARCACAO2) - dbo.fn_smalldatetimetominute(APO_H2) > 120)))) AND 
+APO_DATA >= @DATAINICIAL AND APO_DATA <= @DATAFINAL

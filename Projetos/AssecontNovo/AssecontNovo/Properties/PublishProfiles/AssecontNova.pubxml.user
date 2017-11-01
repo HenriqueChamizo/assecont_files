@@ -1,0 +1,1844 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>ftp://ftp.assecont.com.br/www/</_PublishTargetUrl>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAl88Fhx6fRkqVGljWa3fkwAAAAAACAAAAAAAQZgAAAAEAACAAAAB6kx3ChTkVBxuU2HCcFN0K8dA/1QZX+hpcm39AaX+MaQAAAAAOgAAAAAIAACAAAAD1fteUEgLbpRtcER2Rms/NOvF6651xnli3lFjmPs6joyAAAAADgVUymsLviKx/+m2m0otoS3O8NYtkyA8Sho+/zDKNUUAAAAB/fFkGprIJHFsQsPKNjddm4CbLsCn70ja0p4v6lR+jx87DzewhzspKHJZqbAjUhOq/sH2ZWEcptL4vSTQcdFxU</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="acessoAssecont.aspx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="Arquivos/codigo-de-defesa.pdf">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Arquivos/PassoNovoLogin.pdf">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Arquivos/PoliticaDeQualidade.pdf">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Arquivos/portaria.pdf">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Avisos/AvisoManutencao.html">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Avisos/ConfirmacaoEnvioAssecont.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Avisos/ConfirmacaoEnvioTecnologia.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Avisos/ConfirmacaoHoleritePedidoNewPwd.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Avisos/Error404.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Avisos/ErrorQuestionarioJaRealizado.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Avisos/ErroTela.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="bin/AssecontNovo.dll">
+      <publishTime>09/27/2017 16:59:06</publishTime>
+    </File>
+    <File Include="bin/AssecontNovo.pdb">
+      <publishTime>09/27/2017 16:59:06</publishTime>
+    </File>
+    <File Include="bin/Assecontweb.Classes.dll">
+      <publishTime>09/25/2017 10:11:15</publishTime>
+    </File>
+    <File Include="bin/Assecontweb.Classes.Sms.dll">
+      <publishTime>09/25/2017 10:11:15</publishTime>
+    </File>
+    <File Include="bin/Assecontweb.Classes.Views.dll">
+      <publishTime>09/25/2017 10:11:15</publishTime>
+    </File>
+    <File Include="bin/Assecontweb.Types.dll">
+      <publishTime>09/25/2017 10:11:15</publishTime>
+    </File>
+    <File Include="bin/Boleto.Net.dll">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="bin/Excel.dll">
+      <publishTime>09/25/2017 10:11:15</publishTime>
+    </File>
+    <File Include="bin/HumanAPIClient.dll">
+      <publishTime>09/25/2017 10:11:15</publishTime>
+    </File>
+    <File Include="bin/ICSharpCode.SharpZipLib.dll">
+      <publishTime>09/25/2017 10:11:15</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>09/25/2017 10:11:16</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.dll">
+      <publishTime>09/25/2017 10:11:15</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.Skins.dll">
+      <publishTime>09/25/2017 10:11:15</publishTime>
+    </File>
+    <File Include="bin/Wr.Classes.dll">
+      <publishTime>09/25/2017 10:11:15</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap-theme.css">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap-theme.css.map">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap-theme.min.css">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap-theme.min.css.map">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap.css">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap.css.map">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap.min.css">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="bootstrap/css/bootstrap.min.css.map">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="bootstrap/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="bootstrap/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="bootstrap/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="bootstrap/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="bootstrap/js/bootstrap.js">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="bootstrap/js/bootstrap.min.js">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="bootstrap/js/npm.js">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="Classes/Emails/AtualizarAssefin/EmailAtualizarAssefin.htm">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Classes/Emails/Cotacao/EmailCotacao.htm">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Classes/Emails/Curriculum/EmailCurriculum.htm">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Classes/Emails/FormSolicSimples/FormSolicSimples.htm">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Classes/Emails/FormularioWorkShop/FormularioWorkShop.htm">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Classes/Emails/HoleritePwd/EmailSenha.htm">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Classes/Emails/Informativos/EmailInformativos.htm">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Classes/Emails/Informativos/EmailInformativoSemCabecalho.htm">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Classes/Emails/Legalizacao/EmailLegalizacao.htm">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Classes/Emails/Legalizacao/EmailLegalizacaoPedido.htm">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Classes/Emails/OrcamentoTecnologia/EmailOrcamentoFolhaPag.htm">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Classes/Emails/QuestionarioSocio/EmailQuestSocio.htm">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Classes/Emails/Sac/EmailSac.htm">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Comunicados/comunicadoHolerite.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Consultoria/default.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Consultoria/default.old.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Consultoria/Empresarial.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Consultoria/Empresarial.old.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Consultoria/Tributario.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Consultoria/Tributario.old.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Contabilidade/AsseAdmin.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Contabilidade/auditoria.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Contabilidade/Cotacao/beneficio.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Contabilidade/Cotacao/default.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Contabilidade/Cotacao/form.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Contabilidade/default.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Contabilidade/gestaoContabilidade.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Contabilidade/gestaoFiscal.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Contabilidade/gestaoTrabalhista.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Contabilidade/IntegracaoSistema.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Contabilidade/legalizacao.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Contabilidade/localizacao.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Curriculum/default.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Curriculum/EnviarCurriculo.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Curriculum/operacaoRealizadaSucesso.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Curriculum/TodosCurriculum.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="Curriculum/ViewCurriculum.aspx">
+      <publishTime>09/25/2017 10:11:03</publishTime>
+    </File>
+    <File Include="default.aspx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="Grupo/Atendimento/contato.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Grupo/Atendimento/default.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Grupo/Atendimento/Ouvidoria.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Grupo/Atendimento/ServicoDeAtendimento.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Grupo/AtendPersonalizado.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Grupo/Boletos/AtualizaCelular.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Grupo/Boletos/AtualizaEmail.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Grupo/Boletos/Boleto.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Grupo/Boletos/BoletoTodos.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Grupo/Boletos/default.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Grupo/contabeisPqec.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Grupo/HomeOffice.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Grupo/ImpostoIbit/default.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Grupo/linksRapidos.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Grupo/localizacao.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Grupo/NbrIso.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Grupo/NossaEmpresa.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Grupo/RetencaoImpostos.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="HoleriteFunc/AtualizarDados.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="HoleriteFunc/Dados.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="HoleriteFunc/default.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="HoleriteFunc/HoleriteFuncionario.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="HoleriteFunc/HoleriteNovaSenha.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="HoleriteFunc/InformesRendimentoFuncionario.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="HoleriteFunc/Login.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="HoleriteFunc/PrimeiroLogin.aspx">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="i.aspx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="Imagens/16x16/cadeado16x16.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/16x16/email16x16.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/16x16/exclamation16x16.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/16x16/frasesIcon.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/16x16/help16x16.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/16x16/informativoIcon.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/16x16/login16x16.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/16x16/nossaEmpresa.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/16x16/OpenWhite16x16.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/16x16/Registrado16x16.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/16x16/sms16x16.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/16x16/TickVerde.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/2check24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/abaco24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/AdobeAcrobat24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/ampulheta24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/ArrowBottom24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/ArrowBottomWhite24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/ArrowTop24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/ArrowTopWhite24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/asseAdmin24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/assecontWeb24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/auditoria24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/Boleto24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/briefcase24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/calculator24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/camera24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/cardIdentificatio n24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/certificate24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/check24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/Chek24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/close24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/coffe24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/Compativel24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/contabilidade24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/contato24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/dollar24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/dowloand24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/Editor24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/empresarial24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/envelope24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/fiscalwhite24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/folhaPag24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/Garbage24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/Gear24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/gestaoTrabalhista24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/implantacao24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/info24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/italic24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/letterS_24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/link24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/lion24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/logoAssecont24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/manual24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/maps24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/Open24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/OpenWhite24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/ouvidoria24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/Payment24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/Pen24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/Pencil24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/peoples24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/pin24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/ponto24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/printer24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/requerimentos24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/rules24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/saopaulo24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/school24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/send_e-mail24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/servicoPrestados24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/tributaria24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/trophy24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/Warning24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/24x24/WarningRed24x24.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/32x32/Check32x32.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/32x32/contato32x32.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/32x32/handshake32.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/32x32/home32x32.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/32x32/Implantacao32x32.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/32x32/megaPhone32x32.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/32x32/News32x32.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/32x32/ouvidoria32x32.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/32x32/owlManual32x32.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/32x32/previewblack_wilder.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/32x32/qualidade32x32.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/32x32/sac32x32.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/48x48/arrowUpload.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/48x48/BuildingClose48x48.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/48x48/House48x48.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/48x48/ReportEditor48x48.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Assecont/AssecontCelular.jpg">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Assecont/assecontFachada.jpg">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Assecont/assecontFachada.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Assecont/Assecont_1.jpg">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Assecont/Assecont_2.jpg">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Assecont/Assecont_3.jpg">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Assecont/Assecont_4.jpg">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Assecont/Assecont_6.jpg">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Assecont/engrenagem.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Assecont/foto.jpg">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Assecont/gestao_contabil.jpg">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Assecont/gestao_fiscal.jpg">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Assecont/gestao_trabalhista.jpg">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Assecont/HomeOffice.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/AssecontWeb/assecontCelular.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/AssecontWeb/assecontFolha.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/AssecontWeb/assecontMenu.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/AssecontWeb/assecontRecalculo.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/AssecontWeb/AssecontWeb1.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Assefin/1.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Assefin/2.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Assefin/3.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/AssepontoWeb/1.jpg">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/AssepontoWeb/2.jpg">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/AssepontoWeb/3.jpg">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/AssepontoWeb/4.jpg">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/AssepontoWeb/5.jpg">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/AssepontoWeb/vantagens-assepontoweb.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/AssepontoWeb/vantagens-assepontoweb1.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/AssepontoWeb/vantagens-assepontoweb2.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/BA/procedimentoBA.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Banner/Banner1.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Banner/Banner2.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Banner/Banner3-consultoria.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Banner/Banner3.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Banner/BannerContabil/Banner1.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Banner/BannerContabil/Banner2.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Banner/BannerContabil/Banner3.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Banner/BannerContabil/Banner4.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Banner/BannerContabil/Banner5.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Banner/BannerContabil/Banner6.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Banner/BannerContabil/Banner7.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Banner/BannerTec/Banner1.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Banner/BannerTec/Banner2.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Banner/BannerTec/Banner3.jpg">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Banner/BannerTec/Banner4.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/Banner/BannerTec/Banner5.png">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/2ViaBoleto.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/articleTrabalheConosco.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/assecontFachada.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/boleto2via.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/BoletoVencimento.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/Boxholerite.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/boxRevenda.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/Carep.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/DeOlhoNoImposto.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/getadobe.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/holeriteIcon.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/homeOffice.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/impContador.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/novoSite.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/portaria1510.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/supoteCanais.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/TrabalheConosco.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/useJur.jpg">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/userAssecontWeb.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/userCelular.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/userConsultoria.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/userIntegration.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/userRespons.jpg">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/UserRetencoes.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/boxArticle/xicaraCafe.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/CertificIsoPqec/Iso2011.jpg">
+      <publishTime>09/25/2017 10:11:04</publishTime>
+    </File>
+    <File Include="Imagens/CertificIsoPqec/Iso2014.png">
+      <publishTime>09/25/2017 10:11:05</publishTime>
+    </File>
+    <File Include="Imagens/CertificIsoPqec/PlacaPqec2006.jpg">
+      <publishTime>09/25/2017 10:11:05</publishTime>
+    </File>
+    <File Include="Imagens/CertificIsoPqec/PlacaPqec2007.jpg">
+      <publishTime>09/25/2017 10:11:05</publishTime>
+    </File>
+    <File Include="Imagens/CertificIsoPqec/PlacaPqec2008.jpg">
+      <publishTime>09/25/2017 10:11:05</publishTime>
+    </File>
+    <File Include="Imagens/CertificIsoPqec/PlacaPqec2009.jpg">
+      <publishTime>09/25/2017 10:11:05</publishTime>
+    </File>
+    <File Include="Imagens/CertificIsoPqec/PlacaPqec2010.jpg">
+      <publishTime>09/25/2017 10:11:05</publishTime>
+    </File>
+    <File Include="Imagens/CertificIsoPqec/PlacaPqec2011.jpg">
+      <publishTime>09/25/2017 10:11:05</publishTime>
+    </File>
+    <File Include="Imagens/CertificIsoPqec/PlacaPqec2012.jpg">
+      <publishTime>09/25/2017 10:11:05</publishTime>
+    </File>
+    <File Include="Imagens/CertificIsoPqec/PlacaPqec2013.jpg">
+      <publishTime>09/25/2017 10:11:05</publishTime>
+    </File>
+    <File Include="Imagens/CertificIsoPqec/PlacaPqec2014.jpg">
+      <publishTime>09/25/2017 10:11:05</publishTime>
+    </File>
+    <File Include="Imagens/Comunicado/AssepontoWeb.jpg">
+      <publishTime>09/25/2017 10:11:05</publishTime>
+    </File>
+    <File Include="Imagens/Comunicado/footerComunicado.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Comunicado/holeriteExemplo.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Comunicado/horarioAtendimento_part1.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Comunicado/horarioAtendimento_part2.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Comunicado/PagClientePreferencialFinal.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Comunicado/TrabalheConoscoBanner.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Email/aviso/Aviso.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Email/aviso/carnaval2015.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Email/aviso/rodape1.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Email/aviso/Tiradentes.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Email/aviso/Tiradentes2.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Email/aviso/topo.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Email/aviso/topo1.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Email/aviso/topo2.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Email/aviso/topo3.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Email/aviso/topo4.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Email/aviso/topo5.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Email/aviso/topo6.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Email/aviso/topo7.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Email/Pesquisa/pesquisaBotao.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Email/Pesquisa/pesquisaCabeca.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Email/Pesquisa/pesquisaRodape.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Email/Pesquisa/pesquisaTraco.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Email/Pesquisa/rodapePesquisa.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Email/Pesquisa/topoPesquisa.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Email/Rodape.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Email/Rodape2.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Email/Topo.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Email/Topo2.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Evento/2016.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Evento/Feliz2015.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Evento/felizNatal.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Evento/halloween.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Evento/logoFestaJunina.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Evento/OutubroRosa.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Evento/preview.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Holerite/holerite.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Holerite/HoleriteExemplo.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Holerite/iconAssecontHolerite.ico">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Holerite/Info.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Holerite/MeusDadosHolerite.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/logos/holeriteOnline.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/logos/iso9001.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/logos/logAssecontWeb.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/logos/Logo.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/logos/logoAssefin.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/logos/logoAsseponto.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/logos/logoAssepontoWeb.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/logos/logoAtendPers.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/logos/logoRevendasGold.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/logos/logoRevendasPremium.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/logos/LogoTreinamentoAsseponto4.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/logos/logo_asseJur.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/logos/logo_pqec.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Imagens/logos/simboloRevendaGold.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Imagens/Navegadores/Chrome.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Navegadores/Firefox.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Navegadores/IE.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Navegadores/Opera.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Site/ajaxLoader.gif">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Site/Balao.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Site/Balao2.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Site/barras48x48.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Site/check.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Site/Error.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Site/fundoPesquisa.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Site/icon.ico">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Site/RedeSociais.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Site/Sucess.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/social/assecontestrela.jpg">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Imagens/social/assecontFutebolQuintas.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Imagens/social/assecontfutsal.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Imagens/social/paraciclismo-de-estrada.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Imagens/social/paraciclismo-fabio-largada.jpg">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Imagens/social/paraciclismo-fabio-medalha.jpg">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Imagens/social/paraciclismo-fabio-melhores1.jpg">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Imagens/social/paraciclismo-fabio-melhores2.jpg">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Imagens/social/paraciclismo-fabio-premiacao.jpg">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Imagens/social/paraciclismo-patrocinadores.jpg">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Imagens/social/paraciclismo-patrocinadores2.jpg">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/Asseponto4/asseponto.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/Asseponto4/AssepontoSoftware.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/Asseponto4/Backup1.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/Asseponto4/Backup2.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/Compativel.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/folhaCaderno.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/lapisAssecontInvertido.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/manual.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/Pagina-Folha-de-Pagamento-Final.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/parceiros.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/Rep/LeitorDigital.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/Rep/logo_athos.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/Rep/logo_controlid.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/Rep/logo_digicon.jpg">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/Rep/logo_dimep.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/Rep/logo_elgin.jpg">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/Rep/logo_gertec.jpg">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/Rep/logo_henry.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/Rep/logo_iddata.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/Rep/logo_keypass.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/Rep/logo_proveu.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/Rep/logo_rw.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/Rep/logo_topdata.jpg">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/Rep/logo_trilobit.jpg">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/Rep/logo_trix.jpg">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/Rep/logo_zpm.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/Rep/TecladoREP.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/requerimentos.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/revendaGoldLosango.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/revendaGoldTreinamento.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Imagens/Tecnologia/video.png">
+      <publishTime>09/25/2017 10:11:06</publishTime>
+    </File>
+    <File Include="Informativos/criarInformativo.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Informativos/Informativo.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Informativos/listarInformativos.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Informativos/ViewInfo.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Arccodion/arccodion.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Banner/jquery.animate-colors.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Banner/jquery.easing.1.3.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Banner/jquery.min.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Banner/jquery.skitter.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Beanywhere/ChatSuporte.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Carroseul/Images/Bullet-Black.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Carroseul/Images/Bullet-White.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Carroseul/Images/gradient.svg">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Carroseul/Images/loading.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Carroseul/Images/next_button.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Carroseul/Images/prev_button.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Carroseul/Images/shadowLeft.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Carroseul/Images/shadowLeft8.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Carroseul/Images/shadowMiddle8.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Carroseul/Images/shadowRight.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Carroseul/Images/shadowTile.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Carroseul/Images/video.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Carroseul/jquery.carousel-1.1.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Carroseul/jquery.mousewheel.min.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/ControlVisible/Visible.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Dropit/dropdown.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Impressao/print.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/jquery-3.2.1.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/jquery-3.2.1.min.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/jquery-3.2.1.min.map">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/jquery_1_11_3.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Menu/menu_jquery.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/RadWindow.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Slide/bx_loader.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Slide/controls.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Slide/jquery.bxslider.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Jquery/Timeline/timeline.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Legalizacao/default.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Legalizacao/Extranet.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Legalizacao/ExtranetCadastro.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Legalizacao/Intranet.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Legalizacao/IntranetPedido.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Legalizacao/IntranetProcesso.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Legalizacao/View.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="ManualAssecontWeb/default.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="MasterPages/Accounting.Master">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="MasterPages/Assecont.Master">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="MasterPages/Holerite.Master">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="MasterPages/HoleriteCliente.Master">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="MasterPages/Legalizacao.Master">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="MasterPages/Tecnology.Master">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/25/2017 10:11:15</publishTime>
+    </File>
+    <File Include="Pesquisas/Confirmacao.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Pesquisas/pesquisaAvaliacaoFuncionario.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Pesquisas/pesquisaSatisfacao.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Pesquisas/PesquisasModel.Master">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Questionarios/QuestionarioSocios.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Questionarios/QuestionarioSociosTotalizado.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.8.2.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.8.2.min.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Scripts/jquery.mask.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Scripts/jquery.mask.min.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/ComboBox/Metro.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/ComboBox/rcbSprite.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/ComboBox_flv.css">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Editor.css">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Editor/LoadingSpell.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Editor/ToolBarSprites.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Editor/ToolbarVerticalSprites.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Editor/WebBlue.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Grid/AddRecord.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Grid/Cancel.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Grid/Delete.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Grid/Edit.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Grid/export.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Grid/Filter.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Grid/loading_small.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Grid/Metro.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Grid/MoveDown.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Grid/MoveUp.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Grid/PagingFirst.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Grid/PagingLast.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Grid/PagingNext.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Grid/PagingPrev.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Grid/Refresh.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Grid/rgDrag.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Grid/SingleMinus.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Grid/SinglePlus.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Grid/SortAsc.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Grid/SortDesc.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Grid/sprite.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Grid/Update.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Grid_flv.css">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Menu.css">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Menu/rmRootExpand.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Menu/rmRoundedLeft.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Menu/rmRoundedLeft_rtl.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Menu/rmRoundedRight.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Menu/rmRoundedRight_rtl.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Menu/rmSprite.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Menu/rmVSprite.png">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Menu/Web20.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Menu_Blue.css">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Slide/bg_body.jpg">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Slide/bg_bottom_border.jpg">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Slide/bg_pagecontainer_h1.jpg">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Slide/bg_slideshow.jpg">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Slide/control_left.jpg">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Slide/control_right.jpg">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Window.flv.css">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Window/CommandButtonSprites.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Window/Icon.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Window/Metro.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Skins/Window/rwResize.gif">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Social/Paraciclismo.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Styles/arccodion.css">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Styles/BannerPrincipal.css">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Styles/bxslider.css">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Styles/carousel.css">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Styles/MenuTecno.css">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Styles/openSection.css">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Styles/Site.css">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Styles/subMenuAtendimento.css">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Styles/timeline.css">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Styles/timeline_icon.css">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/ArqAssecontWeb/NotaFiscal.pdf">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssecontWeb.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Assefin/default.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Assefin/Revenda.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Asseponto/default.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Asseponto/DuvidasAcessoRemoto.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Asseponto/Implantacao.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Asseponto/Manual/backup.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Asseponto/Manual/bancoHoras.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Asseponto/Manual/cadastro.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Asseponto/Manual/default.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Asseponto/Manual/Gerar.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Asseponto/Manual/ManualAssePontoII.pdf">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Asseponto/Manual/MarcacaoIgnorada.pdf">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Asseponto/Manual/OcorrenciaTratamentos.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Asseponto/Manual/relatorios.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Asseponto/Manual/rotinasTratamento.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Asseponto/ManualRep/Manual_REP_CONTROL_ID.pdf">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Asseponto/ManualRep/Manual_REP_DIMEP.pdf">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Asseponto/ManualRep/MANUAL_REP_ECO_500_ZPM.pdf">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Asseponto/ManualRep/Manual_REP_GERTEC.pdf">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Asseponto/ManualRep/Manual_REP_HENRY.pdf">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Asseponto/ManualRep/Manual_REP_IDDATA.pdf">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Asseponto/ManualRep/Manual_REP_TRILOBIT.pdf">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Asseponto/Planilha relação dos funcionarios e config AssePonto4.xls">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Asseponto/RepsCompativeis.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Asseponto/requisitosDeInstalacao.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoFolhaWeb.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb/default.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb/DuvidasAcessoRemoto.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb/Implantacao.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb/Manual/backup.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb/Manual/bancoHoras.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb/Manual/cadastro.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb/Manual/default.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb/Manual/Gerar.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb/Manual/ManualAssePontoII.pdf">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb/Manual/MarcacaoIgnorada.pdf">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb/Manual/OcorrenciaTratamentos.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb/Manual/relatorios.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb/Manual/rotinasTratamento.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb/ManualRep/Manual_REP_CONTROL_ID.pdf">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb/ManualRep/Manual_REP_DIMEP.pdf">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb/ManualRep/MANUAL_REP_ECO_500_ZPM.pdf">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb/ManualRep/Manual_REP_GERTEC.pdf">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb/ManualRep/Manual_REP_HENRY.pdf">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb/ManualRep/Manual_REP_IDDATA.pdf">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb/ManualRep/Manual_REP_TRILOBIT.pdf">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb/Planilha relação dos funcionarios e config AssePontoWeb.xls">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb/RepsCompativeis.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/AssepontoWeb/vantagens.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/default.aspx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="Tecnologia/depoimentos.aspx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="Tecnologia/FolhaPagWeb.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Formularios/ConfirmacaoSolicitacao.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Formularios/FormSolicitSimples.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Formularios/FormularioSolicitacao.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/Formularios/InscWorkshop.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/HorarioAtedimento.aspx">
+      <publishTime>09/25/2017 10:11:07</publishTime>
+    </File>
+    <File Include="Tecnologia/localizacao.aspx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="Tecnologia/ManualArquivos/01Manual SQL.pdf">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="Tecnologia/ManualArquivos/02Compartilhando SQL.pdf">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="Tecnologia/ManualArquivos/03Criando Banco.pdf">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="Tecnologia/ManualArquivos/04Scriptsiniciais.pdf">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="Tecnologia/ManualArquivos/05Importação planilha.pdf">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="Tecnologia/ManualArquivos/06Incluindo REP no Asseponto4.pdf">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="Tecnologia/ManualArquivos/default.aspx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="Tecnologia/Portaria/dafault.aspx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="Tecnologia/Revendas/rvGold.aspx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="Tecnologia/Revendas/rvPremium.aspx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="Tecnologia/Suporte/contatoTec.aspx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="Tecnologia/Suporte/default.aspx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="Tecnologia/Suporte/vantagensManutencao.aspx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="Tecnologia/TecerizaoPonto.aspx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="Teste/Assefin/default.aspx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/27/2017 16:30:29</publishTime>
+    </File>
+    <File Include="Web.sitemap">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="WebControl/MenuLeftAssecontWeb.ascx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="WebControl/MenuLeftAsseponto4.ascx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="WebControl/MenuLeftAssepontoWeb.ascx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="WebControl/MenuLeftAtendimento.ascx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="WebControl/MenuTopCotacao.ascx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="WebControl/MenuTopManulAsseponto.ascx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="WebControl/PageTitle.ascx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="WebControl/WbAtualizarCelular.ascx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="WebControl/WbCanaisSuporte.ascx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="WebControl/WbFooter.ascx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="WebControl/WbHeader.ascx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+    <File Include="WebControl/WbLocalizacao.ascx">
+      <publishTime>09/25/2017 10:11:08</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

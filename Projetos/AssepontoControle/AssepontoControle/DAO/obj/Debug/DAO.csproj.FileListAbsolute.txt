@@ -1,0 +1,44 @@
+D:\Projetos\SemTeamFundation\AssepontoControle\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+D:\Projetos\SemTeamFundation\AssepontoControle\DAO\bin\Debug\DAO.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\DAO\bin\Debug\DAO.pdb
+D:\Projetos\SemTeamFundation\AssepontoControle\DAO\bin\Debug\Model.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\DAO\bin\Debug\Model.pdb
+D:\Projetos\SemTeamFundation\AssepontoControle\DAO\obj\Debug\DAO.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\DAO\obj\Debug\DAO.pdb
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\DAO\bin\Debug\DAO.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\DAO\bin\Debug\DAO.pdb
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\DAO\bin\Debug\Model.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\DAO\bin\Debug\Model.pdb
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\DAO\obj\Debug\DAO.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\DAO\obj\Debug\DAO.pdb
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\DAO\bin\Debug\DAO.dll
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\DAO\bin\Debug\DAO.pdb
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\DAO\bin\Debug\Model.dll
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\DAO\bin\Debug\Model.pdb
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\DAO\obj\Debug\DAO.dll
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\DAO\obj\Debug\DAO.pdb
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\DAO\bin\Debug\DAO.dll
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\DAO\bin\Debug\DAO.pdb
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\DAO\bin\Debug\Model.dll
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\DAO\bin\Debug\Model.pdb
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\DAO\obj\Debug\DAO.dll
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\DAO\obj\Debug\DAO.pdb
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\DAO\bin\Debug\DAO.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\DAO\bin\Debug\DAO.pdb
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\DAO\bin\Debug\Model.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\DAO\bin\Debug\Model.pdb
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\DAO\obj\Debug\DAO.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\DAO\obj\Debug\DAO.pdb
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\DAO\bin\Debug\DAO.dll
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\DAO\bin\Debug\DAO.pdb
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\DAO\obj\Debug\DAO.dll
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\DAO\obj\Debug\DAO.pdb
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\DAO\bin\Debug\Modelo.dll
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\DAO\bin\Debug\Modelo.pdb

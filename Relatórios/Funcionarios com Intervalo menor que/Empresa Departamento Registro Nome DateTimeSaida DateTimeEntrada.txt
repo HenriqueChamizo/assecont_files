@@ -1,0 +1,59 @@
+--GRUPOQUEBRA#0#
+--GRUPONREGISTROS#0#
+--COLUNAGRUPO#0#
+--LARGURA#300,300,50,180,80,80#
+--TITULO#Funcionarios com intervalo menor que 11hrs#
+DECLARE @DATAINICIAL SMALLDATETIME = %DATAINICIAL%,
+        @DATAFINAL SMALLDATETIME = %DATAFINAL%,
+        @DEPSELECIONADOIND INT = %DEPSELECIONADOIND%
+select d.EMP_NOME as Empresa, e.EMP_NOME as Departamento, c.FUNC_REG as Registro, c.FUNC_NOME as Nome,
+       (case when datepart(day, a.APO_DATA) >= 10
+             then convert(varchar(5), datepart(day, a.APO_DATA))
+             else '0' + convert(varchar(5), datepart(day, a.APO_DATA))
+        end + '/' + 
+        case when datepart(month, a.APO_DATA) >= 10
+             then convert(varchar(5), datepart(month, a.APO_DATA))
+             else '0' + convert(varchar(5), datepart(month, a.APO_DATA))
+        end + ' - ' + 
+        case when datepart(hour, a.APO_MARCACAO4) >= 10
+             then convert(varchar(5), datepart(hour, a.APO_MARCACAO4))
+             else '0' + convert(varchar(5), datepart(hour, a.APO_MARCACAO4))
+        end + ':' + 
+        case when datepart(minute, a.APO_MARCACAO4) >= 10 
+             then convert(varchar(5), datepart(minute, a.APO_MARCACAO4))
+             else '0' + convert(varchar(5), datepart(minute, a.APO_MARCACAO4))
+        end) as Saida,
+       (case when datepart(day, b.APO_DATA) >= 10
+             then convert(varchar(5), datepart(day, b.APO_DATA))
+             else '0' + convert(varchar(5), datepart(day, b.APO_DATA))
+        end + '/' + 
+        case when datepart(month, b.APO_DATA) >= 10
+             then convert(varchar(5), datepart(month, b.APO_DATA))
+             else '0' + convert(varchar(5), datepart(month, b.APO_DATA))
+        end + ' - ' + 
+        case when datepart(hour, b.APO_MARCACAO1) >= 10
+             then convert(varchar(5), datepart(hour, b.APO_MARCACAO1))
+             else '0' + convert(varchar(5), datepart(hour, b.APO_MARCACAO1))
+        end + ':' + 
+        case when datepart(minute, b.APO_MARCACAO1) >= 10 
+             then convert(varchar(5), datepart(minute, b.APO_MARCACAO1))
+             else '0' + convert(varchar(5), datepart(minute, b.APO_MARCACAO1))
+        end) as Retorno 
+from Aponta a
+inner join Funcionarios c on c.FUNC_IND = a.APO_FUNC
+inner join Empresas d on d.EMP_IND = c.FUNC_EMPRESA
+inner join Empresas e on e.EMP_IND = dbo.fn_getempresafuncionario(c.FUNC_IND)
+outer apply(
+    select ba.APO_IND, ba.APO_FUNC, ba.APO_DATA, ba.APO_MARCACAO1 
+    from Aponta ba
+    where DATEDIFF(day, a.APO_DATA, ba.APO_DATA) = 1 and 
+          ba.APO_MARCACAO1 is not null and 
+          ba.APO_MARCACAO4 is not null and
+          ba.APO_FUNC = a.APO_FUNC
+) b
+where a.APO_MARCACAO4 is not null and 
+      b.APO_MARCACAO1 is not null and
+      b.APO_DATA is not null and 
+      DATEDIFF(hour, a.APO_MARCACAO4, b.APO_MARCACAO1) < 11 and 
+      a.APO_DATA >= @DATAINICIAL and a.APO_DATA <= @DATAFINAL
+order by a.APO_DATA asc

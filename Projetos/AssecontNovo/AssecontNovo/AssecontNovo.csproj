@@ -1,0 +1,1776 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0AC090E0-7F8E-4AEC-91E2-95C302B6AE14}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AssecontNovo</RootNamespace>
+    <AssemblyName>AssecontNovo</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assecontweb.Classes">
+      <HintPath>..\dlls\Assecontweb.Classes.dll</HintPath>
+    </Reference>
+    <Reference Include="Assecontweb.Classes.Views">
+      <HintPath>..\dlls\Assecontweb.Classes.Views.dll</HintPath>
+    </Reference>
+    <Reference Include="Assecontweb.Types">
+      <HintPath>..\dlls\Assecontweb.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Boleto.Net, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Administrador\Documents\dll Asp.Net\boletoBancario\boletoBancario\Boleto.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="HumanAPIClient">
+      <HintPath>..\dlls\HumanAPIClient.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\dlls\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.XML" />
+    <Reference Include="Telerik.Web.UI">
+      <HintPath>..\dlls\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins">
+      <HintPath>..\dlls\Telerik.Web.UI.Skins.dll</HintPath>
+    </Reference>
+    <Reference Include="Wr.Classes">
+      <HintPath>..\dlls\Wr.Classes.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="acessoAssecont.aspx" />
+    <Content Include="Avisos\AvisoManutencao.html" />
+    <Content Include="Avisos\ConfirmacaoEnvioAssecont.aspx" />
+    <Content Include="Avisos\ConfirmacaoEnvioTecnologia.aspx" />
+    <Content Include="Avisos\Error404.aspx" />
+    <Content Include="Avisos\ErrorQuestionarioJaRealizado.aspx" />
+    <Content Include="Avisos\ErroTela.aspx" />
+    <Content Include="bootstrap\css\bootstrap-theme.css" />
+    <Content Include="bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="bootstrap\css\bootstrap.css" />
+    <Content Include="bootstrap\css\bootstrap.min.css" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap\js\bootstrap.js" />
+    <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="bootstrap\js\npm.js" />
+    <Content Include="Classes\Emails\AtualizarAssefin\EmailAtualizarAssefin.htm" />
+    <Content Include="Classes\Emails\Cotacao\EmailCotacao.htm" />
+    <Content Include="Classes\Emails\Informativos\EmailInformativoSemCabecalho.htm" />
+    <Content Include="Classes\Emails\Legalizacao\EmailLegalizacaoPedido.htm" />
+    <Content Include="Classes\Emails\Legalizacao\EmailLegalizacao.htm" />
+    <Content Include="Classes\Emails\QuestionarioSocio\EmailQuestSocio.htm" />
+    <Content Include="Consultoria\default.aspx" />
+    <Content Include="Consultoria\default.old.aspx" />
+    <Content Include="Consultoria\Empresarial.aspx" />
+    <Content Include="Consultoria\Empresarial.old.aspx" />
+    <Content Include="Consultoria\Tributario.aspx" />
+    <Content Include="Consultoria\Tributario.old.aspx" />
+    <Content Include="Contabilidade\AsseAdmin.aspx" />
+    <Content Include="Contabilidade\IntegracaoSistema.aspx" />
+    <Content Include="Contabilidade\localizacao.aspx" />
+    <Content Include="Curriculum\TodosCurriculum.aspx" />
+    <Content Include="Contabilidade\Cotacao\beneficio.aspx" />
+    <Content Include="Contabilidade\Cotacao\form.aspx" />
+    <Content Include="Curriculum\ViewCurriculum.aspx" />
+    <Content Include="Grupo\Boletos\AtualizaEmail.aspx" />
+    <Content Include="Grupo\Boletos\Boleto.aspx" />
+    <Content Include="Grupo\Boletos\AtualizaCelular.aspx" />
+    <Content Include="Grupo\Boletos\BoletoTodos.aspx" />
+    <Content Include="Grupo\Boletos\default.aspx" />
+    <Content Include="Grupo\contabeisPqec.aspx" />
+    <Content Include="Contabilidade\Cotacao\default.aspx" />
+    <Content Include="Grupo\ImpostoIbit\default.aspx" />
+    <Content Include="Grupo\localizacao.aspx" />
+    <Content Include="Grupo\NbrIso.aspx" />
+    <Content Include="Grupo\RetencaoImpostos.aspx" />
+    <Content Include="HoleriteFunc\AtualizarDados.aspx" />
+    <Content Include="HoleriteFunc\HoleriteFuncionario.aspx" />
+    <Content Include="HoleriteFunc\Dados.aspx" />
+    <Content Include="Avisos\ConfirmacaoHoleritePedidoNewPwd.aspx" />
+    <Content Include="Classes\Emails\HoleritePwd\EmailSenha.htm" />
+    <Content Include="HoleriteFunc\HoleriteNovaSenha.aspx" />
+    <Content Include="HoleriteFunc\default.aspx" />
+    <Content Include="HoleriteFunc\InformesRendimentoFuncionario.aspx" />
+    <Content Include="HoleriteFunc\Login.aspx" />
+    <Content Include="Imagens\16x16\email16x16.png" />
+    <Content Include="Imagens\16x16\exclamation16x16.png" />
+    <Content Include="Imagens\16x16\sms16x16.png" />
+    <Content Include="Imagens\16x16\TickVerde.png" />
+    <Content Include="Imagens\24x24\ampulheta24x24.png" />
+    <Content Include="Imagens\24x24\ArrowBottom24x24.png" />
+    <Content Include="Imagens\24x24\ArrowBottomWhite24x24.png" />
+    <Content Include="Imagens\24x24\ArrowTop24x24.png" />
+    <Content Include="Imagens\24x24\ArrowTopWhite24x24.png" />
+    <Content Include="Imagens\24x24\cardIdentificatio n24x24.png" />
+    <Content Include="Imagens\24x24\certificate24x24.png" />
+    <Content Include="Imagens\24x24\letterS_24x24.png" />
+    <Content Include="Imagens\24x24\lion24x24.png" />
+    <Content Include="Imagens\24x24\logoAssecont24x24.png" />
+    <Content Include="Imagens\24x24\printer24x24.png" />
+    <Content Include="Imagens\24x24\rules24x24.png" />
+    <Content Include="Imagens\24x24\saopaulo24x24.png" />
+    <Content Include="Imagens\24x24\school24x24.png" />
+    <Content Include="Imagens\24x24\send_e-mail24x24.png" />
+    <Content Include="Imagens\24x24\trophy24x24.png" />
+    <Content Include="Imagens\48x48\arrowUpload.png" />
+    <Content Include="Imagens\48x48\BuildingClose48x48.png" />
+    <Content Include="Imagens\48x48\House48x48.png" />
+    <Content Include="Imagens\48x48\ReportEditor48x48.png" />
+    <Content Include="Imagens\Assecont\AssecontCelular.jpg" />
+    <Content Include="Imagens\Assefin\1.png" />
+    <Content Include="Imagens\Assefin\2.png" />
+    <Content Include="Imagens\Assefin\3.png" />
+    <Content Include="Imagens\AssepontoWeb\1.jpg" />
+    <Content Include="Imagens\AssepontoWeb\2.jpg" />
+    <Content Include="Imagens\AssepontoWeb\3.jpg" />
+    <Content Include="Imagens\AssepontoWeb\4.jpg" />
+    <Content Include="Imagens\AssepontoWeb\5.jpg" />
+    <Content Include="Imagens\AssepontoWeb\vantagens-assepontoweb.png" />
+    <Content Include="Imagens\AssepontoWeb\vantagens-assepontoweb1.png" />
+    <Content Include="Imagens\AssepontoWeb\vantagens-assepontoweb2.png" />
+    <Content Include="Imagens\Banner\Banner3-consultoria.png" />
+    <Content Include="Imagens\boxArticle\Boxholerite.png" />
+    <Content Include="Imagens\Email\Topo.png" />
+    <Content Include="Imagens\Email\Topo2.png" />
+    <Content Include="Imagens\Evento\2016.png" />
+    <Content Include="Imagens\Evento\halloween.png" />
+    <Content Include="Imagens\Evento\logoFestaJunina.png" />
+    <Content Include="Imagens\Holerite\holerite.png" />
+    <Content Include="Imagens\Holerite\HoleriteExemplo.png" />
+    <Content Include="Imagens\Holerite\iconAssecontHolerite.ico" />
+    <Content Include="Imagens\Holerite\Info.png" />
+    <Content Include="Imagens\Holerite\MeusDadosHolerite.png" />
+    <Content Include="HoleriteFunc\PrimeiroLogin.aspx" />
+    <Content Include="Imagens\16x16\cadeado16x16.png" />
+    <Content Include="Imagens\16x16\help16x16.png" />
+    <Content Include="Imagens\16x16\login16x16.png" />
+    <Content Include="Imagens\16x16\OpenWhite16x16.png" />
+    <Content Include="Imagens\16x16\Registrado16x16.png" />
+    <Content Include="Imagens\24x24\abaco24x24.png" />
+    <Content Include="Imagens\24x24\AdobeAcrobat24x24.png" />
+    <Content Include="Imagens\24x24\asseAdmin24x24.png" />
+    <Content Include="Imagens\24x24\assecontWeb24x24.png" />
+    <Content Include="Imagens\24x24\auditoria24x24.png" />
+    <Content Include="Imagens\24x24\Boleto24x24.png" />
+    <Content Include="Imagens\24x24\camera24x24.png" />
+    <Content Include="Imagens\24x24\2check24x24.png" />
+    <Content Include="Imagens\24x24\check24x24.png" />
+    <Content Include="Imagens\24x24\Chek24x24.png" />
+    <Content Include="Imagens\24x24\close24x24.png" />
+    <Content Include="Imagens\24x24\coffe24x24.png" />
+    <Content Include="Imagens\24x24\Compativel24x24.png" />
+    <Content Include="Imagens\24x24\contabilidade24x24.png" />
+    <Content Include="Imagens\24x24\dollar24x24.png" />
+    <Content Include="Imagens\24x24\dowloand24x24.png" />
+    <Content Include="Imagens\24x24\Editor24x24.png" />
+    <Content Include="Imagens\24x24\implantacao24x24.png" />
+    <Content Include="Imagens\24x24\Open24x24.png" />
+    <Content Include="Imagens\24x24\folhaPag24x24.png" />
+    <Content Include="Imagens\24x24\Garbage24x24.png" />
+    <Content Include="Imagens\24x24\Gear24x24.png" />
+    <Content Include="Imagens\24x24\info24x24.png" />
+    <Content Include="Imagens\24x24\manual24x24.png" />
+    <Content Include="Imagens\24x24\maps24x24.png" />
+    <Content Include="Imagens\24x24\OpenWhite24x24.png" />
+    <Content Include="Imagens\24x24\ouvidoria24x24.png" />
+    <Content Include="Imagens\24x24\Payment24x24.png" />
+    <Content Include="Imagens\24x24\Pen24x24.png" />
+    <Content Include="Imagens\24x24\Pencil24x24.png" />
+    <Content Include="Imagens\24x24\ponto24x24.png" />
+    <Content Include="Imagens\24x24\requerimentos24x24.png" />
+    <Content Include="Imagens\24x24\servicoPrestados24x24.png" />
+    <Content Include="Imagens\24x24\Warning24x24.png" />
+    <Content Include="Imagens\24x24\WarningRed24x24.png" />
+    <Content Include="Imagens\32x32\Check32x32.png" />
+    <Content Include="Imagens\32x32\contato32x32.png" />
+    <Content Include="Imagens\32x32\handshake32.png" />
+    <Content Include="Imagens\32x32\home32x32.png" />
+    <Content Include="Imagens\32x32\Implantacao32x32.png" />
+    <Content Include="Imagens\32x32\megaPhone32x32.png" />
+    <Content Include="Imagens\32x32\ouvidoria32x32.png" />
+    <Content Include="Imagens\32x32\owlManual32x32.png" />
+    <Content Include="Imagens\32x32\previewblack_wilder.png" />
+    <Content Include="Imagens\32x32\qualidade32x32.png" />
+    <Content Include="Imagens\32x32\sac32x32.png" />
+    <Content Include="Imagens\AssecontWeb\assecontCelular.png" />
+    <Content Include="Imagens\AssecontWeb\assecontFolha.png" />
+    <Content Include="Imagens\AssecontWeb\assecontMenu.png" />
+    <Content Include="Imagens\AssecontWeb\assecontRecalculo.png" />
+    <Content Include="Imagens\Assecont\assecontFachada.png" />
+    <Content Include="Imagens\Banner\BannerContabil\Banner6.png" />
+    <Content Include="Imagens\BA\procedimentoBA.png" />
+    <Content Include="Imagens\boxArticle\2ViaBoleto.png" />
+    <Content Include="Imagens\boxArticle\articleTrabalheConosco.png" />
+    <Content Include="Imagens\boxArticle\assecontFachada.png" />
+    <Content Include="Imagens\boxArticle\boleto2via.png" />
+    <Content Include="Imagens\boxArticle\BoletoVencimento.png" />
+    <Content Include="Imagens\boxArticle\boxRevenda.png" />
+    <Content Include="Imagens\boxArticle\Carep.png" />
+    <Content Include="Imagens\boxArticle\getadobe.png" />
+    <Content Include="Imagens\boxArticle\holeriteIcon.png" />
+    <Content Include="Imagens\boxArticle\impContador.png" />
+    <Content Include="Imagens\boxArticle\novoSite.png" />
+    <Content Include="Imagens\boxArticle\portaria1510.png" />
+    <Content Include="Imagens\boxArticle\useJur.jpg" />
+    <Content Include="Imagens\boxArticle\userAssecontWeb.png" />
+    <Content Include="Imagens\boxArticle\userCelular.png" />
+    <Content Include="Imagens\boxArticle\userConsultoria.png" />
+    <Content Include="Imagens\boxArticle\userIntegration.png" />
+    <Content Include="Imagens\boxArticle\userRespons.jpg" />
+    <Content Include="Imagens\boxArticle\UserRetencoes.png" />
+    <Content Include="Imagens\CertificIsoPqec\PlacaPqec2006.jpg" />
+    <Content Include="Imagens\CertificIsoPqec\PlacaPqec2007.jpg" />
+    <Content Include="Imagens\CertificIsoPqec\PlacaPqec2008.jpg" />
+    <Content Include="Imagens\CertificIsoPqec\PlacaPqec2009.jpg" />
+    <Content Include="Imagens\CertificIsoPqec\PlacaPqec2010.jpg" />
+    <Content Include="Imagens\CertificIsoPqec\PlacaPqec2011.jpg" />
+    <Content Include="Imagens\CertificIsoPqec\PlacaPqec2012.jpg" />
+    <Content Include="Imagens\CertificIsoPqec\PlacaPqec2013.jpg" />
+    <Content Include="Imagens\CertificIsoPqec\PlacaPqec2014.jpg" />
+    <Content Include="Imagens\CertificIsoPqec\Iso2011.jpg" />
+    <Content Include="Imagens\CertificIsoPqec\Iso2014.png" />
+    <Content Include="Imagens\Comunicado\AssepontoWeb.jpg" />
+    <Content Include="Imagens\Comunicado\horarioAtendimento_part1.png" />
+    <Content Include="Imagens\Comunicado\horarioAtendimento_part2.png" />
+    <Content Include="Imagens\Email\aviso\Aviso.png" />
+    <Content Include="Imagens\Email\aviso\carnaval2015.png" />
+    <Content Include="Imagens\Email\aviso\Tiradentes.png" />
+    <Content Include="Imagens\Email\aviso\rodape1.png" />
+    <Content Include="Imagens\Email\aviso\Tiradentes2.png" />
+    <Content Include="Imagens\Email\aviso\topo.png" />
+    <Content Include="Imagens\Email\aviso\topo1.png" />
+    <Content Include="Imagens\Email\aviso\topo2.png" />
+    <Content Include="Imagens\Email\aviso\topo3.png" />
+    <Content Include="Imagens\Email\aviso\topo4.png" />
+    <Content Include="Imagens\Email\aviso\topo5.png" />
+    <Content Include="Imagens\Email\aviso\topo6.png" />
+    <Content Include="Imagens\Email\aviso\topo7.png" />
+    <Content Include="Imagens\Email\Pesquisa\pesquisaBotao.png" />
+    <Content Include="Imagens\Email\Pesquisa\pesquisaCabeca.png" />
+    <Content Include="Imagens\Email\Pesquisa\pesquisaRodape.png" />
+    <Content Include="Imagens\Email\Pesquisa\pesquisaTraco.png" />
+    <Content Include="Imagens\Email\Pesquisa\rodapePesquisa.png" />
+    <Content Include="Imagens\Email\Pesquisa\topoPesquisa.png" />
+    <Content Include="Imagens\Email\Rodape.png" />
+    <Content Include="Imagens\Evento\Feliz2015.png" />
+    <Content Include="Imagens\Evento\felizNatal.png" />
+    <Content Include="Imagens\Evento\preview.png" />
+    <Content Include="Imagens\logos\holeriteOnline.png" />
+    <Content Include="Imagens\logos\logAssecontWeb.png" />
+    <Content Include="Imagens\logos\Logo.png" />
+    <Content Include="Imagens\logos\logoAssepontoWeb.png" />
+    <Content Include="Imagens\logos\logoAtendPers.png" />
+    <Content Include="Imagens\logos\logoRevendasGold.png" />
+    <Content Include="Imagens\logos\LogoTreinamentoAsseponto4.png" />
+    <Content Include="Imagens\logos\logo_asseJur.png" />
+    <Content Include="Imagens\Evento\OutubroRosa.png" />
+    <Content Include="Imagens\32x32\News32x32.png" />
+    <Content Include="Imagens\logos\logoRevendasPremium.png" />
+    <Content Include="Imagens\logos\simboloRevendaGold.png" />
+    <Content Include="Imagens\Navegadores\Chrome.png" />
+    <Content Include="Imagens\Navegadores\Firefox.png" />
+    <Content Include="Imagens\Navegadores\IE.png" />
+    <Content Include="Imagens\Navegadores\Opera.png" />
+    <Content Include="Imagens\Site\ajaxLoader.gif" />
+    <Content Include="Imagens\Site\barras48x48.png" />
+    <Content Include="Imagens\Site\Error.png" />
+    <Content Include="Imagens\Site\fundoPesquisa.png" />
+    <Content Include="Imagens\Site\RedeSociais.png" />
+    <Content Include="Imagens\Site\Sucess.png" />
+    <Content Include="Imagens\social\paraciclismo-de-estrada.png" />
+    <Content Include="Imagens\social\paraciclismo-fabio-largada.jpg" />
+    <Content Include="Imagens\social\paraciclismo-fabio-medalha.jpg" />
+    <Content Include="Imagens\social\paraciclismo-fabio-melhores1.jpg" />
+    <Content Include="Imagens\social\paraciclismo-fabio-melhores2.jpg" />
+    <Content Include="Imagens\social\paraciclismo-fabio-premiacao.jpg" />
+    <Content Include="Imagens\social\paraciclismo-patrocinadores.jpg" />
+    <Content Include="Imagens\social\paraciclismo-patrocinadores2.jpg" />
+    <Content Include="Imagens\Tecnologia\Asseponto4\Backup1.png" />
+    <Content Include="Imagens\Tecnologia\Asseponto4\Backup2.png" />
+    <Content Include="Imagens\Tecnologia\Compativel.png" />
+    <Content Include="Imagens\Tecnologia\manual.png" />
+    <Content Include="Imagens\Tecnologia\Rep\logo_athos.png" />
+    <Content Include="Imagens\Tecnologia\Rep\logo_controlid.png" />
+    <Content Include="Imagens\Tecnologia\Rep\logo_digicon.jpg" />
+    <Content Include="Imagens\Tecnologia\Rep\logo_dimep.png" />
+    <Content Include="Imagens\Tecnologia\Rep\logo_elgin.jpg" />
+    <Content Include="Imagens\Tecnologia\Rep\logo_gertec.jpg" />
+    <Content Include="Imagens\Tecnologia\Rep\logo_henry.png" />
+    <Content Include="Imagens\Tecnologia\Rep\logo_iddata.png" />
+    <Content Include="Imagens\Tecnologia\Rep\logo_keypass.png" />
+    <Content Include="Imagens\Tecnologia\Rep\logo_proveu.png" />
+    <Content Include="Imagens\Tecnologia\Rep\logo_rw.png" />
+    <Content Include="Imagens\Tecnologia\Rep\logo_topdata.jpg" />
+    <Content Include="Imagens\Tecnologia\Rep\logo_trilobit.jpg" />
+    <Content Include="Imagens\Tecnologia\Rep\logo_trix.jpg" />
+    <Content Include="Imagens\Tecnologia\Rep\logo_zpm.png" />
+    <Content Include="Imagens\Tecnologia\requerimentos.png" />
+    <Content Include="Imagens\Tecnologia\revendaGoldTreinamento.png" />
+    <Content Include="Imagens\Tecnologia\video.png" />
+    <Content Include="Informativos\ViewInfo.aspx" />
+    <Content Include="Jquery\Carroseul\Images\Bullet-Black.png" />
+    <Content Include="Jquery\Carroseul\Images\Bullet-White.png" />
+    <Content Include="Jquery\Carroseul\Images\gradient.svg" />
+    <Content Include="Jquery\Carroseul\Images\loading.gif" />
+    <Content Include="Jquery\Carroseul\Images\next_button.png" />
+    <Content Include="Jquery\Carroseul\Images\prev_button.png" />
+    <Content Include="Jquery\Carroseul\Images\shadowLeft.png" />
+    <Content Include="Jquery\Carroseul\Images\shadowLeft8.png" />
+    <Content Include="Jquery\Carroseul\Images\shadowMiddle8.png" />
+    <Content Include="Jquery\Carroseul\Images\shadowRight.png" />
+    <Content Include="Jquery\Carroseul\Images\shadowTile.png" />
+    <Content Include="Jquery\Carroseul\Images\video.png" />
+    <Content Include="Jquery\Carroseul\jquery.carousel-1.1.js" />
+    <Content Include="Jquery\Carroseul\jquery.mousewheel.min.js" />
+    <Content Include="Jquery\Dropit\dropdown.js" />
+    <Content Include="Jquery\Impressao\print.js" />
+    <Content Include="Jquery\jquery-3.2.1.js" />
+    <Content Include="Jquery\jquery-3.2.1.min.js" />
+    <Content Include="Jquery\jquery_1_11_3.js" />
+    <Content Include="Jquery\RadWindow.js" />
+    <Content Include="Jquery\Timeline\timeline.js" />
+    <Content Include="Legalizacao\default.aspx" />
+    <Content Include="Legalizacao\ExtranetCadastro.aspx" />
+    <Content Include="Legalizacao\Intranet.aspx" />
+    <Content Include="Legalizacao\Extranet.aspx" />
+    <Content Include="Legalizacao\IntranetPedido.aspx" />
+    <Content Include="Legalizacao\IntranetProcesso.aspx" />
+    <Content Include="Legalizacao\View.aspx" />
+    <Content Include="ManualAssecontWeb\default.aspx" />
+    <Content Include="Classes\Emails\FormSolicSimples\FormSolicSimples.htm" />
+    <Content Include="Classes\Emails\FormularioWorkShop\FormularioWorkShop.htm" />
+    <Content Include="Classes\Emails\Informativos\EmailInformativos.htm" />
+    <Content Include="Classes\Emails\OrcamentoTecnologia\EmailOrcamentoFolhaPag.htm" />
+    <Content Include="Classes\Emails\Sac\EmailSac.htm" />
+    <Content Include="Contabilidade\auditoria.aspx" />
+    <Content Include="Grupo\Atendimento\default.aspx" />
+    <Content Include="Grupo\Atendimento\Ouvidoria.aspx" />
+    <Content Include="Grupo\AtendPersonalizado.aspx" />
+    <Content Include="Grupo\HomeOffice.aspx" />
+    <Content Include="Grupo\NossaEmpresa.aspx" />
+    <Content Include="Grupo\Atendimento\ServicoDeAtendimento.aspx" />
+    <Content Include="Curriculum\default.aspx" />
+    <Content Include="Imagens\16x16\frasesIcon.png" />
+    <Content Include="Imagens\16x16\nossaEmpresa.png" />
+    <Content Include="Imagens\24x24\briefcase24x24.png" />
+    <Content Include="Imagens\24x24\calculator24x24.png" />
+    <Content Include="Imagens\24x24\contato24x24.png" />
+    <Content Include="Imagens\24x24\empresarial24x24.png" />
+    <Content Include="Imagens\24x24\envelope24x24.png" />
+    <Content Include="Imagens\24x24\fiscalwhite24x24.png" />
+    <Content Include="Imagens\24x24\gestaoTrabalhista24x24.png" />
+    <Content Include="Imagens\24x24\italic24x24.png" />
+    <Content Include="Imagens\24x24\link24x24.png" />
+    <Content Include="Imagens\24x24\peoples24x24.png" />
+    <Content Include="Imagens\24x24\pin24x24.png" />
+    <Content Include="Imagens\16x16\informativoIcon.png" />
+    <Content Include="Imagens\24x24\tributaria24x24.png" />
+    <Content Include="Imagens\AssecontWeb\AssecontWeb1.png" />
+    <Content Include="Imagens\Banner\BannerContabil\Banner7.png" />
+    <Content Include="Imagens\Banner\Banner1.png" />
+    <Content Include="Imagens\Banner\Banner3.png" />
+    <Content Include="Imagens\Banner\BannerContabil\Banner1.png" />
+    <Content Include="Imagens\Banner\BannerContabil\Banner2.png" />
+    <Content Include="Imagens\Banner\BannerContabil\Banner3.png" />
+    <Content Include="Imagens\Banner\BannerContabil\Banner4.png" />
+    <Content Include="Imagens\Banner\BannerContabil\Banner5.png" />
+    <Content Include="Imagens\Banner\BannerTec\Banner3.jpg" />
+    <Content Include="Imagens\Banner\Banner2.png" />
+    <Content Include="Imagens\Banner\BannerTec\Banner1.png" />
+    <Content Include="Imagens\Assecont\assecontFachada.jpg" />
+    <Content Include="Imagens\Banner\BannerTec\Banner4.png" />
+    <Content Include="Imagens\Banner\BannerTec\Banner5.png" />
+    <Content Include="Imagens\boxArticle\DeOlhoNoImposto.png" />
+    <Content Include="Imagens\Assecont\HomeOffice.png" />
+    <Content Include="Imagens\boxArticle\homeOffice.png" />
+    <Content Include="Imagens\boxArticle\supoteCanais.png" />
+    <Content Include="Imagens\boxArticle\TrabalheConosco.png" />
+    <Content Include="Imagens\boxArticle\xicaraCafe.png" />
+    <Content Include="Imagens\Comunicado\PagClientePreferencialFinal.png" />
+    <Content Include="Imagens\Comunicado\TrabalheConoscoBanner.png" />
+    <Content Include="Imagens\Email\Rodape2.png" />
+    <Content Include="Imagens\logos\iso9001.png" />
+    <Content Include="Imagens\logos\logoAsseponto.png" />
+    <Content Include="Imagens\Site\icon.ico" />
+    <Content Include="Imagens\social\assecontestrela.jpg" />
+    <Content Include="Imagens\social\assecontFutebolQuintas.png" />
+    <Content Include="Imagens\social\assecontfutsal.png" />
+    <Content Include="Imagens\Tecnologia\Asseponto4\asseponto.png" />
+    <Content Include="Imagens\Tecnologia\Asseponto4\AssepontoSoftware.png" />
+    <Content Include="Imagens\Tecnologia\folhaCaderno.png" />
+    <Content Include="Imagens\Tecnologia\lapisAssecontInvertido.png" />
+    <Content Include="Imagens\Tecnologia\Pagina-Folha-de-Pagamento-Final.png" />
+    <Content Include="Imagens\Tecnologia\Rep\LeitorDigital.png" />
+    <Content Include="Imagens\Tecnologia\Rep\TecladoREP.png" />
+    <Content Include="Imagens\Tecnologia\revendaGoldLosango.png" />
+    <Content Include="Imagens\logos\logoAssefin.png" />
+    <Content Include="Jquery\Beanywhere\ChatSuporte.js" />
+    <Content Include="Jquery\ControlVisible\Visible.js" />
+    <Content Include="Jquery\Slide\bx_loader.gif" />
+    <Content Include="Jquery\Slide\controls.png" />
+    <Content Include="Jquery\Slide\jquery.bxslider.js" />
+    <Content Include="Pesquisas\Confirmacao.aspx" />
+    <Content Include="Pesquisas\pesquisaAvaliacaoFuncionario.aspx" />
+    <Content Include="Pesquisas\pesquisaDepto.aspx" />
+    <Content Include="Pesquisas\pesquisaSatisfacao.aspx" />
+    <Content Include="Questionarios\QuestionarioObrigacao.aspx" />
+    <Content Include="Questionarios\QuestionarioSociosTotalizado.aspx" />
+    <Content Include="Questionarios\QuestionarioSocios.aspx" />
+    <Content Include="MasterPages\Legalizacao.Master" />
+    <Content Include="bootstrap\css\bootstrap-theme.css.map" />
+    <Content Include="bootstrap\css\bootstrap-theme.min.css.map" />
+    <Content Include="bootstrap\css\bootstrap.css.map" />
+    <Content Include="bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Jquery\jquery-3.2.1.min.map" />
+    <Content Include="i.aspx" />
+    <None Include="Properties\PublishProfiles\AssecontNovaClaudio.pubxml" />
+    <None Include="Properties\PublishProfiles\AssecontNovaLocal.pubxml" />
+    <None Include="Scripts\jquery-1.8.2-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.8.2.js" />
+    <Content Include="Scripts\jquery-1.8.2.min.js" />
+    <Content Include="Scripts\jquery.mask.js" />
+    <Content Include="Scripts\jquery.mask.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Skins\ComboBox_flv.css" />
+    <Content Include="Skins\ComboBox\Metro.gif" />
+    <Content Include="Skins\ComboBox\rcbSprite.png" />
+    <Content Include="Skins\Editor.css" />
+    <Content Include="Skins\Editor\LoadingSpell.gif" />
+    <Content Include="Skins\Editor\ToolBarSprites.gif" />
+    <Content Include="Skins\Editor\ToolbarVerticalSprites.gif" />
+    <Content Include="Skins\Editor\WebBlue.gif" />
+    <Content Include="Skins\Grid_flv.css" />
+    <Content Include="Skins\Menu.css" />
+    <Content Include="Skins\Menu\rmRootExpand.png" />
+    <Content Include="Skins\Menu\rmRoundedLeft.png" />
+    <Content Include="Skins\Menu\rmRoundedLeft_rtl.png" />
+    <Content Include="Skins\Menu\rmRoundedRight.png" />
+    <Content Include="Skins\Menu\rmRoundedRight_rtl.png" />
+    <Content Include="Skins\Menu\rmSprite.png" />
+    <Content Include="Skins\Menu\rmVSprite.png" />
+    <Content Include="Skins\Menu\Web20.gif" />
+    <Content Include="Skins\Menu_Blue.css" />
+    <Content Include="Skins\Window.flv.css" />
+    <Content Include="Skins\Window\CommandButtonSprites.gif" />
+    <Content Include="Skins\Window\Icon.gif" />
+    <Content Include="Skins\Window\Metro.gif" />
+    <Content Include="Skins\Window\rwResize.gif" />
+    <Content Include="Social\Paraciclismo.aspx" />
+    <Content Include="Styles\timeline_icon.css" />
+    <Content Include="Styles\carousel.css" />
+    <Content Include="Styles\bxslider.css" />
+    <Content Include="Informativos\Informativo.aspx" />
+    <Content Include="Classes\Emails\Curriculum\EmailCurriculum.htm" />
+    <Content Include="Comunicados\comunicadoHolerite.aspx" />
+    <Content Include="Contabilidade\legalizacao.aspx" />
+    <Content Include="Contabilidade\gestaoContabilidade.aspx" />
+    <Content Include="Contabilidade\gestaoFiscal.aspx" />
+    <Content Include="Contabilidade\gestaoTrabalhista.aspx" />
+    <Content Include="Contabilidade\default.aspx" />
+    <Content Include="Grupo\Atendimento\contato.aspx" />
+    <Content Include="Imagens\Assecont\foto.jpg" />
+    <Content Include="Imagens\Tecnologia\parceiros.png" />
+    <Content Include="Imagens\Comunicado\footerComunicado.png" />
+    <Content Include="Imagens\Comunicado\holeriteExemplo.png" />
+    <Content Include="Imagens\Assecont\Assecont_1.jpg" />
+    <Content Include="Imagens\Assecont\Assecont_2.jpg" />
+    <Content Include="Imagens\Assecont\Assecont_3.jpg" />
+    <Content Include="Imagens\Assecont\Assecont_4.jpg" />
+    <Content Include="Imagens\Assecont\Assecont_6.jpg" />
+    <Content Include="Imagens\Assecont\engrenagem.png" />
+    <Content Include="Imagens\Assecont\gestao_contabil.jpg" />
+    <Content Include="Imagens\Assecont\gestao_fiscal.jpg" />
+    <Content Include="Imagens\Assecont\gestao_trabalhista.jpg" />
+    <Content Include="Imagens\Banner\BannerTec\Banner2.png" />
+    <Content Include="Imagens\logos\logo_pqec.png" />
+    <Content Include="Imagens\Site\Balao.png" />
+    <Content Include="Imagens\Site\Balao2.png" />
+    <Content Include="Imagens\Site\check.png" />
+    <Content Include="default.aspx" />
+    <Content Include="Informativos\criarInformativo.aspx" />
+    <Content Include="Informativos\listarInformativos.aspx" />
+    <Content Include="Jquery\Banner\jquery.animate-colors.js" />
+    <Content Include="Jquery\Banner\jquery.easing.1.3.js" />
+    <Content Include="Jquery\Banner\jquery.min.js" />
+    <Content Include="Jquery\Banner\jquery.skitter.js" />
+    <Content Include="Jquery\Arccodion\arccodion.js" />
+    <Content Include="Jquery\Menu\menu_jquery.js" />
+    <Content Include="Grupo\linksRapidos.aspx" />
+    <Content Include="Skins\Grid\AddRecord.gif" />
+    <Content Include="Skins\Grid\Cancel.gif" />
+    <Content Include="Skins\Grid\Delete.gif" />
+    <Content Include="Skins\Grid\Edit.gif" />
+    <Content Include="Skins\Grid\export.gif" />
+    <Content Include="Skins\Grid\Filter.gif" />
+    <Content Include="Skins\Grid\loading_small.gif" />
+    <Content Include="Skins\Grid\Metro.gif" />
+    <Content Include="Skins\Grid\MoveDown.gif" />
+    <Content Include="Skins\Grid\MoveUp.gif" />
+    <Content Include="Skins\Grid\PagingFirst.gif" />
+    <Content Include="Skins\Grid\PagingLast.gif" />
+    <Content Include="Skins\Grid\PagingNext.gif" />
+    <Content Include="Skins\Grid\PagingPrev.gif" />
+    <Content Include="Skins\Grid\Refresh.gif" />
+    <Content Include="Skins\Grid\rgDrag.gif" />
+    <Content Include="Skins\Grid\SingleMinus.gif" />
+    <Content Include="Skins\Grid\SinglePlus.gif" />
+    <Content Include="Skins\Grid\SortAsc.gif" />
+    <Content Include="Skins\Grid\SortDesc.gif" />
+    <Content Include="Skins\Grid\sprite.gif" />
+    <Content Include="Skins\Grid\Update.gif" />
+    <Content Include="Skins\Slide\bg_body.jpg" />
+    <Content Include="Skins\Slide\bg_bottom_border.jpg" />
+    <Content Include="Skins\Slide\bg_pagecontainer_h1.jpg" />
+    <Content Include="Skins\Slide\bg_slideshow.jpg" />
+    <Content Include="Skins\Slide\control_left.jpg" />
+    <Content Include="Skins\Slide\control_right.jpg" />
+    <Content Include="Styles\arccodion.css" />
+    <Content Include="Styles\subMenuAtendimento.css" />
+    <Content Include="Styles\openSection.css" />
+    <Content Include="Styles\timeline.css" />
+    <Content Include="Tecnologia\AssecontWeb.aspx" />
+    <Content Include="Tecnologia\Assefin\default.aspx" />
+    <Content Include="Tecnologia\Assefin\Revenda.aspx" />
+    <Content Include="Tecnologia\AssepontoFolhaWeb.aspx" />
+    <Content Include="Tecnologia\AssepontoWeb.aspx" />
+    <Content Include="Tecnologia\AssepontoWeb\default.aspx" />
+    <Content Include="Tecnologia\AssepontoWeb\DuvidasAcessoRemoto.aspx" />
+    <Content Include="Tecnologia\AssepontoWeb\Implantacao.aspx" />
+    <Content Include="Tecnologia\AssepontoWeb\ManualRep\Manual_REP_CONTROL_ID.pdf" />
+    <Content Include="Tecnologia\AssepontoWeb\ManualRep\Manual_REP_DIMEP.pdf" />
+    <Content Include="Tecnologia\AssepontoWeb\ManualRep\MANUAL_REP_ECO_500_ZPM.pdf" />
+    <Content Include="Tecnologia\AssepontoWeb\ManualRep\Manual_REP_GERTEC.pdf" />
+    <Content Include="Tecnologia\AssepontoWeb\ManualRep\Manual_REP_HENRY.pdf" />
+    <Content Include="Tecnologia\AssepontoWeb\ManualRep\Manual_REP_IDDATA.pdf" />
+    <Content Include="Tecnologia\AssepontoWeb\ManualRep\Manual_REP_TRILOBIT.pdf" />
+    <Content Include="Tecnologia\AssepontoWeb\Manual\backup.aspx" />
+    <Content Include="Tecnologia\AssepontoWeb\Manual\bancoHoras.aspx" />
+    <Content Include="Tecnologia\AssepontoWeb\Manual\cadastro.aspx" />
+    <Content Include="Tecnologia\AssepontoWeb\Manual\default.aspx" />
+    <Content Include="Tecnologia\AssepontoWeb\Manual\Gerar.aspx" />
+    <Content Include="Tecnologia\AssepontoWeb\Manual\ManualAssePontoII.pdf" />
+    <Content Include="Tecnologia\AssepontoWeb\Manual\MarcacaoIgnorada.pdf" />
+    <Content Include="Tecnologia\AssepontoWeb\Manual\OcorrenciaTratamentos.aspx" />
+    <Content Include="Tecnologia\AssepontoWeb\Manual\relatorios.aspx" />
+    <Content Include="Tecnologia\AssepontoWeb\Manual\rotinasTratamento.aspx" />
+    <Content Include="Tecnologia\AssepontoWeb\Planilha relação dos funcionarios e config AssePontoWeb.xls" />
+    <Content Include="Tecnologia\AssepontoWeb\RepsCompativeis.aspx" />
+    <Content Include="Tecnologia\AssepontoWeb\vantagens.aspx" />
+    <Content Include="Tecnologia\Asseponto\DuvidasAcessoRemoto.aspx" />
+    <Content Include="Tecnologia\Asseponto\Implantacao.aspx" />
+    <Content Include="Tecnologia\Asseponto\Manual\backup.aspx" />
+    <Content Include="Tecnologia\Asseponto\Manual\Gerar.aspx" />
+    <Content Include="Tecnologia\Asseponto\RepsCompativeis.aspx" />
+    <Content Include="Tecnologia\Asseponto\requisitosDeInstalacao.aspx" />
+    <Content Include="Tecnologia\default.aspx" />
+    <Content Include="Styles\MenuTecno.css" />
+    <Content Include="Curriculum\EnviarCurriculo.aspx" />
+    <Content Include="Curriculum\operacaoRealizadaSucesso.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Styles\BannerPrincipal.css" />
+    <Content Include="Tecnologia\Asseponto\default.aspx" />
+    <Content Include="Tecnologia\depoimentos.aspx" />
+    <Content Include="Tecnologia\FolhaPagWeb.aspx" />
+    <Content Include="Tecnologia\Formularios\ConfirmacaoSolicitacao.aspx" />
+    <Content Include="Tecnologia\Formularios\FormSolicitSimples.aspx" />
+    <Content Include="Tecnologia\Formularios\FormularioSolicitacao.aspx" />
+    <Content Include="Tecnologia\Formularios\InscWorkshop.aspx" />
+    <Content Include="Tecnologia\Asseponto\Manual\cadastro.aspx" />
+    <Content Include="Tecnologia\Asseponto\Manual\bancoHoras.aspx" />
+    <Content Include="Tecnologia\Asseponto\Manual\relatorios.aspx" />
+    <Content Include="Tecnologia\Asseponto\Manual\OcorrenciaTratamentos.aspx" />
+    <Content Include="Tecnologia\Asseponto\Manual\default.aspx" />
+    <Content Include="Tecnologia\Asseponto\Manual\rotinasTratamento.aspx" />
+    <Content Include="Tecnologia\HorarioAtedimento.aspx" />
+    <Content Include="Tecnologia\localizacao.aspx" />
+    <Content Include="Tecnologia\ManualArquivos\default.aspx" />
+    <Content Include="Tecnologia\Suporte\contatoTec.aspx" />
+    <Content Include="Tecnologia\Portaria\dafault.aspx" />
+    <Content Include="Tecnologia\Revendas\rvGold.aspx" />
+    <Content Include="Tecnologia\Revendas\rvPremium.aspx" />
+    <Content Include="Tecnologia\Suporte\default.aspx" />
+    <Content Include="Tecnologia\Suporte\vantagensManutencao.aspx" />
+    <Content Include="Tecnologia\TecerizaoPonto.aspx" />
+    <Content Include="Teste\Assefin\default.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebControl\MenuLeftAssecontWeb.ascx" />
+    <Content Include="WebControl\MenuLeftAssepontoWeb.ascx" />
+    <Content Include="WebControl\MenuTopCotacao.ascx" />
+    <Content Include="WebControl\WbAtualizarCelular.ascx" />
+    <Content Include="WebControl\WbCanaisSuporte.ascx" />
+    <Content Include="WebControl\WbFooter.ascx" />
+    <Content Include="WebControl\WbLocalizacao.ascx" />
+    <Content Include="WebControl\MenuLeftAsseponto4.ascx" />
+    <Content Include="WebControl\MenuLeftAtendimento.ascx" />
+    <Content Include="WebControl\MenuTopManulAsseponto.ascx" />
+    <Content Include="WebControl\PageTitle.ascx" />
+    <Content Include="WebControl\WbHeader.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="acessoAssecont.aspx.cs">
+      <DependentUpon>acessoAssecont.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="acessoAssecont.aspx.designer.cs">
+      <DependentUpon>acessoAssecont.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Avisos\ConfirmacaoEnvioAssecont.aspx.cs">
+      <DependentUpon>ConfirmacaoEnvioAssecont.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Avisos\ConfirmacaoEnvioAssecont.aspx.designer.cs">
+      <DependentUpon>ConfirmacaoEnvioAssecont.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Avisos\ConfirmacaoEnvioTecnologia.aspx.cs">
+      <DependentUpon>ConfirmacaoEnvioTecnologia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Avisos\ConfirmacaoEnvioTecnologia.aspx.designer.cs">
+      <DependentUpon>ConfirmacaoEnvioTecnologia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Avisos\Error404.aspx.cs">
+      <DependentUpon>Error404.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Avisos\Error404.aspx.designer.cs">
+      <DependentUpon>Error404.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Avisos\ErrorQuestionarioJaRealizado.aspx.cs">
+      <DependentUpon>ErrorQuestionarioJaRealizado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Avisos\ErrorQuestionarioJaRealizado.aspx.designer.cs">
+      <DependentUpon>ErrorQuestionarioJaRealizado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Avisos\ErroTela.aspx.cs">
+      <DependentUpon>ErroTela.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Avisos\ErroTela.aspx.designer.cs">
+      <DependentUpon>ErroTela.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Cliente.cs" />
+    <Compile Include="Classes\Emails\EmailApp.cs" />
+    <Compile Include="Classes\Emails\Legalizacao\EmailLegalizacaoPedido.cs" />
+    <Compile Include="Classes\Emails\Legalizacao\EmailLegalizacao.cs" />
+    <Compile Include="Classes\Emails\Legalizacao\EmailLegalizacaoProcedimento.cs" />
+    <Compile Include="Classes\Emails\QuestionarioSocio\EmailQuestSocio.cs" />
+    <Compile Include="Classes\GerarBoletoItau.cs" />
+    <Compile Include="Classes\GerarBoleto.cs" />
+    <Compile Include="Classes\Emails\AtualizarAssefin\EmailAtualizarAssefin.cs" />
+    <Compile Include="Classes\Emails\Cotacao\EmailCotacao.cs" />
+    <Compile Include="Classes\Log.cs" />
+    <Compile Include="Consultoria\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultoria\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultoria\Empresarial.aspx.cs">
+      <DependentUpon>Empresarial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultoria\Empresarial.aspx.designer.cs">
+      <DependentUpon>Empresarial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultoria\Tributario.aspx.cs">
+      <DependentUpon>Tributario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultoria\Tributario.aspx.designer.cs">
+      <DependentUpon>Tributario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HoleriteFunc\AtualizarDados.aspx.cs">
+      <DependentUpon>AtualizarDados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HoleriteFunc\AtualizarDados.aspx.designer.cs">
+      <DependentUpon>AtualizarDados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HoleriteFunc\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HoleriteFunc\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HoleriteFunc\InformesRendimentoFuncionario.aspx.cs">
+      <DependentUpon>InformesRendimentoFuncionario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HoleriteFunc\InformesRendimentoFuncionario.aspx.designer.cs">
+      <DependentUpon>InformesRendimentoFuncionario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Sms\SmsApp.cs" />
+    <Compile Include="Classes\Sms\SmsLegalizacao.cs" />
+    <Compile Include="Classes\UtilLegalizacao.cs" />
+    <Compile Include="Classes\Types.cs" />
+    <Compile Include="Classes\UserAssecontweb.cs" />
+    <Compile Include="Classes\Util.cs" />
+    <Compile Include="Contabilidade\AsseAdmin.aspx.cs">
+      <DependentUpon>AsseAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contabilidade\AsseAdmin.aspx.designer.cs">
+      <DependentUpon>AsseAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidade\IntegracaoSistema.aspx.cs">
+      <DependentUpon>IntegracaoSistema.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contabilidade\IntegracaoSistema.aspx.designer.cs">
+      <DependentUpon>IntegracaoSistema.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidade\localizacao.aspx.cs">
+      <DependentUpon>localizacao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contabilidade\localizacao.aspx.designer.cs">
+      <DependentUpon>localizacao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Curriculum\TodosCurriculum.aspx.cs">
+      <DependentUpon>TodosCurriculum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Curriculum\TodosCurriculum.aspx.designer.cs">
+      <DependentUpon>TodosCurriculum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidade\Cotacao\beneficio.aspx.cs">
+      <DependentUpon>beneficio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contabilidade\Cotacao\beneficio.aspx.designer.cs">
+      <DependentUpon>beneficio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidade\Cotacao\form.aspx.cs">
+      <DependentUpon>form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contabilidade\Cotacao\form.aspx.designer.cs">
+      <DependentUpon>form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Curriculum\ViewCurriculum.aspx.cs">
+      <DependentUpon>ViewCurriculum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Curriculum\ViewCurriculum.aspx.designer.cs">
+      <DependentUpon>ViewCurriculum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo\Boletos\AtualizaEmail.aspx.cs">
+      <DependentUpon>AtualizaEmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grupo\Boletos\AtualizaEmail.aspx.designer.cs">
+      <DependentUpon>AtualizaEmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo\Boletos\Boleto.aspx.cs">
+      <DependentUpon>Boleto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grupo\Boletos\Boleto.aspx.designer.cs">
+      <DependentUpon>Boleto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo\Boletos\AtualizaCelular.aspx.cs">
+      <DependentUpon>AtualizaCelular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grupo\Boletos\AtualizaCelular.aspx.designer.cs">
+      <DependentUpon>AtualizaCelular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo\Boletos\BoletoTodos.aspx.cs">
+      <DependentUpon>BoletoTodos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grupo\Boletos\BoletoTodos.aspx.designer.cs">
+      <DependentUpon>BoletoTodos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo\Boletos\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grupo\Boletos\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo\contabeisPqec.aspx.cs">
+      <DependentUpon>contabeisPqec.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grupo\contabeisPqec.aspx.designer.cs">
+      <DependentUpon>contabeisPqec.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidade\Cotacao\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contabilidade\Cotacao\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo\ImpostoIbit\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grupo\ImpostoIbit\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo\localizacao.aspx.cs">
+      <DependentUpon>localizacao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grupo\localizacao.aspx.designer.cs">
+      <DependentUpon>localizacao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo\NbrIso.aspx.cs">
+      <DependentUpon>NbrIso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grupo\NbrIso.aspx.designer.cs">
+      <DependentUpon>NbrIso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo\RetencaoImpostos.aspx.cs">
+      <DependentUpon>RetencaoImpostos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grupo\RetencaoImpostos.aspx.designer.cs">
+      <DependentUpon>RetencaoImpostos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Emails\HoleritePwd\EmailSenha.cs" />
+    <Compile Include="Classes\UserApp.cs" />
+    <Compile Include="HoleriteFunc\HoleriteFuncionario.aspx.cs">
+      <DependentUpon>HoleriteFuncionario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HoleriteFunc\HoleriteFuncionario.aspx.designer.cs">
+      <DependentUpon>HoleriteFuncionario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HoleriteFunc\Dados.aspx.cs">
+      <DependentUpon>Dados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HoleriteFunc\Dados.aspx.designer.cs">
+      <DependentUpon>Dados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HoleriteFunc\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HoleriteFunc\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Legalizacao\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Legalizacao\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Legalizacao\ExtranetCadastro.aspx.cs">
+      <DependentUpon>ExtranetCadastro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Legalizacao\ExtranetCadastro.aspx.designer.cs">
+      <DependentUpon>ExtranetCadastro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Legalizacao\Intranet.aspx.cs">
+      <DependentUpon>Intranet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Legalizacao\Intranet.aspx.designer.cs">
+      <DependentUpon>Intranet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Legalizacao\Extranet.aspx.cs">
+      <DependentUpon>Extranet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Legalizacao\Extranet.aspx.designer.cs">
+      <DependentUpon>Extranet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Legalizacao\IntranetPedido.aspx.cs">
+      <DependentUpon>IntranetPedido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Legalizacao\IntranetPedido.aspx.designer.cs">
+      <DependentUpon>IntranetPedido.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Legalizacao\IntranetProcesso.aspx.cs">
+      <DependentUpon>IntranetProcesso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Legalizacao\IntranetProcesso.aspx.designer.cs">
+      <DependentUpon>IntranetProcesso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Legalizacao\View.aspx.cs">
+      <DependentUpon>View.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Legalizacao\View.aspx.designer.cs">
+      <DependentUpon>View.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Holerite.Master.cs">
+      <DependentUpon>Holerite.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Holerite.Master.designer.cs">
+      <DependentUpon>Holerite.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Avisos\ConfirmacaoHoleritePedidoNewPwd.aspx.cs">
+      <DependentUpon>ConfirmacaoHoleritePedidoNewPwd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Avisos\ConfirmacaoHoleritePedidoNewPwd.aspx.designer.cs">
+      <DependentUpon>ConfirmacaoHoleritePedidoNewPwd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HoleriteFunc\HoleriteNovaSenha.aspx.cs">
+      <DependentUpon>HoleriteNovaSenha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HoleriteFunc\HoleriteNovaSenha.aspx.designer.cs">
+      <DependentUpon>HoleriteNovaSenha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\HoleriteCliente.Master.cs">
+      <DependentUpon>HoleriteCliente.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\HoleriteCliente.Master.designer.cs">
+      <DependentUpon>HoleriteCliente.Master</DependentUpon>
+    </Compile>
+    <Compile Include="HoleriteFunc\PrimeiroLogin.aspx.cs">
+      <DependentUpon>PrimeiroLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HoleriteFunc\PrimeiroLogin.aspx.designer.cs">
+      <DependentUpon>PrimeiroLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Informativos\ViewInfo.aspx.cs">
+      <DependentUpon>ViewInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Informativos\ViewInfo.aspx.designer.cs">
+      <DependentUpon>ViewInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManualAssecontWeb\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManualAssecontWeb\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Emails\FormSolicSimples\FormSolicSimples.cs" />
+    <Compile Include="Classes\Emails\FormularioWorkShop\FormularioWorkShop.cs" />
+    <Compile Include="Classes\Emails\Informativos\EmailInformativos.cs" />
+    <Compile Include="Classes\Emails\OrcamentoTecnologia\EmailOrcamentoFolhaPag.cs" />
+    <Compile Include="Classes\Emails\Sac\EmailSac.cs" />
+    <Compile Include="Contabilidade\auditoria.aspx.cs">
+      <DependentUpon>auditoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contabilidade\auditoria.aspx.designer.cs">
+      <DependentUpon>auditoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo\Atendimento\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grupo\Atendimento\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo\Atendimento\Ouvidoria.aspx.cs">
+      <DependentUpon>Ouvidoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grupo\Atendimento\Ouvidoria.aspx.designer.cs">
+      <DependentUpon>Ouvidoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo\AtendPersonalizado.aspx.cs">
+      <DependentUpon>AtendPersonalizado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grupo\AtendPersonalizado.aspx.designer.cs">
+      <DependentUpon>AtendPersonalizado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo\HomeOffice.aspx.cs">
+      <DependentUpon>HomeOffice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grupo\HomeOffice.aspx.designer.cs">
+      <DependentUpon>HomeOffice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo\NossaEmpresa.aspx.cs">
+      <DependentUpon>NossaEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grupo\NossaEmpresa.aspx.designer.cs">
+      <DependentUpon>NossaEmpresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo\Atendimento\ServicoDeAtendimento.aspx.cs">
+      <DependentUpon>ServicoDeAtendimento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grupo\Atendimento\ServicoDeAtendimento.aspx.designer.cs">
+      <DependentUpon>ServicoDeAtendimento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Curriculum\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Curriculum\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Informativos\Informativo.aspx.cs">
+      <DependentUpon>Informativo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Informativos\Informativo.aspx.designer.cs">
+      <DependentUpon>Informativo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\BDApp.cs" />
+    <Compile Include="Classes\Emails\Curriculum\EmailCurriculum.cs" />
+    <Compile Include="Comunicados\comunicadoHolerite.aspx.cs">
+      <DependentUpon>comunicadoHolerite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comunicados\comunicadoHolerite.aspx.designer.cs">
+      <DependentUpon>comunicadoHolerite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidade\legalizacao.aspx.cs">
+      <DependentUpon>legalizacao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contabilidade\legalizacao.aspx.designer.cs">
+      <DependentUpon>legalizacao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidade\gestaoContabilidade.aspx.cs">
+      <DependentUpon>gestaoContabilidade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contabilidade\gestaoContabilidade.aspx.designer.cs">
+      <DependentUpon>gestaoContabilidade.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidade\gestaoFiscal.aspx.cs">
+      <DependentUpon>gestaoFiscal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contabilidade\gestaoFiscal.aspx.designer.cs">
+      <DependentUpon>gestaoFiscal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidade\gestaoTrabalhista.aspx.cs">
+      <DependentUpon>gestaoTrabalhista.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contabilidade\gestaoTrabalhista.aspx.designer.cs">
+      <DependentUpon>gestaoTrabalhista.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contabilidade\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contabilidade\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo\Atendimento\contato.aspx.cs">
+      <DependentUpon>contato.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grupo\Atendimento\contato.aspx.designer.cs">
+      <DependentUpon>contato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Assecont.Master.cs">
+      <DependentUpon>Assecont.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Assecont.Master.designer.cs">
+      <DependentUpon>Assecont.Master</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Informativos\criarInformativo.aspx.cs">
+      <DependentUpon>criarInformativo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Informativos\criarInformativo.aspx.designer.cs">
+      <DependentUpon>criarInformativo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Informativos\listarInformativos.aspx.cs">
+      <DependentUpon>listarInformativos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Informativos\listarInformativos.aspx.designer.cs">
+      <DependentUpon>listarInformativos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo\linksRapidos.aspx.cs">
+      <DependentUpon>linksRapidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Grupo\linksRapidos.aspx.designer.cs">
+      <DependentUpon>linksRapidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Accounting.Master.cs">
+      <DependentUpon>Accounting.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Accounting.Master.designer.cs">
+      <DependentUpon>Accounting.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Legalizacao.Master.cs">
+      <DependentUpon>Legalizacao.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Legalizacao.Master.designer.cs">
+      <DependentUpon>Legalizacao.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Tecnology.Master.cs">
+      <DependentUpon>Tecnology.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Tecnology.Master.designer.cs">
+      <DependentUpon>Tecnology.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisas\Confirmacao.aspx.cs">
+      <DependentUpon>Confirmacao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pesquisas\Confirmacao.aspx.designer.cs">
+      <DependentUpon>Confirmacao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisas\pesquisaAvaliacaoFuncionario.aspx.cs">
+      <DependentUpon>pesquisaAvaliacaoFuncionario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pesquisas\pesquisaAvaliacaoFuncionario.aspx.designer.cs">
+      <DependentUpon>pesquisaAvaliacaoFuncionario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisas\pesquisaDepto.aspx.cs">
+      <DependentUpon>pesquisaDepto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pesquisas\pesquisaDepto.aspx.designer.cs">
+      <DependentUpon>pesquisaDepto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisas\PesquisasModel.Master.cs">
+      <DependentUpon>PesquisasModel.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pesquisas\PesquisasModel.Master.designer.cs">
+      <DependentUpon>PesquisasModel.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pesquisas\pesquisaSatisfacao.aspx.cs">
+      <DependentUpon>pesquisaSatisfacao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pesquisas\pesquisaSatisfacao.aspx.designer.cs">
+      <DependentUpon>pesquisaSatisfacao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Questionarios\QuestionarioObrigacao.aspx.cs">
+      <DependentUpon>QuestionarioObrigacao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Questionarios\QuestionarioObrigacao.aspx.designer.cs">
+      <DependentUpon>QuestionarioObrigacao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Questionarios\QuestionarioSociosTotalizado.aspx.cs">
+      <DependentUpon>QuestionarioSociosTotalizado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Questionarios\QuestionarioSociosTotalizado.aspx.designer.cs">
+      <DependentUpon>QuestionarioSociosTotalizado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Questionarios\QuestionarioSocios.aspx.cs">
+      <DependentUpon>QuestionarioSocios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Questionarios\QuestionarioSocios.aspx.designer.cs">
+      <DependentUpon>QuestionarioSocios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Social\Paraciclismo.aspx.cs">
+      <DependentUpon>Paraciclismo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Social\Paraciclismo.aspx.designer.cs">
+      <DependentUpon>Paraciclismo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\AssecontWeb.aspx.cs">
+      <DependentUpon>AssecontWeb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\AssecontWeb.aspx.designer.cs">
+      <DependentUpon>AssecontWeb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Assefin\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Assefin\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Assefin\Revenda.aspx.cs">
+      <DependentUpon>Revenda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Assefin\Revenda.aspx.designer.cs">
+      <DependentUpon>Revenda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoFolhaWeb.aspx.cs">
+      <DependentUpon>AssepontoFolhaWeb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoFolhaWeb.aspx.designer.cs">
+      <DependentUpon>AssepontoFolhaWeb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb.aspx.cs">
+      <DependentUpon>AssepontoWeb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb.aspx.designer.cs">
+      <DependentUpon>AssepontoWeb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\DuvidasAcessoRemoto.aspx.cs">
+      <DependentUpon>DuvidasAcessoRemoto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\DuvidasAcessoRemoto.aspx.designer.cs">
+      <DependentUpon>DuvidasAcessoRemoto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\Implantacao.aspx.cs">
+      <DependentUpon>Implantacao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\Implantacao.aspx.designer.cs">
+      <DependentUpon>Implantacao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\Manual\backup.aspx.cs">
+      <DependentUpon>backup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\Manual\backup.aspx.designer.cs">
+      <DependentUpon>backup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\Manual\bancoHoras.aspx.cs">
+      <DependentUpon>bancoHoras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\Manual\bancoHoras.aspx.designer.cs">
+      <DependentUpon>bancoHoras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\Manual\cadastro.aspx.cs">
+      <DependentUpon>cadastro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\Manual\cadastro.aspx.designer.cs">
+      <DependentUpon>cadastro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\Manual\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\Manual\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\Manual\Gerar.aspx.cs">
+      <DependentUpon>Gerar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\Manual\Gerar.aspx.designer.cs">
+      <DependentUpon>Gerar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\Manual\OcorrenciaTratamentos.aspx.cs">
+      <DependentUpon>OcorrenciaTratamentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\Manual\OcorrenciaTratamentos.aspx.designer.cs">
+      <DependentUpon>OcorrenciaTratamentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\Manual\relatorios.aspx.cs">
+      <DependentUpon>relatorios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\Manual\relatorios.aspx.designer.cs">
+      <DependentUpon>relatorios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\Manual\rotinasTratamento.aspx.cs">
+      <DependentUpon>rotinasTratamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\Manual\rotinasTratamento.aspx.designer.cs">
+      <DependentUpon>rotinasTratamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\RepsCompativeis.aspx.cs">
+      <DependentUpon>RepsCompativeis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\RepsCompativeis.aspx.designer.cs">
+      <DependentUpon>RepsCompativeis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\vantagens.aspx.cs">
+      <DependentUpon>vantagens.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\AssepontoWeb\vantagens.aspx.designer.cs">
+      <DependentUpon>vantagens.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\DuvidasAcessoRemoto.aspx.cs">
+      <DependentUpon>DuvidasAcessoRemoto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\DuvidasAcessoRemoto.aspx.designer.cs">
+      <DependentUpon>DuvidasAcessoRemoto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\Implantacao.aspx.cs">
+      <DependentUpon>Implantacao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\Implantacao.aspx.designer.cs">
+      <DependentUpon>Implantacao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\Manual\backup.aspx.cs">
+      <DependentUpon>backup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\Manual\backup.aspx.designer.cs">
+      <DependentUpon>backup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\Manual\Gerar.aspx.cs">
+      <DependentUpon>Gerar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\Manual\Gerar.aspx.designer.cs">
+      <DependentUpon>Gerar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\RepsCompativeis.aspx.cs">
+      <DependentUpon>RepsCompativeis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\RepsCompativeis.aspx.designer.cs">
+      <DependentUpon>RepsCompativeis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\requisitosDeInstalacao.aspx.cs">
+      <DependentUpon>requisitosDeInstalacao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\requisitosDeInstalacao.aspx.designer.cs">
+      <DependentUpon>requisitosDeInstalacao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Curriculum\EnviarCurriculo.aspx.cs">
+      <DependentUpon>EnviarCurriculo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Curriculum\EnviarCurriculo.aspx.designer.cs">
+      <DependentUpon>EnviarCurriculo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Curriculum\operacaoRealizadaSucesso.aspx.cs">
+      <DependentUpon>operacaoRealizadaSucesso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Curriculum\operacaoRealizadaSucesso.aspx.designer.cs">
+      <DependentUpon>operacaoRealizadaSucesso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tecnologia\Asseponto\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\depoimentos.aspx.cs">
+      <DependentUpon>depoimentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\depoimentos.aspx.designer.cs">
+      <DependentUpon>depoimentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\FolhaPagWeb.aspx.cs">
+      <DependentUpon>FolhaPagWeb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\FolhaPagWeb.aspx.designer.cs">
+      <DependentUpon>FolhaPagWeb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Formularios\ConfirmacaoSolicitacao.aspx.cs">
+      <DependentUpon>ConfirmacaoSolicitacao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Formularios\ConfirmacaoSolicitacao.aspx.designer.cs">
+      <DependentUpon>ConfirmacaoSolicitacao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Formularios\FormSolicitSimples.aspx.cs">
+      <DependentUpon>FormSolicitSimples.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Formularios\FormSolicitSimples.aspx.designer.cs">
+      <DependentUpon>FormSolicitSimples.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Formularios\FormularioSolicitacao.aspx.cs">
+      <DependentUpon>FormularioSolicitacao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Formularios\FormularioSolicitacao.aspx.designer.cs">
+      <DependentUpon>FormularioSolicitacao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Formularios\InscWorkshop.aspx.cs">
+      <DependentUpon>InscWorkshop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Formularios\InscWorkshop.aspx.designer.cs">
+      <DependentUpon>InscWorkshop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\Manual\cadastro.aspx.cs">
+      <DependentUpon>cadastro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\Manual\cadastro.aspx.designer.cs">
+      <DependentUpon>cadastro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\Manual\bancoHoras.aspx.cs">
+      <DependentUpon>bancoHoras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\Manual\bancoHoras.aspx.designer.cs">
+      <DependentUpon>bancoHoras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\Manual\relatorios.aspx.cs">
+      <DependentUpon>relatorios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\Manual\relatorios.aspx.designer.cs">
+      <DependentUpon>relatorios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\Manual\OcorrenciaTratamentos.aspx.cs">
+      <DependentUpon>OcorrenciaTratamentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\Manual\OcorrenciaTratamentos.aspx.designer.cs">
+      <DependentUpon>OcorrenciaTratamentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\Manual\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\Manual\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\Manual\rotinasTratamento.aspx.cs">
+      <DependentUpon>rotinasTratamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Asseponto\Manual\rotinasTratamento.aspx.designer.cs">
+      <DependentUpon>rotinasTratamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\HorarioAtedimento.aspx.cs">
+      <DependentUpon>HorarioAtedimento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\HorarioAtedimento.aspx.designer.cs">
+      <DependentUpon>HorarioAtedimento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\localizacao.aspx.cs">
+      <DependentUpon>localizacao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\localizacao.aspx.designer.cs">
+      <DependentUpon>localizacao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\ManualArquivos\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\ManualArquivos\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Suporte\contatoTec.aspx.cs">
+      <DependentUpon>contatoTec.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Suporte\contatoTec.aspx.designer.cs">
+      <DependentUpon>contatoTec.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Portaria\dafault.aspx.cs">
+      <DependentUpon>dafault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Portaria\dafault.aspx.designer.cs">
+      <DependentUpon>dafault.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Revendas\rvGold.aspx.cs">
+      <DependentUpon>rvGold.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Revendas\rvGold.aspx.designer.cs">
+      <DependentUpon>rvGold.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Revendas\rvPremium.aspx.cs">
+      <DependentUpon>rvPremium.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Revendas\rvPremium.aspx.designer.cs">
+      <DependentUpon>rvPremium.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Suporte\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Suporte\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\Suporte\vantagensManutencao.aspx.cs">
+      <DependentUpon>vantagensManutencao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\Suporte\vantagensManutencao.aspx.designer.cs">
+      <DependentUpon>vantagensManutencao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tecnologia\TecerizaoPonto.aspx.cs">
+      <DependentUpon>TecerizaoPonto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tecnologia\TecerizaoPonto.aspx.designer.cs">
+      <DependentUpon>TecerizaoPonto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Teste\Assefin\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Teste\Assefin\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControl\MenuLeftAssecontWeb.ascx.cs">
+      <DependentUpon>MenuLeftAssecontWeb.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControl\MenuLeftAssecontWeb.ascx.designer.cs">
+      <DependentUpon>MenuLeftAssecontWeb.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControl\MenuLeftAssepontoWeb.ascx.cs">
+      <DependentUpon>MenuLeftAssepontoWeb.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControl\MenuLeftAssepontoWeb.ascx.designer.cs">
+      <DependentUpon>MenuLeftAssepontoWeb.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControl\MenuTopCotacao.ascx.cs">
+      <DependentUpon>MenuTopCotacao.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControl\MenuTopCotacao.ascx.designer.cs">
+      <DependentUpon>MenuTopCotacao.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControl\WbAtualizarCelular.ascx.cs">
+      <DependentUpon>WbAtualizarCelular.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControl\WbAtualizarCelular.ascx.designer.cs">
+      <DependentUpon>WbAtualizarCelular.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControl\WbCanaisSuporte.ascx.cs">
+      <DependentUpon>WbCanaisSuporte.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControl\WbCanaisSuporte.ascx.designer.cs">
+      <DependentUpon>WbCanaisSuporte.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControl\WbFooter.ascx.cs">
+      <DependentUpon>WbFooter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControl\WbFooter.ascx.designer.cs">
+      <DependentUpon>WbFooter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControl\WbLocalizacao.ascx.cs">
+      <DependentUpon>WbLocalizacao.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControl\WbLocalizacao.ascx.designer.cs">
+      <DependentUpon>WbLocalizacao.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControl\MenuLeftAsseponto4.ascx.cs">
+      <DependentUpon>MenuLeftAsseponto4.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControl\MenuLeftAsseponto4.ascx.designer.cs">
+      <DependentUpon>MenuLeftAsseponto4.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControl\MenuLeftAtendimento.ascx.cs">
+      <DependentUpon>MenuLeftAtendimento.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControl\MenuLeftAtendimento.ascx.designer.cs">
+      <DependentUpon>MenuLeftAtendimento.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControl\MenuTopManulAsseponto.ascx.cs">
+      <DependentUpon>MenuTopManulAsseponto.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControl\MenuTopManulAsseponto.ascx.designer.cs">
+      <DependentUpon>MenuTopManulAsseponto.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControl\PageTitle.ascx.cs">
+      <DependentUpon>PageTitle.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControl\PageTitle.ascx.designer.cs">
+      <DependentUpon>PageTitle.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControl\WbHeader.ascx.cs">
+      <DependentUpon>WbHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControl\WbHeader.ascx.designer.cs">
+      <DependentUpon>WbHeader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="i.aspx.cs">
+      <DependentUpon>i.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="i.aspx.designer.cs">
+      <DependentUpon>i.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPages\Assecont.Master" />
+    <Content Include="MasterPages\Tecnology.Master" />
+    <Content Include="MasterPages\Accounting.Master" />
+    <Content Include="Arquivos\codigo-de-defesa.pdf" />
+    <Content Include="MasterPages\Holerite.Master" />
+    <Content Include="MasterPages\HoleriteCliente.Master" />
+    <Content Include="Arquivos\portaria.pdf" />
+    <Content Include="Arquivos\PassoNovoLogin.pdf" />
+    <Content Include="Arquivos\PoliticaDeQualidade.pdf" />
+    <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\AssecontNova.pubxml" />
+    <Content Include="Tecnologia\ManualArquivos\01Manual SQL.pdf" />
+    <Content Include="Tecnologia\ManualArquivos\02Compartilhando SQL.pdf" />
+    <Content Include="Tecnologia\ManualArquivos\03Criando Banco.pdf" />
+    <Content Include="Tecnologia\ManualArquivos\04Scriptsiniciais.pdf" />
+    <Content Include="Tecnologia\ManualArquivos\05Importação planilha.pdf" />
+    <Content Include="Tecnologia\ManualArquivos\06Incluindo REP no Asseponto4.pdf" />
+    <Content Include="Tecnologia\Asseponto\Planilha relação dos funcionarios e config AssePonto4.xls" />
+    <Content Include="Tecnologia\Asseponto\ManualRep\Manual_REP_DIMEP.pdf" />
+    <Content Include="Tecnologia\Asseponto\ManualRep\Manual_REP_GERTEC.pdf" />
+    <Content Include="Tecnologia\Asseponto\ManualRep\Manual_REP_HENRY.pdf" />
+    <Content Include="Tecnologia\Asseponto\ManualRep\Manual_REP_IDDATA.pdf" />
+    <Content Include="Tecnologia\Asseponto\ManualRep\Manual_REP_TRILOBIT.pdf" />
+    <Content Include="Tecnologia\ArqAssecontWeb\NotaFiscal.pdf" />
+    <Content Include="Tecnologia\Asseponto\Manual\MarcacaoIgnorada.pdf" />
+    <Content Include="Tecnologia\Asseponto\Manual\ManualAssePontoII.pdf" />
+    <Content Include="Pesquisas\PesquisasModel.Master" />
+    <Content Include="Tecnologia\Asseponto\ManualRep\Manual_REP_CONTROL_ID.pdf" />
+    <Content Include="Tecnologia\Asseponto\ManualRep\MANUAL_REP_ECO_500_ZPM.pdf" />
+    <None Include="Properties\PublishProfiles\IIS Local.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Web.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Imagens\Uploads\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

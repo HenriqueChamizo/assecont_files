@@ -1,0 +1,19 @@
+--LARGURA#200,100,100#
+--TITULO#Horas Trabalhadas Por Empresa no Periodo
+DECLARE @DATAINICIAL SMALLDATETIME = %DATAINICIAL%,
+        @DATAFINAL SMALLDATETIME = %DATAFINAL%,
+        @DEPSELECIONADOIND INT = %DEPSELECIONADOIND%
+
+
+SELECT EMP_NOME AS NOME,
+ISNULL(dbo.fn_hourlongnullzero(dbo.fn_minutetohourlong(SUM(dbo.fn_smalldatetimetominute(CAL_TRAB)))), '') AS TRAB,
+ISNULL(dbo.fn_hourlongnullzero(dbo.fn_minutetohourlong(SUM(dbo.fn_hourlongtominute(BCO_VALOR)))), '') AS TOTAL
+FROM Funcionarios 
+LEFT JOIN Calculo ON FUNC_IND = CAL_FUNC 
+INNER JOIN Empresas ON FUNC_EMPRESA = EMP_IND 
+LEFT JOIN BcoHoras ON FUNC_IND = BCO_FUNC 
+WHERE CAL_DATA >= @DATAINICIAL AND CAL_DATA <= @DATAFINAL AND 
+      BCO_DATA >= @DATAINICIAL AND BCO_DATA <= @DATAFINAL AND 
+      FUNC_DT_DEM IS NULL AND 
+      dbo.fn_departamentopertencente(FUNC_EMPRESA, @DEPSELECIONADOIND) = 1 
+GROUP BY EMP_NOME

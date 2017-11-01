@@ -1,0 +1,634 @@
+.RadGrid_flv
+{
+    border: 1px solid #fff;
+    _background: #fff;
+    color: #000;
+}
+
+    .RadGrid_flv, .RadGrid_flv .rgMasterTable, .RadGrid_flv .rgDetailTable, .RadGrid_flv .rgGroupPanel table, .RadGrid_flv .rgCommandRow table, .RadGrid_flv .rgEditForm table, .RadGrid_flv .rgPager table, .GridToolTip_flv
+    {
+        font: 10pt, "segoe ui",arial,sans-serif;
+    }
+
+        .RadGrid_flv .rgHeader:first-child, .RadGrid_flv th.rgResizeCol:first-child, .RadGrid_flv .rgFilterRow > td:first-child, .RadGrid_flv .rgRow > td:first-child, .RadGrid_flv .rgAltRow > td:first-child
+        {
+            border-left-width: 0;
+            padding-left: 8px;
+        }
+
+        .RadGrid_flv .rgAdd, .RadGrid_flv .rgRefresh, .RadGrid_flv .rgEdit, .RadGrid_flv .rgDel, .RadGrid_flv .rgFilter, .RadGrid_flv .rgPagePrev, .RadGrid_flv .rgPageNext, .RadGrid_flv .rgPageFirst, .RadGrid_flv .rgPageLast,.RadGrid_flv .rgSortAsc, .RadGrid_flv .rgSortDesc, .RadGrid_flv .rgUpdate, .RadGrid_flv .rgCancel, .RadGrid_flv .rgUngroup, .RadGrid_flv .rgExpXLS, .RadGrid_flv .rgExpDOC, .RadGrid_flv .rgExpPDF, .RadGrid_flv .rgExpCSV
+        {
+            background-image: url('Grid/sprite.gif');
+            _background: url('http://www.assecont.com.br/Assepontocontrole/skins/ComboBox/rcbSprite.png') no-repeat -45px 50%, rgba(184, 203, 222, 0) !important;
+        }
+
+        .RadGrid_flv .rgHeader, .RadGrid_flv th.rgResizeCol
+        {
+            border: 0;
+            _border-bottom: 1px solid #fff;
+            _border-left: 1px solid #fff;
+        }
+
+        .RadGrid_flv th.rgSorted
+        {
+            background-color: #e5e5e5;
+        }
+
+        .RadGrid_flv .rgHeader
+        {
+            border: 1px solid white;
+            font-size: 12pt;
+            background-color: #1A4C83;
+            text-align: center !important;
+        }
+
+            .RadGrid_flv .rgHeader, .RadGrid_flv .rgHeader a
+            {
+                _color: #767676;
+                color: white;
+                cursor: pointer;
+            }
+
+        .RadGrid_flv th.rgSorted, .RadGrid_flv th.rgSorted a
+        {
+            color: #000;
+        }
+
+        .RadGrid_flv .rgRow td, .RadGrid_flv .rgAltRow td, .RadGrid_flv .rgEditRow td, .RadGrid_flv .rgFooter td
+        {
+            border-style: solid;
+            border-width: 0 0 1px 0px;
+        }
+
+        .RadGrid_flv .rgRow td
+        {
+            border-color: #CBCBCB;
+            _border-color: transparent;
+        }
+
+        .RadGrid_flv .rgAltRow
+        {
+            background: #ededed;
+        }
+
+            .RadGrid_flv .rgAltRow td
+            {
+                border-color: #CBCBCB;
+            }
+
+        .RadGrid_flv .rgSelectedRow .rgSorted, .RadGrid_flv .rgActiveRow .rgSorted, .RadGrid_flv .rgHoveredRow .rgSorted, .RadGrid_flv .rgEditRow .rgSorted
+        {
+            background-color: transparent;
+        }
+
+        .RadGrid_flv .rgRow a, .RadGrid_flv .rgAltRow a, .RadGrid_flv tr.rgEditRow a, .RadGrid_flv .rgFooter a, .RadGrid_flv .rgEditForm a
+        {
+            _color: #000;
+        }
+
+        .RadGrid_flv .rgHoveredRow
+        {
+            background: #e5e5e5;
+        }
+
+        .RadGrid_flv .rgMasterTable .rgSelectedCell, .RadGrid_flv .rgSelectedRow
+        {
+            color: #fff;
+            background: #25a0da;
+        }
+
+            .RadGrid_flv .rgSelectedCell a, .RadGrid_flv .rgSelectedRow input, .RadGrid_flv .rgSelectedRow a
+            {
+                color: #fff;
+            }
+
+        .RadGrid_flv .rgMasterTable .rgActiveCell, .RadGrid_flv .rgActiveRow
+        {
+            background: #fff 0 -5200px repeat-x url('http://www.assecont.com.br/Assepontocontrole/skins/Grid/sprite.gif');
+            color: #000;
+        }
+
+        .RadGrid_flv .rgMasterTable .rgActiveCell
+        {
+            border-color: #25a0da;
+            border-right-width: 1px;
+        }
+
+        .RadGrid_flv .rgActiveCell a, .RadGrid_flv .rgActiveRow input, .RadGrid_flv .rgActiveRow a
+        {
+            color: #000;
+        }
+
+        * + html .RadGrid_flv .rgSelectedRow .rgSorted
+        {
+            background-color: #ffa517;
+        }
+
+        * html .RadGrid_flv .rgSelectedRow .rgSorted
+        {
+            background-color: #ffa517;
+        }
+
+        * + html .RadGrid_flv .rgActiveRow .rgSorted, * + html .RadGrid_flv .rgHoveredRow .rgSorted
+        {
+            background-color: #ffe79c;
+        }
+
+        * html .RadGrid_flv .rgActiveRow .rgSorted, * html .RadGrid_flv .rgHoveredRow .rgSorted
+        {
+            background-color: #ffe79c;
+        }
+
+        .RadGrid_flv .rgEditRow
+        {
+            background: #fff 0 -4900px repeat-x url('http://www.assecont.com.br/Assepontocontrole/skins/Grid/sprite.gif');
+        }
+
+            * + html .RadGrid_flv .rgEditRow .rgSorted
+            {
+                background-color: #fff;
+            }
+
+            * html .RadGrid_flv .rgEditRow .rgSorted
+            {
+                background-color: #fff;
+            }
+
+        .RadGrid_flv .rgHoveredRow td, .RadGrid_flv .rgHoveredRow td.rgSorted
+        {
+            border-color: #c3c3c3;
+        }
+
+        .RadGrid_flv .rgActiveRow td, .RadGrid_flv .rgActiveRow td.rgSorted, .RadGrid_flv .rgSelectedRow td, .RadGrid_flv .rgSelectedRow td.rgSorted
+        {
+            border-color: #25a0da;
+        }
+
+        .RadGrid_flv .rgEditRow td, .RadGrid_flv .rgEditRow td.rgSorted
+        {
+            border-color: #616161 #c3c3c3;
+        }
+
+        .RadGrid_flv .rgDrag
+        {
+            background-image: url('http://www.assecont.com.br/Assepontocontrole/skins/Grid/rgDrag.gif');
+        }
+
+        .RadGrid_flv .rgFooterDiv, .RadGrid_flv .rgFooter
+        {
+            background: #e4e4e4;
+        }
+
+            .RadGrid_flv .rgFooter td
+            {
+                border-top: 1px solid;
+                border-color: #999 #e4e4e4;
+            }
+
+        .RadGrid_flv .rgPager .rgStatus
+        {
+            border: 1px solid;
+            border-color: #e5e5e5;
+            border-left-width: 0;
+        }
+
+        .RadGrid_flv .rgStatus div
+        {
+            background-image: url('http://www.assecont.com.br/Assepontocontrole/skins/Common/loading_small.gif');
+        }
+
+        .RadGrid_flv td.rgPagerCell
+        {
+            _border: 1px solid;
+            _border-color: #e5e5e5;
+            _border-right-width: 0;
+            border-top: 1px solid #1A4C83 !important;
+        }
+
+        .RadGrid_flv .rgInfoPart
+        {
+            _color: #777;
+            font-size: 14pt;
+            color: rgb(26, 76, 131);
+        }
+
+            .RadGrid_flv .rgInfoPart strong
+            {
+                color: #000;
+            }
+
+        .RadGrid_flv .rgPageFirst
+        {
+            background-position: 0 -550px;
+        }
+
+            .RadGrid_flv .rgPageFirst:hover
+            {
+                background-position: 0 -600px;
+            }
+
+        .RadGrid_flv .rgPagePrev
+        {
+            background-position: 0 -700px;
+        }
+
+            .RadGrid_flv .rgPagePrev:hover
+            {
+                background-position: 0 -750px;
+            }
+
+        .RadGrid_flv .rgPageNext
+        {
+            background-position: 0 -850px;
+        }
+
+            .RadGrid_flv .rgPageNext:hover
+            {
+                background-position: 0 -900px;
+            }
+
+        .RadGrid_flv .rgPageLast
+        {
+            background-position: 0 -1000px;
+        }
+
+            .RadGrid_flv .rgPageLast:hover
+            {
+                background-position: 0 -1050px;
+            }
+
+        .RadGrid_flv .rgPager .rgPagerButton
+        {
+            border-color: #25a0da;
+            background: #25a0da;
+            color: #fff;
+            font: 12px/12px "segoe ui",arial,sans-serif;
+        }
+
+        .RadGrid_flv .rgNumPart a
+        {
+            border: 1px solid #fff;
+            line-height: 20px;
+            padding: 6px 8px 6px 4px !important;
+            color: #1A4C83;
+            font-size: 14pt;
+        }
+
+            /*.RadGrid_flv .rgNumPart a:hover
+            {
+                color: #fff;
+                background-color: #1A4C83;
+            }*/
+
+            .RadGrid_flv .rgNumPart a.rgCurrentPage, .RadGrid_flv .rgNumPart a.rgCurrentPage:hover, .RadGrid_flv .rgNumPart a:hover
+            {
+                _border-color: #1A4C83;
+                background: #1A4C83;
+                font-size: 14pt;
+                color: white;
+                _padding: 6px 8px 6px 4px;
+            }
+
+        .RadGrid_flv .rgHeader .rgSortAsc
+        {
+            background-position: 3px -248px;
+            height: 10px;
+        }
+
+        .RadGrid_flv .rgHeader .rgSortDesc
+        {
+            background-position: 3px -198px;
+            height: 10px;
+        }
+
+.GridReorderTop_flv, .GridReorderBottom_flv
+{
+    background: 0 0 no-repeat url('http://www.assecont.com.br/Assepontocontrole/skins/Grid/sprite.gif');
+}
+
+.GridReorderBottom_flv
+{
+    background-position: 0 -50px;
+}
+
+.RadGrid_flv .rgFilterRow td
+{
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.RadGrid_flv .rgFilter
+{
+    background-position: 0 -300px;
+}
+
+    .RadGrid_flv .rgFilter:hover
+    {
+        background-position: 0 -350px;
+    }
+
+.RadGrid_flv .rgFilterActive, .RadGrid_flv .rgFilterActive:hover
+{
+    background-position: 0 -400px;
+}
+
+.RadGrid_flv .rgFilterBox
+{
+    border-color: #e5e5e5;
+    font: 12px "segoe ui",arial,sans-serif;
+    color: #000;
+    height: 15px;
+}
+
+.RadMenu_flv .rgHCMClear, .RadMenu_flv .rgHCMFilter
+{
+    border-color: #7e7e7e;
+    background: #25a0da;
+    color: #000;
+    font-family: "segoe ui",arial,sans-serif;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
+    .RadMenu_flv .rgHCMClear:hover, .RadMenu_flv .rgHCMFilter:hover
+    {
+        border-color: #c98400;
+        background-color: #ffe79c;
+        color: #882501;
+    }
+
+.GridContextMenu_flv .rmLeftImage
+{
+    background-image: url('http://www.assecont.com.br/Assepontocontrole/skins/Common/Grid/contextMenu.gif');
+}
+
+.GridContextMenu_flv .rgHCMSortAsc .rmLeftImage
+{
+    background-position: 0 0;
+}
+
+.GridContextMenu_flv .rgHCMSortDesc .rmLeftImage
+{
+    background-position: 0 -40px;
+}
+
+.GridContextMenu_flv .rgHCMUnsort .rmLeftImage
+{
+    background-position: 0 -80px;
+}
+
+.GridContextMenu_flv .rgHCMGroup .rmLeftImage
+{
+    background-position: 0 -120px;
+}
+
+.GridContextMenu_flv .rgHCMUngroup .rmLeftImage
+{
+    background-position: 0 -160px;
+}
+
+.GridContextMenu_flv .rgHCMCols .rmLeftImage
+{
+    background-position: 0 -200px;
+}
+
+.GridContextMenu_flv .rgHCMFilter .rmLeftImage
+{
+    background-position: 0 -240px;
+}
+
+.GridContextMenu_flv .rgHCMUnfilter .rmLeftImage
+{
+    background-position: 0 -280px;
+}
+
+.RadGrid_flv .rgGroupPanel
+{
+    border: 0;
+    border-bottom: 1px solid #7c7c7c;
+    background: #25a0da;
+    color: #fff;
+}
+
+    .RadGrid_flv .rgGroupPanel td
+    {
+        border: 0;
+        padding: 3px 4px;
+    }
+
+        .RadGrid_flv .rgGroupPanel td td
+        {
+            padding: 0;
+        }
+
+    .RadGrid_flv .rgGroupPanel .rgSortAsc
+    {
+        background-position: 4px -144px;
+    }
+
+    .RadGrid_flv .rgGroupPanel .rgSortDesc
+    {
+        background-position: 4px -94px;
+    }
+
+.RadGrid_flv .rgUngroup
+{
+    background-position: 0 -6999px;
+}
+
+.RadGrid_flv .rgGroupItem
+{
+    border: 1px solid #7e7e7e;
+    background: #fff;
+    color: #000;
+}
+
+
+.RadGrid .rgGroupHeader td
+{
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    background: rgb(237, 50, 56);
+    color: white;
+    /* font-size: 12pt; */
+    text-transform: uppercase;
+}
+
+.RadGrid_flv .rgGroupHeader
+{
+    background: #c9c9c9;
+    font-size: 1.1em;
+    line-height: 22px;
+    color: #000;
+}
+
+    .RadGrid_flv .rgGroupHeader td
+    {
+        padding-left: 6px;
+        padding-bottom: 2px;
+    }
+
+.RadGrid_flv .rgEditForm
+{
+    border-bottom: 1px solid #999;
+}
+
+.RadGrid_flv .rgUpdate
+{
+    background-position: 0 -1800px;
+}
+
+.RadGrid_flv .rgCancel
+{
+    background-position: 0 -1850px;
+}
+
+.RadGrid_flv .rgDetailTable
+{
+    border-color: #999;
+}
+
+.RadGrid_flv .rgCommandRow, .RadGrid_flv .rgCommandRow a
+{
+    color: #767676;
+    text-decoration: none;
+}
+
+.RadGrid_flv .rgCommandCell
+{
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0;
+}
+
+.RadGrid_flv tfoot .rgCommandCell, .RadGrid_flv .rgMasterTable > tbody > tr.rgCommandRow .rgCommandCell
+{
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 0;
+}
+
+.RadGrid_flv .rgCommandTable td
+{
+    border: 0;
+    padding: 2px 7px;
+}
+
+.RadGrid_flv .rgCommandTable
+{
+    border: 0;
+}
+
+.RadGrid_flv input.rgAdd
+{
+    margin-right: 3px;
+    background-position: 0 -1650px;
+}
+
+.RadGrid_flv input.rgRefresh
+{
+    margin-right: 3px;
+    background-position: 0 -1600px;
+}
+
+.RadGrid_flv .rgEdit
+{
+    margin-right: 3px;
+    background-position: 0 -1700px;
+}
+
+.RadGrid_flv .rgDel
+{
+    margin-right: 3px;
+    background-position: 0 -1750px;
+}
+
+.RadGrid_flv .rgExpXLS, .RadGrid_flv .rgExpDOC, .RadGrid_flv .rgExpPDF, .RadGrid_flv .rgExpCSV
+{
+    background-image: url('http://www.assecont.com.br/Assepontocontrole/skins/Common/Grid/export.gif');
+}
+
+.RadGrid_flv .rgExpXLS
+{
+    background-position: 0 0;
+}
+
+.RadGrid_flv .rgExpDOC
+{
+    background-position: 0 -50px;
+}
+
+.RadGrid_flv .rgExpPDF
+{
+    background-position: 0 -100px;
+}
+
+.RadGrid_flv .rgExpCSV
+{
+    background-position: 0 -150px;
+}
+
+.rgCellSelectorArea_flv, .GridRowSelector_flv
+{
+    background: #4c4e54;
+}
+
+.GridItemDropIndicator_flv
+{
+    border-top: 1px dashed #666;
+}
+
+.GridToolTip_flv
+{
+    border: 1px solid #c98400;
+    padding: 3px;
+    background: #ffefbd;
+    color: #333;
+}
+
+.RadGridRTL_flv .rgHeader:first-child, .RadGridRTL_flv th.rgResizeCol:first-child, .RadGridRTL_flv .rgFilterRow > td:first-child, .RadGridRTL_flv .rgRow > td:first-child, .RadGridRTL_flv .rgAltRow > td:first-child
+{
+    border-left-width: 1px;
+    _padding-left: 7px;
+}
+
+.RadGridRTL_flv .rgPageFirst
+{
+    background-position: 0 -1000px;
+}
+
+    .RadGridRTL_flv .rgPageFirst:hover
+    {
+        background-position: 0 -1050px;
+    }
+
+.RadGridRTL_flv .rgPagePrev
+{
+    background-position: 0 -850px;
+}
+
+    .RadGridRTL_flv .rgPagePrev:hover
+    {
+        background-position: 0 -900px;
+    }
+
+.RadGridRTL_flv .rgPageNext
+{
+    background-position: 0 -700px;
+}
+
+    .RadGridRTL_flv .rgPageNext:hover
+    {
+        background-position: 0 -750px;
+    }
+
+.RadGridRTL_flv .rgPageLast
+{
+    background-position: 0 -550px;
+}
+
+    .RadGridRTL_flv .rgPageLast:hover
+    {
+        background-position: 0 -600px;
+    }
+

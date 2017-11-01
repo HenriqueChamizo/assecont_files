@@ -1,0 +1,56 @@
+D:\Projetos\SemTeamFundation\AssepontoControle\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\Projetos\SemTeamFundation\AssepontoControle\BLL\bin\Debug\BLL.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\BLL\bin\Debug\BLL.pdb
+D:\Projetos\SemTeamFundation\AssepontoControle\BLL\bin\Debug\DAO.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\BLL\bin\Debug\Model.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\BLL\bin\Debug\Model.pdb
+D:\Projetos\SemTeamFundation\AssepontoControle\BLL\bin\Debug\DAO.pdb
+D:\Projetos\SemTeamFundation\AssepontoControle\BLL\obj\Debug\BLL.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\BLL\obj\Debug\BLL.pdb
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\BLL\bin\Debug\BLL.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\BLL\bin\Debug\BLL.pdb
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\BLL\bin\Debug\DAO.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\BLL\bin\Debug\Model.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\BLL\bin\Debug\Model.pdb
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\BLL\bin\Debug\DAO.pdb
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\BLL\obj\Debug\BLL.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\BLL\obj\Debug\BLL.pdb
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\BLL.dll
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\BLL.pdb
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\DAO.dll
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\Model.dll
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\Model.pdb
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\DAO.pdb
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\BLL\obj\Debug\BLL.dll
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\BLL\obj\Debug\BLL.pdb
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\BLL\bin\Debug\BLL.dll
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\BLL\bin\Debug\BLL.pdb
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\BLL\bin\Debug\DAO.dll
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\BLL\bin\Debug\Model.dll
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\BLL\bin\Debug\Model.pdb
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\BLL\bin\Debug\DAO.pdb
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\BLL\obj\Debug\BLL.dll
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\BLL\obj\Debug\BLL.pdb
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\BLL.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\BLL.pdb
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\DAO.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\Model.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\Model.pdb
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\DAO.pdb
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\BLL\obj\Debug\BLL.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\BLL\obj\Debug\BLL.pdb
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\BLL.dll
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\BLL.pdb
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\DAO.dll
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\DAO.pdb
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\BLL\obj\Debug\BLL.dll
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\BLL\obj\Debug\BLL.pdb
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\Modelo.dll
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\Modelo.pdb

@@ -1,0 +1,23 @@
+c:\users\administrador\documents\visual studio 2012\Projects\AssecontWeb.Modelos\AssecontWeb.Modelos\obj\Debug\AssecontWeb.Modelos.csprojResolveAssemblyReference.cache
+c:\users\administrador\documents\visual studio 2012\Projects\AssecontWeb.Modelos\AssecontWeb.Modelos\obj\Debug\AssecontWeb.Modelos.Properties.Resources.resources
+c:\users\administrador\documents\visual studio 2012\Projects\AssecontWeb.Modelos\AssecontWeb.Modelos\obj\Debug\AssecontWeb.Modelos.csproj.GenerateResource.Cache
+c:\users\administrador\documents\visual studio 2012\Projects\AssecontWeb.Modelos\AssecontWeb.Modelos\bin\Debug\AssecontWeb.Modelos.dll
+c:\users\administrador\documents\visual studio 2012\Projects\AssecontWeb.Modelos\AssecontWeb.Modelos\bin\Debug\AssecontWeb.Modelos.pdb
+c:\users\administrador\documents\visual studio 2012\Projects\AssecontWeb.Modelos\AssecontWeb.Modelos\bin\Debug\Wr.dll
+c:\users\administrador\documents\visual studio 2012\Projects\AssecontWeb.Modelos\AssecontWeb.Modelos\bin\Debug\HumanAPIClient.dll
+c:\users\administrador\documents\visual studio 2012\Projects\AssecontWeb.Modelos\AssecontWeb.Modelos\bin\Debug\Wr.pdb
+c:\users\administrador\documents\visual studio 2012\Projects\AssecontWeb.Modelos\AssecontWeb.Modelos\bin\Debug\HumanAPIClient.pdb
+c:\users\administrador\documents\visual studio 2012\Projects\AssecontWeb.Modelos\AssecontWeb.Modelos\bin\Debug\HumanAPIClient.xml
+c:\users\administrador\documents\visual studio 2012\Projects\AssecontWeb.Modelos\AssecontWeb.Modelos\obj\Debug\AssecontWeb.Modelos.dll
+c:\users\administrador\documents\visual studio 2012\Projects\AssecontWeb.Modelos\AssecontWeb.Modelos\obj\Debug\AssecontWeb.Modelos.pdb
+C:\AssecontWeb.Modelos\AssecontWeb.Modelos\obj\Debug\AssecontWeb.Modelos.Properties.Resources.resources
+C:\AssecontWeb.Modelos\AssecontWeb.Modelos\obj\Debug\AssecontWeb.Modelos.csproj.GenerateResource.Cache
+C:\AssecontWeb.Modelos\AssecontWeb.Modelos\obj\Debug\AssecontWeb.Modelos.dll
+C:\AssecontWeb.Modelos\AssecontWeb.Modelos\bin\Debug\AssecontWeb.Modelos.dll
+C:\AssecontWeb.Modelos\AssecontWeb.Modelos\bin\Debug\AssecontWeb.Modelos.pdb
+C:\AssecontWeb.Modelos\AssecontWeb.Modelos\bin\Debug\HumanAPIClient.dll
+C:\AssecontWeb.Modelos\AssecontWeb.Modelos\bin\Debug\Wr.Classes.dll
+C:\AssecontWeb.Modelos\AssecontWeb.Modelos\bin\Debug\HumanAPIClient.pdb
+C:\AssecontWeb.Modelos\AssecontWeb.Modelos\bin\Debug\HumanAPIClient.xml
+C:\AssecontWeb.Modelos\AssecontWeb.Modelos\obj\Debug\AssecontWeb.Modelos.pdb
+C:\AssecontWeb.Modelos\AssecontWeb.Modelos\obj\Debug\AssecontWeb.Modelos.csprojResolveAssemblyReference.cache

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AB734F4B-1047-4C7A-B82D-93E43EC9712E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Assecontweb.Classes.Views</RootNamespace>
+    <AssemblyName>Assecontweb.Classes.Views</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Nonshipping>true</Nonshipping>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assecontweb.Classes">
+      <HintPath>Dlls\Assecontweb.Classes.dll</HintPath>
+    </Reference>
+    <Reference Include="Assecontweb.Classes.Modelos">
+      <HintPath>Dlls\Assecontweb.Classes.Modelos.dll</HintPath>
+    </Reference>
+    <Reference Include="Assecontweb.Types, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\Assecontweb.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.XML" />
+    <Reference Include="Telerik.Web.UI">
+      <HintPath>Dlls\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Wr.Classes, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Wr.Classes\bin\Debug\Wr.Classes.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BDAppLocal.cs" />
+    <Compile Include="CodigoBarras.cs" />
+    <Compile Include="ServerControlePesquisaInterna.cs" />
+    <Compile Include="ServerPesquisaSocios2.cs" />
+    <Compile Include="Modulos.cs" />
+    <Compile Include="ServerPesquisaFuncionario.cs" />
+    <Compile Include="ServerControlePesquisa.cs" />
+    <Compile Include="css.cs" />
+    <Compile Include="Email\EmailPesquisaFromAtendimento.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ServerDarf.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServerDarfsPagos.cs" />
+    <Compile Include="ServerGps.cs" />
+    <Compile Include="ServerHolerite.cs" />
+    <Compile Include="ServerInformeRedimento.cs" />
+    <Compile Include="ServerPdf.cs" />
+    <Compile Include="ServerPesquisa.cs" />
+    <Compile Include="ServerPesquisaSocios.cs" />
+    <Compile Include="ServerPesquisaDepartamento.cs" />
+    <Compile Include="ServerSpedFiscal.cs" />
+    <Compile Include="ServerViewerClass.cs" />
+    <Compile Include="Type.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marcaPrevidenciaSocial_GPS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoDarf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Balao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Email\EmailPesquisaFromAtendimento.htm" />
+    <None Include="Resources\write16x16.png" />
+    <None Include="Resources\write24x24.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

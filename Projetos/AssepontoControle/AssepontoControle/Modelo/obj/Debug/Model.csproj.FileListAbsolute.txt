@@ -1,0 +1,7 @@
+D:\Projetos\SemTeamFundation\Model\bin\Debug\Model.dll
+D:\Projetos\SemTeamFundation\Model\bin\Debug\Model.pdb
+D:\Projetos\SemTeamFundation\Model\bin\Debug\Wr.Classes.dll
+D:\Projetos\SemTeamFundation\Model\bin\Debug\Excel.dll
+D:\Projetos\SemTeamFundation\Model\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Projetos\SemTeamFundation\Model\obj\Debug\Model.dll
+D:\Projetos\SemTeamFundation\Model\obj\Debug\Model.pdb

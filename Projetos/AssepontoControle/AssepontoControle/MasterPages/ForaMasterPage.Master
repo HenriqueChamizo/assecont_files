@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ForaMasterPage.master.cs" Inherits="Asseponto.MasterPages.ForaMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head id="Head1" runat="server">
+    <meta charset="utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="contentplaceHead" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="shortcut icon" href="../Images/Logos/icon.png" />
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+
+    <link href="~/Styles/FormView.css" rel="stylesheet" type="text/css" />
+    <link href="~/Skins/Menu.Wr.css" rel="stylesheet" type="text/css" />
+
+    <link href="~/Skins/Grid.Wr.css" rel="stylesheet" type="text/css" />
+    <link href="~/Skins/Calendar.Wr.css" rel="stylesheet" type="text/css" />
+
+    <link href="../Skins/ComboBox.flv.css" rel="stylesheet" />
+    <link href="../Skins/Grid.flv.css" rel="stylesheet" type="text/css" />
+    <link href="../Skins/DataPager.Wr.css" rel="stylesheet" type="text/css" />
+    <link href="../Skins/Menu_Blue.css" rel="stylesheet" type="text/css" />
+
+
+    <script type="text/javascript" src="../../JQuery/Jquery1.6.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <header id="HeaderMain" runat="server">
+            <section id="SectionHeader" runat="server">
+                <table style="width: 100%; min-height: 40px;">
+                    <tr>
+                        <td>
+                            <a id="HomePortal" runat="server" target="_blank" href="http://www.assecont.com.br/">
+                                <asp:Image ID="Logotipo" runat="server" ImageUrl="~/Images/Logos/Logo.png" Width="220" />
+                            </a>
+                        </td>
+                        <td style="text-align: right; width: 250px;">
+                            <%--<img src="/Images/Logos/logoAsseponto1995.png" width="260" />--%>
+                            <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/Logos/logoAsseponto1995.png" Width="260" />
+                        </td>
+                    </tr>
+                </table>
+            </section>
+
+        </header>
+
+
+        <div id="SectiontWebsite">
+            <div id="sitetitle">
+                <wr:PageTitle ID="PageTitl1" runat="server" ImageFolder="~/images/pagetitles" />
+            </div>
+
+            <div id="siteconteudowrapper" style="padding-top: 20px;">
+                <div id="siteconteudo">
+                    <asp:ContentPlaceHolder ID="contentplaceMenuEsquerdo" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <div id="sitecorpo">
+                        <asp:ContentPlaceHolder ID="contentplaceConteudo" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <flv:WbFooter runat="server" ID="WbFooter" />
+            <aside id="FootNoteAddressPortal">
+                <div id="Address">
+                    Rua Mário, 194 | Vila Romana | São Paulo/SP | CEP 05.048-010 | 11 2173-8888 | Horário 08:00-12:30-13:30-17:30
+                </div>
+            </aside>
+        </footer>
+    </form>
+</body>
+</html>
+

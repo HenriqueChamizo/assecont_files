@@ -1,0 +1,236 @@
+S:\USUARIOS\Renne\Projetos\Projeto Controle Ponto\Asseponto\bin\Wr.dll
+S:\USUARIOS\Renne\Projetos\Projeto Controle Ponto\Asseponto\bin\ExcelLibrary.dll
+S:\USUARIOS\Renne\Projetos\Projeto Controle Ponto\Asseponto\bin\Gaia.Ajax.UI.WebControls.VideoPlayers.dll
+S:\USUARIOS\Renne\Projetos\Projeto Controle Ponto\Asseponto\bin\Gaia.WebWidgets.dll
+S:\USUARIOS\Renne\Projetos\Projeto Controle Ponto\Asseponto\bin\HumanAPIClient.dll
+S:\USUARIOS\Renne\Projetos\Projeto Controle Ponto\Asseponto\bin\Telerik.Web.UI.dll
+S:\USUARIOS\Renne\Projetos\Projeto Controle Ponto\Asseponto\bin\Telerik.Web.UI.Skins.dll
+S:\USUARIOS\Renne\Projetos\Projeto Controle Ponto\Asseponto\bin\Assecontweb.dll
+S:\USUARIOS\Renne\Projetos\Projeto Controle Ponto\Asseponto\bin\Assecontweb.pdb
+S:\USUARIOS\Renne\Projetos\Projeto Controle Ponto\Asseponto\obj\Debug\Assecontweb.dll.licenses
+S:\USUARIOS\Renne\Projetos\Projeto Controle Ponto\Asseponto\obj\Debug\Assecontweb.dll
+S:\USUARIOS\Renne\Projetos\Projeto Controle Ponto\Asseponto\obj\Debug\Assecontweb.pdb
+S:\USUARIOS\Renne\Projetos\Projeto Controle Ponto\Asseponto\obj\Debug\Asseponto.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Projeto Controle Ponto\Asseponto\bin\Wr.pdb
+S:\USUARIOS\Renne\Projetos\AssepontoControle\Asseponto\bin\Assecontweb.dll
+S:\USUARIOS\Renne\Projetos\AssepontoControle\Asseponto\bin\Assecontweb.pdb
+S:\USUARIOS\Renne\Projetos\AssepontoControle\Asseponto\bin\ExcelLibrary.dll
+S:\USUARIOS\Renne\Projetos\AssepontoControle\Asseponto\bin\Gaia.Ajax.UI.WebControls.VideoPlayers.dll
+S:\USUARIOS\Renne\Projetos\AssepontoControle\Asseponto\bin\Gaia.WebWidgets.dll
+S:\USUARIOS\Renne\Projetos\AssepontoControle\Asseponto\bin\HumanAPIClient.dll
+S:\USUARIOS\Renne\Projetos\AssepontoControle\Asseponto\bin\Telerik.Web.UI.dll
+S:\USUARIOS\Renne\Projetos\AssepontoControle\Asseponto\bin\Telerik.Web.UI.Skins.dll
+S:\USUARIOS\Renne\Projetos\AssepontoControle\Asseponto\obj\Debug\Assecontweb.dll.licenses
+S:\USUARIOS\Renne\Projetos\AssepontoControle\Asseponto\obj\Debug\Assecontweb.dll
+S:\USUARIOS\Renne\Projetos\AssepontoControle\Asseponto\obj\Debug\Assecontweb.pdb
+S:\USUARIOS\Renne\Projetos\AssepontoControle\Asseponto\obj\Debug\Asseponto.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\AssepontoControle\bin\Assecontweb.dll
+S:\USUARIOS\Renne\Projetos\AssepontoControle\bin\Assecontweb.pdb
+S:\USUARIOS\Renne\Projetos\AssepontoControle\bin\ExcelLibrary.dll
+S:\USUARIOS\Renne\Projetos\AssepontoControle\bin\Gaia.Ajax.UI.WebControls.VideoPlayers.dll
+S:\USUARIOS\Renne\Projetos\AssepontoControle\bin\Gaia.WebWidgets.dll
+S:\USUARIOS\Renne\Projetos\AssepontoControle\bin\HumanAPIClient.dll
+S:\USUARIOS\Renne\Projetos\AssepontoControle\bin\Newtonsoft.Json.dll
+S:\USUARIOS\Renne\Projetos\AssepontoControle\bin\Telerik.Web.UI.dll
+S:\USUARIOS\Renne\Projetos\AssepontoControle\bin\Telerik.Web.UI.Skins.dll
+S:\USUARIOS\Renne\Projetos\AssepontoControle\bin\Newtonsoft.Json.xml
+S:\USUARIOS\Renne\Projetos\AssepontoControle\obj\Debug\Asseponto.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\AssepontoControle\obj\Debug\Assecontweb.dll.licenses
+S:\USUARIOS\Renne\Projetos\AssepontoControle\obj\Debug\Assecontweb.dll
+S:\USUARIOS\Renne\Projetos\AssepontoControle\obj\Debug\Assecontweb.pdb
+C:\Disco D\Trabalhos\Projetos\AssepontoControle - N sobrescrever\bin\Assecontweb.dll
+C:\Disco D\Trabalhos\Projetos\AssepontoControle - N sobrescrever\bin\Assecontweb.pdb
+C:\Disco D\Trabalhos\Projetos\AssepontoControle - N sobrescrever\bin\ExcelLibrary.dll
+C:\Disco D\Trabalhos\Projetos\AssepontoControle - N sobrescrever\bin\Gaia.Ajax.UI.WebControls.VideoPlayers.dll
+C:\Disco D\Trabalhos\Projetos\AssepontoControle - N sobrescrever\bin\Gaia.WebWidgets.dll
+C:\Disco D\Trabalhos\Projetos\AssepontoControle - N sobrescrever\bin\HumanAPIClient.dll
+C:\Disco D\Trabalhos\Projetos\AssepontoControle - N sobrescrever\bin\Telerik.Web.UI.dll
+C:\Disco D\Trabalhos\Projetos\AssepontoControle - N sobrescrever\bin\Telerik.Web.UI.Skins.dll
+C:\Disco D\Trabalhos\Projetos\AssepontoControle - N sobrescrever\obj\Debug\Asseponto.csprojResolveAssemblyReference.cache
+C:\Disco D\Trabalhos\Projetos\AssepontoControle - N sobrescrever\obj\Debug\Assecontweb.dll.licenses
+C:\Disco D\Trabalhos\Projetos\AssepontoControle - N sobrescrever\obj\Debug\Assecontweb.dll
+C:\Disco D\Trabalhos\Projetos\AssepontoControle - N sobrescrever\obj\Debug\Assecontweb.pdb
+E:\Henrique\Trabalhos\Assecont\AssepontoControle\bin\Assecontweb.dll.config
+E:\Henrique\Trabalhos\Assecont\AssepontoControle\bin\Assecontweb.dll
+E:\Henrique\Trabalhos\Assecont\AssepontoControle\bin\Assecontweb.pdb
+E:\Henrique\Trabalhos\Assecont\AssepontoControle\bin\ExcelLibrary.dll
+E:\Henrique\Trabalhos\Assecont\AssepontoControle\bin\Gaia.Ajax.UI.WebControls.VideoPlayers.dll
+E:\Henrique\Trabalhos\Assecont\AssepontoControle\bin\Gaia.WebWidgets.dll
+E:\Henrique\Trabalhos\Assecont\AssepontoControle\bin\HumanAPIClient.dll
+E:\Henrique\Trabalhos\Assecont\AssepontoControle\bin\Telerik.Web.UI.dll
+E:\Henrique\Trabalhos\Assecont\AssepontoControle\bin\Telerik.Web.UI.Skins.dll
+E:\Henrique\Trabalhos\Assecont\AssepontoControle\bin\Wr.Classes.dll
+E:\Henrique\Trabalhos\Assecont\AssepontoControle\bin\Excel.dll
+E:\Henrique\Trabalhos\Assecont\AssepontoControle\bin\ICSharpCode.SharpZipLib.dll
+E:\Henrique\Trabalhos\Assecont\AssepontoControle\obj\Debug\Asseponto.csproj.ResolveComReference.cache
+E:\Henrique\Trabalhos\Assecont\AssepontoControle\obj\Debug\Assecontweb.dll.licenses
+E:\Henrique\Trabalhos\Assecont\AssepontoControle\obj\Debug\Assecontweb.dll
+E:\Henrique\Trabalhos\Assecont\AssepontoControle\obj\Debug\Assecontweb.pdb
+E:\Henrique\Trabalhos\Assecont\AssepontoControle\obj\Debug\Asseponto.csprojResolveAssemblyReference.cache
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssepontoControle\bin\Assecontweb.dll.config
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssepontoControle\bin\Assecontweb.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssepontoControle\bin\Assecontweb.pdb
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssepontoControle\bin\Chamizo.Web.Control.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssepontoControle\bin\ExcelLibrary.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssepontoControle\bin\Gaia.Ajax.UI.WebControls.VideoPlayers.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssepontoControle\bin\Gaia.WebWidgets.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssepontoControle\bin\HumanAPIClient.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssepontoControle\bin\Telerik.Web.UI.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssepontoControle\bin\Telerik.Web.UI.Skins.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssepontoControle\bin\Wr.Classes.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssepontoControle\bin\Excel.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssepontoControle\bin\ICSharpCode.SharpZipLib.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssepontoControle\obj\Debug\Asseponto.csproj.ResolveComReference.cache
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssepontoControle\obj\Debug\Assecontweb.dll.licenses
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssepontoControle\obj\Debug\Assecontweb.dll
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssepontoControle\obj\Debug\Assecontweb.pdb
+E:\Henrique\Trabalhos\Assecont\Projetos\Projetos\SemTeamFundation\AssepontoControle\obj\Debug\Asseponto.csprojResolveAssemblyReference.cache
+D:\Projetos\SemTeamFundation\AssepontoControle\bin\Assecontweb.dll.config
+D:\Projetos\SemTeamFundation\AssepontoControle\bin\Assecontweb.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\bin\Assecontweb.pdb
+D:\Projetos\SemTeamFundation\AssepontoControle\bin\Chamizo.Web.Control.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\bin\ExcelLibrary.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\bin\Gaia.Ajax.UI.WebControls.VideoPlayers.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\bin\Gaia.WebWidgets.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\bin\HumanAPIClient.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\bin\Telerik.Web.UI.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\bin\Telerik.Web.UI.Skins.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\bin\Wr.Classes.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\bin\Excel.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\bin\ICSharpCode.SharpZipLib.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\obj\Debug\Asseponto.csproj.ResolveComReference.cache
+D:\Projetos\SemTeamFundation\AssepontoControle\obj\Debug\Assecontweb.dll.licenses
+D:\Projetos\SemTeamFundation\AssepontoControle\obj\Debug\Assecontweb.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\obj\Debug\Assecontweb.pdb
+D:\Projetos\SemTeamFundation\AssepontoControle\obj\Debug\Asseponto.csprojResolveAssemblyReference.cache
+D:\Projetos\SemTeamFundation\AssepontoControle\bin\Model.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\bin\Model.pdb
+D:\Projetos\SemTeamFundation\AssepontoControle\bin\BLL.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\bin\DAO.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\bin\BLL.pdb
+D:\Projetos\SemTeamFundation\AssepontoControle\bin\DAO.pdb
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\bin\Assecontweb.dll.config
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\bin\Assecontweb.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\bin\Assecontweb.pdb
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\bin\BLL.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\bin\DAO.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\bin\ExcelLibrary.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\bin\Gaia.Ajax.UI.WebControls.VideoPlayers.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\bin\Gaia.WebWidgets.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\bin\HumanAPIClient.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\bin\Model.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\bin\Telerik.Web.UI.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\bin\Telerik.Web.UI.Skins.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\bin\Excel.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\bin\ICSharpCode.SharpZipLib.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\bin\Model.pdb
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\bin\BLL.pdb
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\bin\DAO.pdb
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\obj\Debug\Asseponto.csprojResolveAssemblyReference.cache
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\obj\Debug\Asseponto.csproj.ResolveComReference.cache
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\obj\Debug\Assecontweb.dll.licenses
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\obj\Debug\Assecontweb.dll
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\obj\Debug\Assecontweb.pdb
+D:\Projetos\SemTeamFundation\AssepontoControle\AssepontoControle\bin\Wr.Classes.dll
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\obj\Debug\Asseponto.csprojResolveAssemblyReference.cache
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\obj\Debug\Asseponto.csproj.ResolveComReference.cache
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\obj\Debug\Assecontweb.dll.licenses
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\obj\Debug\Assecontweb.dll
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\obj\Debug\Assecontweb.pdb
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\bin\Assecontweb.dll.config
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\bin\Assecontweb.dll
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\bin\Assecontweb.pdb
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\bin\BLL.dll
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\bin\DAO.dll
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\bin\ExcelLibrary.dll
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\bin\Gaia.Ajax.UI.WebControls.VideoPlayers.dll
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\bin\Gaia.WebWidgets.dll
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\bin\HumanAPIClient.dll
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\bin\Model.dll
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\bin\Telerik.Web.UI.dll
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\bin\Telerik.Web.UI.Skins.dll
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\bin\Model.pdb
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\bin\BLL.pdb
+D:\BitBucket\Assecont\Projetos\AssepontoControle\AssepontoControle\bin\DAO.pdb
+\\srvassecont\HD_Server\USUARIOS\Renne\Projetos\AssepontoControle\AssepontoControle\bin\Assecontweb.dll.config
+\\srvassecont\HD_Server\USUARIOS\Renne\Projetos\AssepontoControle\AssepontoControle\bin\Assecontweb.dll
+\\srvassecont\HD_Server\USUARIOS\Renne\Projetos\AssepontoControle\AssepontoControle\bin\Assecontweb.pdb
+\\srvassecont\HD_Server\USUARIOS\Renne\Projetos\AssepontoControle\AssepontoControle\bin\BLL.dll
+\\srvassecont\HD_Server\USUARIOS\Renne\Projetos\AssepontoControle\AssepontoControle\bin\DAO.dll
+\\srvassecont\HD_Server\USUARIOS\Renne\Projetos\AssepontoControle\AssepontoControle\bin\ExcelLibrary.dll
+\\srvassecont\HD_Server\USUARIOS\Renne\Projetos\AssepontoControle\AssepontoControle\bin\Gaia.Ajax.UI.WebControls.VideoPlayers.dll
+\\srvassecont\HD_Server\USUARIOS\Renne\Projetos\AssepontoControle\AssepontoControle\bin\Gaia.WebWidgets.dll
+\\srvassecont\HD_Server\USUARIOS\Renne\Projetos\AssepontoControle\AssepontoControle\bin\HumanAPIClient.dll
+\\srvassecont\HD_Server\USUARIOS\Renne\Projetos\AssepontoControle\AssepontoControle\bin\Model.dll
+\\srvassecont\HD_Server\USUARIOS\Renne\Projetos\AssepontoControle\AssepontoControle\bin\Telerik.Web.UI.dll
+\\srvassecont\HD_Server\USUARIOS\Renne\Projetos\AssepontoControle\AssepontoControle\bin\Telerik.Web.UI.Skins.dll
+\\srvassecont\HD_Server\USUARIOS\Renne\Projetos\AssepontoControle\AssepontoControle\bin\Model.pdb
+\\srvassecont\HD_Server\USUARIOS\Renne\Projetos\AssepontoControle\AssepontoControle\bin\BLL.pdb
+\\srvassecont\HD_Server\USUARIOS\Renne\Projetos\AssepontoControle\AssepontoControle\bin\DAO.pdb
+\\srvassecont\HD_Server\USUARIOS\Renne\Projetos\AssepontoControle\AssepontoControle\obj\Debug\Asseponto.csprojResolveAssemblyReference.cache
+\\srvassecont\HD_Server\USUARIOS\Renne\Projetos\AssepontoControle\AssepontoControle\obj\Debug\Asseponto.csproj.ResolveComReference.cache
+\\srvassecont\HD_Server\USUARIOS\Renne\Projetos\AssepontoControle\AssepontoControle\obj\Debug\Assecontweb.dll.licenses
+\\srvassecont\HD_Server\USUARIOS\Renne\Projetos\AssepontoControle\AssepontoControle\obj\Debug\Assecontweb.dll
+\\srvassecont\HD_Server\USUARIOS\Renne\Projetos\AssepontoControle\AssepontoControle\obj\Debug\Assecontweb.pdb
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\bin\Assecontweb.dll.config
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\bin\Assecontweb.dll
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\bin\Assecontweb.pdb
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\bin\BLL.dll
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\bin\DAO.dll
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\bin\ExcelLibrary.dll
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\bin\Gaia.Ajax.UI.WebControls.VideoPlayers.dll
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\bin\Gaia.WebWidgets.dll
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\bin\HumanAPIClient.dll
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\bin\Model.dll
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\bin\Telerik.Web.UI.dll
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\bin\Telerik.Web.UI.Skins.dll
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\bin\Model.pdb
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\bin\BLL.pdb
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\bin\DAO.pdb
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\obj\Debug\Asseponto.csprojResolveAssemblyReference.cache
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\obj\Debug\Asseponto.csproj.ResolveComReference.cache
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\obj\Debug\Assecontweb.dll.licenses
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\obj\Debug\Assecontweb.dll
+C:\Users\henriquec\Desktop\AssepontoControle.old\AssepontoControle\obj\Debug\Assecontweb.pdb
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\bin\Assecontweb.dll.config
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\bin\Assecontweb.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\bin\Assecontweb.pdb
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\bin\BLL.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\bin\DAO.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\bin\ExcelLibrary.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\bin\Gaia.Ajax.UI.WebControls.VideoPlayers.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\bin\Gaia.WebWidgets.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\bin\HumanAPIClient.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\bin\Model.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\bin\Telerik.Web.UI.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\bin\Telerik.Web.UI.Skins.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\bin\Model.pdb
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\bin\BLL.pdb
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\bin\DAO.pdb
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\obj\Debug\Asseponto.csprojResolveAssemblyReference.cache
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\obj\Debug\Asseponto.csproj.ResolveComReference.cache
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\obj\Debug\Assecontweb.dll.licenses
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\obj\Debug\Assecontweb.dll
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\obj\Debug\Assecontweb.pdb
+C:\Disco D\BitBucket\assecont\Projetos\AssepontoControle\AssepontoControle\obj\Debug\Asseponto.csproj.CoreCompileInputs.cache
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\bin\Assecontweb.dll.config
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\bin\Assecontweb.dll
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\bin\Assecontweb.pdb
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\bin\BLL.dll
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\bin\DAO.dll
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\bin\ExcelLibrary.dll
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\bin\Gaia.Ajax.UI.WebControls.VideoPlayers.dll
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\bin\Gaia.WebWidgets.dll
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\bin\HumanAPIClient.dll
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\bin\Telerik.Web.UI.dll
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\bin\Telerik.Web.UI.Skins.dll
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\bin\BLL.pdb
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\bin\DAO.pdb
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\obj\Debug\Asseponto.csprojResolveAssemblyReference.cache
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\obj\Debug\Asseponto.csproj.ResolveComReference.cache
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\obj\Debug\Assecontweb.dll.licenses
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\obj\Debug\Asseponto.csproj.CoreCompileInputs.cache
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\obj\Debug\Assecontweb.dll
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\obj\Debug\Assecontweb.pdb
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\bin\Modelo.dll
+C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\bin\Modelo.pdb

@@ -1,0 +1,127 @@
+.RadWindow_flv
+{
+    border: solid 1px #e5e5e5;
+}
+
+    .RadWindow_flv .rwStatusbarRow .rwCorner, .RadWindow_flv .rwStatusbarRow .rwStatusbar
+    {
+        border-top: solid 1px #e5e5e5;
+    }
+
+    .RadWindow_flv .rwTopLeft, .RadWindow_flv .rwTopRight, .RadWindow_flv .rwTitlebar, .RadWindow_flv .rwTopResize
+    {
+        background: steelblue;
+    }
+
+    .RadWindow_flv .rwBodyLeft, .RadWindow_flv .rwBodyRight, .RadWindow_flv tr td.rwStatusbar input, .RadWindow_flv .rwStatusbar td, .RadWindow_flv .rwFooterRow .rwCorner, .RadWindow_flv .rwFooterCenter, .RadWindow_flv .rwStatusbar td
+    {
+        background-color: #fff!important;
+    }
+
+.rwWindowContent
+{
+    border: solid 1px #fff;
+}
+
+.RadWindow_flv iframe
+{
+    display: block;
+}
+
+.RadWindow_flv a.rwIcon, .RadWindow_flv .rwShadow a.rwIcon
+{
+    background: url('http://www.assecont.com.br/assecont/Skins/Window/Icon.gif') no-repeat center;
+    margin: 3px 5px 0 0;
+}
+
+.RadWindow_flv ul.rwControlButtons
+{
+    margin: 0;
+}
+
+.RadWindow_flv .rwControlButtons a
+{
+    background-image: url('http://www.assecont.com.br/assecont/Skins/Window/CommandButtonSprites.gif');
+    width: 29px;
+    height: 19px;
+    border: 0px;
+    _border: solid 1px #25a0da;
+    cursor: pointer;
+}
+
+div.RadWindow_flv .rwTitlebarControls em
+{
+    _padding: 1px 0 0 1px;
+    color: #fff;
+    font-size: 14pt;
+    /* text-transform: uppercase; */
+    font-weight: normal;
+    margin-top: -12px;
+}
+
+div.RadWindow_flv .rwStatusbar div
+{
+    background-image: url('http://www.assecont.com.br/assecont/Skins/Window/rwResize.gif');
+    background-position: 10px 8px;
+    margin: 0 -4px -7px 0;
+}
+
+*html div.RadWindow_flv .rwStatusbar div
+{
+    margin: 0 -1px -4px 0;
+}
+
+* + html div.RadWindow_flv .rwStatusbar div
+{
+    margin: 0 -1px -4px 0;
+}
+
+div.RadWindow_flv .rwDialogInput
+{
+    border: solid 1px #e5e5e5;
+}
+
+    div.RadWindow_flv .rwDialogInput:hover
+    {
+        border: solid 1px #767676;
+    }
+
+div.RadWindow_flv tr td.rwLoading
+{
+    background-color: #fff;
+}
+
+.RadWindow_flv td.rwWindowContent.rwLoading
+{
+    background-image: url('http://www.assecont.com.br/assecont/Skins/Common/loading.gif');
+}
+
+.RadWindow_flv input.rwLoading
+{
+    background-image: url('http://www.assecont.com.br/assecont/Skins/Common/loading_small.gif');
+}
+
+div.RadWindow_flv a.rwPopupButton
+{
+    background: #fff;
+    border: solid 1px #e5e5e5;
+}
+
+    div.RadWindow_flv a.rwPopupButton:hover
+    {
+        background: #e5e5e5;
+        border-color: #e5e5e5;
+    }
+
+div.RadWindow_flv a.rwCancel, div.RadWindow_flv a.rwCancel span
+{
+    background: none!important;
+    cursor: pointer;
+    border: 0!important;
+}
+
+    div.RadWindow_flv a.rwCancel span span, div.RadWindow_flv a.rwCancel:hover span span
+    {
+        color: #767676;
+        text-decoration: underline;
+    }

@@ -1,0 +1,119 @@
+--ALINHAMENTO#L#
+--LARGURA#200,70,70,70,70,70#
+--TITULO#Horas Extras 50%, 70%, 110%, Atraso(Horas), Faltas(Dias)#
+CREATE TABLE #EXTRAS(
+FUNC_IND INT,
+MES INT,
+ANO INT,
+EXTRA110 INT,
+EXTRA70 INT,
+EXTRA50 INT,
+ATRASO INT,
+FALTA INT,
+);
+
+CREATE TABLE #VARIAVEIS(
+IND INT IDENTITY,
+VAR_FUNC INT,
+VAR_EVENTO INT,
+VAR_VALOR VARCHAR(10),
+VAR_HORAS VARCHAR(10),
+EVE_COD VARCHAR(10),
+EVE_DESCRICAO VARCHAR(20),
+EVE_PORCENTAGEM INT
+);
+
+
+DECLARE @DATAINICIO DATE = %DATAINICIAL%,
+        @DATAFINAL DATE = %DATAFINAL%,
+        @DEPARTAMENTO INT = %DEPSELECIONADOIND%,
+        @X INT,
+        @Y INT
+--DECLARE @DATAINICIO DATE = '01/03/2016',
+--        @DATAFINAL DATE =  '31/03/2017',
+--  @DEPARTAMENTO INT = 1,
+--        @X INT,
+--        @Y INT
+
+INSERT INTO #VARIAVEIS (VAR_FUNC, VAR_EVENTO, VAR_VALOR, VAR_HORAS, EVE_COD, EVE_DESCRICAO, EVE_PORCENTAGEM)
+        EXEC dbo.rst_variaveis2 @P_DEPTO = @DEPARTAMENTO, @P_DATAINICIAL = @DATAINICIO, @P_DATAFINAL = @DATAFINAL
+
+SET @Y = (SELECT TOP 1 FUNC_IND
+          FROM FUNCIONARIOS 
+          WHERE EXISTS(SELECT * FROM #VARIAVEIS WHERE FUNC_IND = VAR_FUNC AND EVE_PORCENTAGEM IS NOT NULL)
+          ORDER BY FUNC_IND ASC)
+
+
+WHILE (EXISTS(SELECT * FROM #VARIAVEIS WHERE VAR_FUNC >= @Y))
+BEGIN
+    INSERT INTO #EXTRAS (FUNC_IND, MES, ANO, EXTRA110, EXTRA70, EXTRA50, ATRASO, FALTA)
+        SELECT FUNC_IND,
+                MES,
+                ANO,
+                EXTRA110,
+                EXTRA70,
+                EXTRA50, 
+                ATRASO, 
+                FALTA
+        FROM FUNCIONARIOS
+        CROSS APPLY
+        (
+            SELECT X.MES, X.ANO, 
+                   SUM(X.EXTRA110) AS EXTRA110, 
+                   SUM(X.EXTRA70) AS EXTRA70,
+                   SUM(X.EXTRA50) AS EXTRA50, 
+                   SUM(A.ATRASO) AS ATRASO, 
+                   SUM(A.FALTA) AS FALTA
+            FROM (
+                SELECT DATEPART(MONTH, @DATAINICIO) AS MES, DATEPART(YEAR, @DATAINICIO) AS ANO,
+                    SUM(CASE WHEN EVE_PORCENTAGEM = 110
+                             THEN (convert(int, replace(VAR_HORAS, substring(VAR_HORAS, (len(VAR_HORAS) - 2), 3), '')) * 60) + 
+								  (convert(int, substring(VAR_HORAS, (len(VAR_HORAS) - 1), 2)))
+                             ELSE 0
+                        END) AS EXTRA110,
+                    SUM(CASE WHEN EVE_PORCENTAGEM = 70
+                             THEN (convert(int, replace(VAR_HORAS, substring(VAR_HORAS, (len(VAR_HORAS) - 2), 3), '')) * 60) + 
+								  (convert(int, substring(VAR_HORAS, (len(VAR_HORAS) - 1), 2)))
+                             ELSE 0
+                        END) AS EXTRA70,
+                    SUM(CASE WHEN EVE_PORCENTAGEM = 50 
+                             THEN (convert(int, replace(VAR_HORAS, substring(VAR_HORAS, (len(VAR_HORAS) - 2), 3), '')) * 60) + 
+								  (convert(int, substring(VAR_HORAS, (len(VAR_HORAS) - 1), 2)))
+                             ELSE 0
+                        END) AS EXTRA50
+                FROM #VARIAVEIS
+                WHERE FUNC_IND = VAR_FUNC 
+            ) X
+            OUTER APPLY(
+                    SELECT SUM(CASE WHEN DATEDIFF(MINUTE, CONVERT(SMALLDATETIME, 0), CONVERT(TIME(0), CAL_DESCONTO)) != 0 AND
+                                         DATEDIFF(MINUTE, CONVERT(SMALLDATETIME, 0), CONVERT(TIME(0), CAL_FALTAHORA)) = 0 
+                                    THEN DATEDIFF(MINUTE, CONVERT(SMALLDATETIME, 0), CONVERT(TIME(0), CAL_DESCONTO))
+                                    ELSE 0
+                               END) AS ATRASO, 
+                           SUM(CASE WHEN DATEDIFF(MINUTE, CONVERT(SMALLDATETIME, 0), CONVERT(TIME(0), CAL_FALTAHORA)) != 0
+                                    THEN 1
+                                    ELSE 0 
+                               END) AS FALTA
+                    FROM CALCULO WHERE CAL_FUNC = @Y 
+                        AND CAL_DATA >= @DATAINICIO 
+                        AND CAL_DATA <= @DATAFINAL
+            ) A
+            GROUP BY X.MES, X.ANO
+        ) A
+        WHERE FUNC_IND = @Y AND
+        (EXTRA110 > 0 OR EXTRA70 > 0 OR EXTRA50 > 0 OR ATRASO > 0 OR FALTA > 0)
+    SET @Y = @Y + 1
+END
+
+SELECT B.FUNC_NOME AS 'Nome funcionário',
+       REPLACE(DBO.FN_MINUTETOHOURLONG(A.EXTRA50), ':', ':') AS 'Horas 50%',
+       REPLACE(DBO.FN_MINUTETOHOURLONG(A.EXTRA70), ':', ':') AS 'Horas 70%',
+       REPLACE(DBO.FN_MINUTETOHOURLONG(A.EXTRA110), ':', ':') AS 'Horas 110%',
+       REPLACE(DBO.FN_MINUTETOHOURLONG(A.ATRASO), ':', ':') AS 'Atraso', 
+       FALTA AS 'Faltas' 
+FROM #EXTRAS A
+INNER JOIN FUNCIONARIOS B ON A.FUNC_IND = B.FUNC_IND
+ORDER BY B.FUNC_NOME
+
+DROP TABLE #EXTRAS
+DROP TABLE #VARIAVEIS

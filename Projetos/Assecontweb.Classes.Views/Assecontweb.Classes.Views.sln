@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assecontweb.Classes.Views", "Assecontweb.Classes.Views\Assecontweb.Classes.Views.csproj", "{AB734F4B-1047-4C7A-B82D-93E43EC9712E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB734F4B-1047-4C7A-B82D-93E43EC9712E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB734F4B-1047-4C7A-B82D-93E43EC9712E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB734F4B-1047-4C7A-B82D-93E43EC9712E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB734F4B-1047-4C7A-B82D-93E43EC9712E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

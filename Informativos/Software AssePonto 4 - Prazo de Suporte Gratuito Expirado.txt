@@ -1,0 +1,61 @@
+<table cellspacing="0" cellpadding="0" hspace="0" vspace="0" align="left">
+    <tbody>
+        <tr>
+            <td valign="top" align="left" style="padding: 0cm 7.05pt;">
+                <p style="text-align: justify; background: white;">
+                    <span style="font-size: 10.5pt; font-family: &quot;segoe ui&quot;, sans-serif; color: #1b1b1b;">
+                        Abaixo as opções para adesão.<br />
+                        <br />
+                        A &nbsp;
+                    </span><strong><span style="font-size: 10.5pt; font-family: &quot;segoe ui&quot;, sans-serif; color: #c00000;">Assecont Tecnologia</span></strong><span style="font-size: 10.5pt; font-family: &quot;segoe ui&quot;, sans-serif; color: #1b1b1b;">&nbsp;oferece gratuitamente por 60 dias, os servi&ccedil;os de implanta&ccedil;&atilde;o, instala&ccedil;&atilde;o, treinamento operacional (online), suporte t&eacute;cnico para opera&ccedil;&atilde;o do Software AssePonto, opera&ccedil;&atilde;o dos Rel&oacute;gios (REP) e tamb&eacute;m, assessoria em jornada de trabalho, visando orientar os usu&aacute;rios sobre as pr&aacute;ticas de rotinas previstas na CLT, jurisprud&ecirc;ncias, conven&ccedil;&atilde;o trabalhista e portarias que regulamentam o controle de ponto, al&eacute;m das atualiza&ccedil;&otilde;es (up-grades) de vers&otilde;es.</span>
+                </p>
+                <ul style="list-style-type: disc;">
+                    <li><span style="font-size: 10.5pt; font-family: &quot;segoe ui&quot;, sans-serif;">Abaixo op&ccedil;&otilde;es para ades&atilde;o aos servi&ccedil;os de suporte t&eacute;cnico, sendo 3 (tr&ecirc;s) op&ccedil;&otilde;es para Contrato de Presta&ccedil;&atilde;o de Servi&ccedil;os de Suporte T&eacute;cnico</span></li>
+                </ul>
+                <p style="background: white;"><strong><span style="font-size: 10.5pt; font-family: &quot;segoe ui&quot;, sans-serif; color: red;">IMPORTANTE</span></strong><strong><span style="font-size: 10.5pt; font-family: &quot;segoe ui&quot;, sans-serif; color: #1f497d;">:</span></strong><strong><span style="font-size: 10.5pt; font-family: &quot;segoe ui&quot;, sans-serif; color: red;">&nbsp;</span></strong><span style="font-size: 10.5pt; font-family: &quot;segoe ui&quot;, sans-serif; color: black;"> A<em>p&oacute;s o prazo gratuito de suporte o software continua funcionando, ficando os servi&ccedil;os relacionados abaixo condicionados a contrata&ccedil;&atilde;o. As atualiza&ccedil;&otilde;es do Software AssePonto s&atilde;o disponibilizadas apenas mediante ades&atilde;o ao Contrato de Presta&ccedil;&atilde;o de Servi&ccedil;os de Suporte T&eacute;cnico.</em></span></p>
+                <p style="background: white;"><span style="font-size: 10.5pt; font-family: &quot;segoe ui&quot;, sans-serif; color: #1b1b1b;"><em>&nbsp;</em></span></p>
+                <p style="margin-left: 36pt; background: white;">
+                    <strong><span style="font-family: &quot;segoe ui&quot;, sans-serif;">1</span></strong><strong><span style="font-size: 10.5pt; font-family: &quot;segoe ui&quot;, sans-serif; color: #1f497d;">)</span></strong><strong><span style="font-size: 7pt; color: #1f497d;">&nbsp;&nbsp;&nbsp; </span></strong><strong><span style="font-size: 10.5pt; font-family: &quot;segoe ui&quot;, sans-serif; color: #1b1b1b;">&nbsp;</span></strong><strong><span style="color: #1b1b1b; font-size: 20px;">Ades&atilde;o Contrato de Presta&ccedil;&atilde;o de Servi&ccedil;os de Suporte T&eacute;cnico Mensal</span></strong><span style="font-family: &quot;segoe ui&quot;, sans-serif; color: #1b1b1b;">
+                        <br />
+                    </span><strong><span style="font-family: &quot;segoe ui&quot;, sans-serif; color: #0094ff;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></strong>
+                </p>
+                <ul style="margin-top: 0cm; list-style-type: disc;">
+                    <li style="color: #1b1b1b; background: white;"><span style="font-size: 10.5pt; font-family: &quot;segoe ui&quot;, sans-serif;">a)&nbsp;Suporte t&eacute;cnico operacional por: Acessos remotos, Skypes, Voips, telefones, E-mails, Chats.</span></li>
+                    <li style="color: #1b1b1b; background: white;"><span style="font-size: 10.5pt; font-family: &quot;segoe ui&quot;, sans-serif;">b)&nbsp;Atualiza&ccedil;&otilde;es up-grades do software AssePonto.</span></li>
+                    <li style="color: #1b1b1b; background: white;"><span style="font-size: 10.5pt; font-family: &quot;segoe ui&quot;, sans-serif;">c)&nbsp;Assessoria e Consultoria </span><span style="font-size: 10.5pt; font-family: &quot;segoe ui&quot;, sans-serif; color: windowtext;">legal </span><span style="font-size: 10.5pt; font-family: &quot;segoe ui&quot;, sans-serif;">sobre os dispostos na CLT, jurisprud&ecirc;ncias e Portarias sobre interjornada de trabalho (horas extras toler&acirc;ncias m&iacute;nimas, acordos coletivos, etc).</span></li>
+                    <li style="color: #1b1b1b; background: white;"><span style="font-size: 10.5pt; font-family: &quot;segoe ui&quot;, sans-serif;">d)&nbsp;Acompanhamento para fechamento de ponto m&ecirc;s a m&ecirc;s.</span></li>
+                    <li style="color: #1b1b1b; background: white;"><span style="font-size: 10.5pt; font-family: &quot;segoe ui&quot;, sans-serif;">e)&nbsp;Senhas ilimitadas para reinstala&ccedil;&otilde;es e novas instala&ccedil;&otilde;es.</span></li>
+                    <li style="color: #1b1b1b; background: white;"><span style="font-size: 10.5pt; font-family: &quot;segoe ui&quot;, sans-serif;">f)&nbsp;Treinamentos Online, Skypes, Voips, Telefone.</span></li>
+                    <li style="color: #1b1b1b; background: white;"><span style="font-size: 10.5pt; font-family: &quot;segoe ui&quot;, sans-serif;">g)&nbsp;&nbsp;Orienta&ccedil;&atilde;o para opera&ccedil;&atilde;o do REP.</span></li>
+                    <li style="color: #1b1b1b; background: white;"><span style="font-size: 10.5pt; font-family: &quot;segoe ui&quot;, sans-serif;">h)&nbsp;&nbsp;Informativos, e-mails e revistas.</span></li>
+                    <li style="color: #1b1b1b; background: white;"><span style="font-size: 10.5pt; font-family: &quot;segoe ui&quot;, sans-serif;">I) Senhas de ativa&ccedil;&atilde;o ilimitadas.</span></li>
+                </ul>
+                <p style="background: white;">
+                    <span style="color: #1f497d;">
+                        &nbsp;<br />
+                    </span><strong style="font-size: 10pt;">Selecione uma das vig&ecirc;ncias abaixo para consultar, simular! Insira as informa&ccedil;&otilde;es solicitadas, em seguida clique no bot&atilde;o da vig&ecirc;ncia selecionada. Ser&aacute; exibido a minuta do contrato para sua analise. Para ades&atilde;o basta seguir as orienta&ccedil;&otilde;es na tela.</strong>
+                </p>
+                <div>
+                    <strong>
+                        <a href="http://assecont.com.br/assepontocontrole/Suporte/Formulario/FormContratoManut.aspx?btn=6"
+                           style="text-decoration: underline; font-family: &quot;segoe ui&quot;; font-size: 13.3333px;">
+                            <img alt="" src="http://assecont.com.br/assepontocontrole/images/emails/6meses.png" style="margin-right: 50px;" />
+                        </a>
+                        <a href="http://assecont.com.br/assepontocontrole/Suporte/Formulario/FormContratoManut.aspx?btn=12"
+                           style="font-family: &quot;segoe ui&quot;; font-size: 13.3333px;">
+                            <img alt="" src="http://assecont.com.br/assepontocontrole/images/emails/12meses.png" style="margin-right: 50px;" />
+                        </a>
+                        <a href="http://assecont.com.br/assepontocontrole/Suporte/Formulario/FormContratoManut.aspx?btn=18"
+                           style="font-family: &quot;segoe ui&quot;; font-size: 13.3333px;">
+                            <img alt="" src="http://assecont.com.br/assepontocontrole/images/emails/18meses.png" />
+                        </a>
+                        <br />
+                        <br />
+                        <br />
+                    </strong>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<br />

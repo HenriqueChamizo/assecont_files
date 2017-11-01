@@ -1,0 +1,14 @@
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Assecontweb.Modelos\AssecontWeb.Modelos\bin\Release\Assecontweb.Modelos.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Assecontweb.Modelos\AssecontWeb.Modelos\bin\Release\Assecontweb.Modelos.pdb
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Assecontweb.Modelos\AssecontWeb.Modelos\bin\Release\Assecontweb.Types.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Assecontweb.Modelos\AssecontWeb.Modelos\bin\Release\Wr.Classes.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Assecontweb.Modelos\AssecontWeb.Modelos\obj\Release\Assecontweb.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Assecontweb.Modelos\AssecontWeb.Modelos\obj\Release\Assecontweb.Modelos.dll
+C:\Users\Administrador\Documents\Visual Studio 2012\Projects\Assecontweb.Modelos\AssecontWeb.Modelos\obj\Release\Assecontweb.Modelos.pdb
+S:\USUARIOS\Renne\Projetos\Assecontweb.Modelos\AssecontWeb.Modelos\obj\Release\Assecontweb.csprojResolveAssemblyReference.cache
+S:\USUARIOS\Renne\Projetos\Assecontweb.Modelos\AssecontWeb.Modelos\obj\Release\Assecontweb.Modelos.dll
+S:\USUARIOS\Renne\Projetos\Assecontweb.Modelos\AssecontWeb.Modelos\bin\Release\Assecontweb.Modelos.dll
+S:\USUARIOS\Renne\Projetos\Assecontweb.Modelos\AssecontWeb.Modelos\bin\Release\Assecontweb.Modelos.pdb
+S:\USUARIOS\Renne\Projetos\Assecontweb.Modelos\AssecontWeb.Modelos\bin\Release\Assecontweb.Types.dll
+S:\USUARIOS\Renne\Projetos\Assecontweb.Modelos\AssecontWeb.Modelos\bin\Release\Wr.Classes.dll
+S:\USUARIOS\Renne\Projetos\Assecontweb.Modelos\AssecontWeb.Modelos\obj\Release\Assecontweb.Modelos.pdb

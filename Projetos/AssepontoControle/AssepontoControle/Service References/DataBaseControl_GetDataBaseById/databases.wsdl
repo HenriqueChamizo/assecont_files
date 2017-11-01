@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="getEmpresaDadosCnpj">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cnpj" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getEmpresaDadosCnpjResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getEmpresaDadosCnpjResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getEmpresaDadosEmail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getEmpresaDadosEmailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getEmpresaDadosEmailResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getEmpresaDadosDatabase">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Database" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getEmpresaDadosDatabaseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getEmpresaDadosDatabaseResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getDatabases">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="sistema" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getDatabasesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getDatabasesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="getEmpresaDadosCnpjSoapIn">
+    <wsdl:part name="parameters" element="tns:getEmpresaDadosCnpj" />
+  </wsdl:message>
+  <wsdl:message name="getEmpresaDadosCnpjSoapOut">
+    <wsdl:part name="parameters" element="tns:getEmpresaDadosCnpjResponse" />
+  </wsdl:message>
+  <wsdl:message name="getEmpresaDadosEmailSoapIn">
+    <wsdl:part name="parameters" element="tns:getEmpresaDadosEmail" />
+  </wsdl:message>
+  <wsdl:message name="getEmpresaDadosEmailSoapOut">
+    <wsdl:part name="parameters" element="tns:getEmpresaDadosEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="getEmpresaDadosDatabaseSoapIn">
+    <wsdl:part name="parameters" element="tns:getEmpresaDadosDatabase" />
+  </wsdl:message>
+  <wsdl:message name="getEmpresaDadosDatabaseSoapOut">
+    <wsdl:part name="parameters" element="tns:getEmpresaDadosDatabaseResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDatabasesSoapIn">
+    <wsdl:part name="parameters" element="tns:getDatabases" />
+  </wsdl:message>
+  <wsdl:message name="getDatabasesSoapOut">
+    <wsdl:part name="parameters" element="tns:getDatabasesResponse" />
+  </wsdl:message>
+  <wsdl:portType name="DatabasesSoap">
+    <wsdl:operation name="getEmpresaDadosCnpj">
+      <wsdl:input message="tns:getEmpresaDadosCnpjSoapIn" />
+      <wsdl:output message="tns:getEmpresaDadosCnpjSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getEmpresaDadosEmail">
+      <wsdl:input message="tns:getEmpresaDadosEmailSoapIn" />
+      <wsdl:output message="tns:getEmpresaDadosEmailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getEmpresaDadosDatabase">
+      <wsdl:input message="tns:getEmpresaDadosDatabaseSoapIn" />
+      <wsdl:output message="tns:getEmpresaDadosDatabaseSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getDatabases">
+      <wsdl:input message="tns:getDatabasesSoapIn" />
+      <wsdl:output message="tns:getDatabasesSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DatabasesSoap" type="tns:DatabasesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getEmpresaDadosCnpj">
+      <soap:operation soapAction="http://tempuri.org/getEmpresaDadosCnpj" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getEmpresaDadosEmail">
+      <soap:operation soapAction="http://tempuri.org/getEmpresaDadosEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getEmpresaDadosDatabase">
+      <soap:operation soapAction="http://tempuri.org/getEmpresaDadosDatabase" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDatabases">
+      <soap:operation soapAction="http://tempuri.org/getDatabases" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DatabasesSoap12" type="tns:DatabasesSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getEmpresaDadosCnpj">
+      <soap12:operation soapAction="http://tempuri.org/getEmpresaDadosCnpj" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getEmpresaDadosEmail">
+      <soap12:operation soapAction="http://tempuri.org/getEmpresaDadosEmail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getEmpresaDadosDatabase">
+      <soap12:operation soapAction="http://tempuri.org/getEmpresaDadosDatabase" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDatabases">
+      <soap12:operation soapAction="http://tempuri.org/getDatabases" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Databases">
+    <wsdl:port name="DatabasesSoap" binding="tns:DatabasesSoap">
+      <soap:address location="http://www.asseponto.com.br/databasecontrol/webservices/databases.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DatabasesSoap12" binding="tns:DatabasesSoap12">
+      <soap12:address location="http://www.asseponto.com.br/databasecontrol/webservices/databases.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

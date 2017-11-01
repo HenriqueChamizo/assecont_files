@@ -1,0 +1,128 @@
+/*Telerik RadDataPager Web20 Skin*/
+
+.RadDataPager_Wr
+{
+    border: 1px solid #93BEFF;
+    background: #e3eeff;
+    color: #000;
+    border-radius: 5px 5px 5px 5px;
+    clear: both;
+    float: left;
+    margin: 0 auto;
+}
+
+.RadDataPager_Wr .rdpPageFirst,
+.RadDataPager_Wr .rdpPagePrev,
+.RadDataPager_Wr .rdpPageNext,
+.RadDataPager_Wr .rdpPageLast
+{
+	background:transparent no-repeat url('Grid/sprite.gif');
+}
+
+.RadDataPager_Wr .rdpPageFirst
+{
+	background-position:0 -550px;
+}
+.RadDataPager_Wr .rdpPageFirst:hover
+{
+	background-position:0 -600px;
+}
+.RadDataPager_Wr .rdpPagePrev
+{
+	background-position:0 -700px;
+}
+.RadDataPager_Wr .rdpPagePrev:hover
+{
+	background-position:0 -750px;
+}
+.RadDataPager_Wr .rdpPageNext
+{
+	background-position:0 -850px;
+}
+.RadDataPager_Wr .rdpPageNext:hover
+{
+	background-position:0 -900px;
+}
+.RadDataPager_Wr .rdpPageLast
+{
+	background-position:0 -1000px;
+}
+.RadDataPager_Wr .rdpPageLast:hover
+{
+	background-position:0 -1050px;
+}
+
+/*.RadDataPager_Wr .rdpPagerButton
+{
+	border:1px solid;
+	border-color:#00002a #00002a #000;
+	background:#466abb repeat-x 0 -1550px url('Grid/sprite.gif');
+	color:#fff;
+	font:12px/12px "segoe ui",arial,sans-serif;
+}*/
+
+.RadDataPager_Wr .rdpPagerButton,
+.RadButton_Wr .rbDecorated,
+.RadButton_Wr .rbVerticalText
+{
+    padding: 2px 14px 4px 10px;
+    margin-right: 6px;
+    font-size: 11pt;
+    vertical-align: middle;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    color: White;
+    background-color: #1A4C83;
+}
+
+.RadButton_Wr .rbDecorated :hover,
+.RadButton_Wr .rbVerticalText:hover
+    {
+        text-decoration: underline;
+    }
+
+    
+.RadButton_Wr .rbDecorated img,
+.RadButton_Wr .rbVerticalText img
+    {
+        border: 0px !important;
+        margin-right: 5px;
+        vertical-align: middle;
+    }
+
+.RadDataPager_Wr .rdpNumPart a:hover,
+.RadDataPager_Wr .rdpNumPart a:hover span,
+.RadDataPager_Wr .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_Wr .rdpNumPart a.rdpCurrentPage span
+{
+	background:no-repeat url('Grid/sprite.gif');
+}
+
+.RadDataPager_Wr .rdpNumPart a
+{
+	color:#000;
+}
+
+.RadDataPager_Wr .rdpNumPart a:hover
+{
+	background-position:100% -1250px;
+	color:#0f3789;
+}
+
+.RadDataPager_Wr .rdpNumPart a:hover span
+{
+	background-position:0 -1150px;
+}
+
+.RadDataPager_Wr .rdpNumPart a.rdpCurrentPage,
+.RadDataPager_Wr .rdpNumPart a.rdpCurrentPage:hover
+{
+	background-position:100% -1450px;
+	color:#0d202b;
+}
+
+.RadDataPager_Wr .rdpNumPart a.rdpCurrentPage span,
+.RadDataPager_Wr .rdpNumPart a.rdpCurrentPage:hover span
+{
+	background-position:0 -1350px;
+}

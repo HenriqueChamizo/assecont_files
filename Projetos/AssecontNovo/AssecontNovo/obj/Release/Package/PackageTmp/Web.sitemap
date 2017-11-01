@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="" image="" >
+    <siteMapNode url="~/acessoAssecont.aspx" title="Acesso Restrito - AssecontWeb Antiga" image="" />
+
+    <siteMapNode url="~/Legalizacao/Intranet.aspx" title="Controle de legalização" image="" />
+    <!--<siteMapNode url="~/Legalizacao/processoLegalizacao.aspx" title="Processo de legalização" image="" />-->
+
+    <siteMapNode url="~/Questionarios/pesquisaSatisfacaoCliente.aspx" title="Pesquisa de Satisfação de Clientes" image="" />
+    <siteMapNode url="~/sped.aspx" title="SPED" image="" />
+
+    <siteMapNode url="~/Questionarios/QuestionarioSocios.aspx" title="Controle de Questionário" image="~/Imagens/24x24/Chek24x24.png" />
+    <siteMapNode url="~/Questionarios/QuestionarioSociosTotalizado.aspx" title="Questionário dos Sócios - Totalizado" image="~/Imagens/24x24/requerimentos24x24.png" />
+    <siteMapNode url="~/Questionarios/QuestionarioObrigacao.aspx" title="Controle de Questionário Obrigações" image="~/Imagens/24x24/requerimentos24x24.png" />
+
+    <siteMapNode url="~/Grupo/linksRapidos.aspx" title="Links" image="~/Imagens/24x24/link24x24.png"/>
+    <siteMapNode url="~/Grupo/Atendimento/contato.aspx" title="Atendimento" image="~/Imagens/24x24/peoples24x24.png"/>
+    <siteMapNode url="~/Grupo/Atendimento/ServicoDeAtendimento.aspx" title="SAC" image="~/Imagens/24x24/envelope24x24.png"/>
+    <siteMapNode url="~/Grupo/Atendimento/cotacao.aspx" title="Cotação de Serviços Contábeis" image="~/Imagens/24x24/abaco24x24.png"/>
+
+    <siteMapNode url="~/Grupo/Atendimento/Ouvidoria.aspx" title="Ouvidoria" image="~/Imagens/24x24/ouvidoria24x24.png"/>
+    <siteMapNode url="~/Grupo/RetencaoImpostos.aspx" title="Serviços Prestados - Retenções de Impostos e Contribuições" image="~/Imagens/24x24/servicoPrestados24x24.png" />
+
+    <siteMapNode url="~/grupo/Localizacao.aspx" title="Localização" image="~/Imagens/24x24/maps24x24.png" />
+
+    <siteMapNode url="~/Grupo/NbrIso.aspx" title="Sistema de Gestão da qualidade ABNT NBR ISO 9001" image="" />
+    <siteMapNode url="~/Grupo/contabeisPqec.aspx" title="Programa de qualidade de empresas contábeis - PQEC" image="" />
+
+    <siteMapNode url="~/Curriculum/default.aspx" title="Trabalhe Conosco" image="~/Imagens/24x24/briefcase24x24.png" />
+    <siteMapNode url="~/Curriculum/EnviarCurriculo.aspx" title="Curriculo" image="~/Imagens/24x24/briefcase24x24.png" />
+    <siteMapNode url="~/Curriculum/TodosCurriculum.aspx" title="Todos os Curriculos" image="~/Imagens/24x24/briefcase24x24.png" />
+
+    <siteMapNode url="~/Grupo/AtendPersonalizado.aspx" title="Atendimento Personalizado" image="~/Imagens/32x32/handshake32.png" />
+    <siteMapNode url="~/Grupo/Comunicados/comunicadoHolerite.aspx" title="Holerite Eletrônico" image="~/Imagens/Icones/HoleriteEletronico.png" />
+
+    <siteMapNode url="~/Grupo/NossaEmpresa.aspx" title="Nossa Empresa" image="~/Imagens/24x24/empresarial24x24.png"/>
+    <siteMapNode url="~/Grupo/HomeOffice.aspx" title="Home Office" image="~/Imagens/24x24/coffe24x24.png" />
+
+    <siteMapNode url="~/Grupo/Boletos/default.aspx" title="" />
+    <siteMapNode url="~/Grupo/Boletos/boletoTodos.aspx" title="" />
+
+    <siteMapNode url="~/Informativos/criarInformativo.aspx" title="Novo Informativo" image="~/Imagens/24x24/manual24x24.png"/>
+    <siteMapNode url="~/Informativos/ViewInfo.aspx" title="Informativo" image="~/Imagens/24x24/info24x24.png"/>
+    <siteMapNode url="~/Informativos/listarInformativos.aspx" title="Todos os Informativos" image="~/Imagens/24x24/info24x24.png"/>
+    <siteMapNode url="~/Informativos/Informativo.aspx" title="Informativo" image="~/Imagens/24x24/info24x24.png"/>
+
+    <siteMapNode url="~/tecnologia" title="" image="">
+      <siteMapNode url="~/tecnologia/depoimentos.aspx" title="Depoimentos de Parceiros" image="~/Imagens/24x24/peoples24x24.png"/>
+      <siteMapNode url="~/tecnologia/AssepontoWeb.aspx" title="Espelho de Ponto Eletrônico" image="~/Imagens/24x24/manual24x24.png"/>
+      <siteMapNode url="~/tecnologia/FolhaPagWeb.aspx" title="Folha de Pagamento via Web" image="~/Imagens/24x24/folhaPag24x24.png"/>
+      <siteMapNode url="~/tecnologia/TecerizaoPonto.aspx" title="Tercerização de Ponto" image="~/Imagens/24x24/ponto24x24.png"/>
+
+      <siteMapNode url="~/tecnologia/asseponto/DuvidasAcessoRemoto.aspx" title="Acesso Remoto" image="~/Imagens/24x24/contato24x24.png"/>
+      <siteMapNode url="~/tecnologia/asseponto/requisitosDeInstalacao.aspx" title="Requisitos para instalação Asseponto4" image="~/Imagens/24x24/requerimentos24x24.png"/>
+      <siteMapNode url="~/tecnologia/asseponto/implantacao.aspx" title="Implantação" image="~/Imagens/24x24/implantacao24x24.png"/>
+      <siteMapNode url="~/tecnologia/asseponto/RepsCompativeis.aspx" title="Rep's Compatíveis" image="~/Imagens/24x24/requerimentos24x24.png"/>
+      <siteMapNode url="~/tecnologia/asseponto/Manual/default.aspx" title="Manual Operacional Asseponto4" image="~/Imagens/24x24/manual24x24.png"/>
+      <siteMapNode url="~/tecnologia/Manual/bancoHoras.aspx" title="" image=""/>
+      <siteMapNode url="~/tecnologia/Manual/cadastro.aspx" title="" image=""/>
+      <siteMapNode url="~/tecnologia/Manual/OcorrenciaTratamentos.aspx" title="" image=""/>
+      <siteMapNode url="~/tecnologia/Manual/relatorios.aspx" title="" image=""/>
+      <siteMapNode url="~/tecnologia/Manual/rotinasTratamento.aspx" title="" image=""/>
+
+      <siteMapNode url="~/tecnologia/localizacao.aspx" title="Localização" image="~/Imagens/24x24/maps24x24.png" />
+
+      <siteMapNode url="~/tecnologia/ManualArquivos/default.aspx" title="SQL E INSTALAÇÃO" image="~/Imagens/24x24/manual24x24.png"/>
+
+      <siteMapNode url="~/tecnologia/formularios/InscWorkshop.aspx" title="Workshop Folha Pagamento Web" image=""/>
+
+      <siteMapNode url="~/tecnologia/assecontweb.aspx" title="AssecontWeb" image="~/Imagens/24x24/assecontWeb24x24.png"/>
+      <siteMapNode url="~/tecnologia/suporte/Contatotec.aspx" title="Equipe do Suporte Técnico" image="~/Imagens/24x24/contato24x24.png"/>
+      <siteMapNode url="~/tecnologia/Suporte/vantagensManutencao.aspx" title="Prestação de Serviços de Suporte Tecnico" image=""/>
+
+    </siteMapNode>
+
+    <siteMapNode url="~/contabilidade" title="" image="">
+      <siteMapNode url="~/contabilidade/localizacao.aspx" title="Localização" image="~/Imagens/24x24/maps24x24.png" />
+      <siteMapNode url="~/Contabilidade/AsseAdmin.aspx" title="Assessoria Administrativa" image="~/Imagens/24x24/asseAdmin24x24.png" />
+      <siteMapNode url="~/contabilidade/gestaoContabilidade.aspx" title="Gestão Contabil" image="~/Imagens/24x24/contabilidade24x24.png"/>
+      <siteMapNode url="~/contabilidade/gestaoFiscal.aspx" title="Gestão Fiscal &amp; Tributária" image="~/Imagens/24x24/fiscalwhite24x24.png"/>
+      <siteMapNode url="~/contabilidade/gestaoTrabalhista.aspx" title="Gestão Trabalhista" image="~/Imagens/24x24/gestaoTrabalhista24x24.png"/>
+      <siteMapNode url="~/contabilidade/legalizacao.aspx" title="Legalização" image="~/Imagens/24x24/tributaria24x24.png"/>
+      <siteMapNode url="~/contabilidade/auditoria.aspx" title="Auditoria" image="~/Imagens/24x24/auditoria24x24.png"/>
+      <siteMapNode url="~/contabilidade/IntegracaoSistema.aspx" title="Integração de Sistemas" image="~/Imagens/24x24/Gear24x24.png"/>
+    </siteMapNode>
+
+    <siteMapNode url="~/Consultoria" title="" image="">
+      <siteMapNode url="~/Consultoria/default.aspx" title="Consultoria" image="~/Imagens/24x24/peoples24x24.png" />
+      <siteMapNode url="~/Consultoria/Empresarial.aspx" title="Empresarial" image="~/Imagens/24x24/empresarial24x24.png" />
+      <siteMapNode url="~/Consultoria/Tributario.aspx" title="Tributario" image="~/Imagens/24x24/tributaria24x24.png" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
+

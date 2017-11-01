@@ -1,0 +1,116 @@
+use ponto4;
+
+ALTER PROCEDURE [dbo].[rst_banco_horas_horas_extras_porcentagem]
+@P_DEPTO INT,
+@P_MES_INICIAL INT,
+@P_ANO_INICIAL INT,
+@P_MESES INT,
+@P_PORCENTO_1 INT,
+@P_PORCENTO_2 INT
+--WITH ENCRYPTION
+AS
+BEGIN
+CREATE TABLE #dbtRelatorioBancoHoras (
+FUNC INT,
+MES1_HE_70 DECIMAL(5, 2),
+MES1_HE_100 DECIMAL(5, 2),
+
+MES2_HE_70 DECIMAL(5, 2),
+MES2_HE_100 DECIMAL(5, 2),
+
+MES3_HE_70 DECIMAL(5, 2),
+MES3_HE_100 DECIMAL(5, 2)
+)
+
+IF @P_MESES > 3 SET @P_MESES = 3
+
+DECLARE @FUNC INT, @DIA INT, @MES INT, @ANO INT, @GRUPO INT, @HE_70 DECIMAL (5,2), @HE_100 DECIMAL (5,2), @DATAINICIAL SMALLDATETIME, @DATAFINAL SMALLDATETIME, @MESC INT
+
+SELECT @DIA = DAY(APOM_DATAINICIAL) FROM ApontamentoMeses INNER JOIN Config ON CFG_APONTAMENTOMES = APOM_IND WHERE CFG_GRUPO = (SELECT EMP_GRUPO FROM Empresas WHERE EMP_IND = @P_DEPTO)
+
+IF @DIA IS NULL SET @DIA = 1
+
+DECLARE funcs_cursor CURSOR FOR
+       SELECT FUNC_IND FROM Funcionarios WHERE dbo.fn_departamentopertencente(FUNC_EMPRESA, @P_DEPTO) = 1
+
+OPEN funcs_cursor
+
+FETCH NEXT FROM funcs_cursor INTO @FUNC
+
+WHILE @@FETCH_STATUS = 0
+       BEGIN
+       SET @MESC = 1
+       SET @MES = @P_MES_INICIAL
+       SET @ANO = @P_ANO_INICIAL
+
+       INSERT INTO #dbtRelatorioBancoHoras (FUNC) VALUES (@FUNC)
+
+       WHILE @MESC <= @P_MESES
+             BEGIN
+             SELECT @DATAINICIAL = dbo.fn_encode_date(@ANO, @MES, @DIA)
+             SELECT @DATAFINAL = DATEADD(day, -1, DATEADD(month, 1, @DATAINICIAL))
+
+             SET @HE_70 = NULL
+             SET @HE_100 = NULL
+
+             SELECT @HE_70 = CONVERT(DECIMAL(5, 2), SUM(dbo.fn_hourlongtominute(BCO_VALORSEMACRESCIMO))) / 60 FROM BcoHoras WHERE BCO_FUNC = @FUNC AND BCO_PORCENTO = @P_PORCENTO_1 AND BCO_DATA >= @DATAINICIAL AND BCO_DATA <= @DATAFINAL
+             SELECT @HE_100 = CONVERT(DECIMAL(5, 2), SUM(dbo.fn_hourlongtominute(BCO_VALORSEMACRESCIMO))) / 60 FROM BcoHoras WHERE BCO_FUNC = @FUNC AND BCO_PORCENTO = @P_PORCENTO_2 AND BCO_DATA >= @DATAINICIAL AND BCO_DATA <= @DATAFINAL
+
+             IF @MESC = 1 UPDATE #dbtRelatorioBancoHoras SET MES1_HE_70 = @HE_70, MES1_HE_100 = @HE_100 WHERE FUNC = @FUNC
+             IF @MESC = 2 UPDATE #dbtRelatorioBancoHoras SET MES2_HE_70 = @HE_70, MES2_HE_100 = @HE_100 WHERE FUNC = @FUNC
+             IF @MESC = 3 UPDATE #dbtRelatorioBancoHoras SET MES3_HE_70 = @HE_70, MES3_HE_100 = @HE_100 WHERE FUNC = @FUNC
+             --IF @MESC = 4 UPDATE #dbtRelatorioBancoHoras SET MES4_HE_70 = @HE_70, MES4_HE_100 = @HE_100 WHERE FUNC = @FUNC
+             --IF @MESC = 5 UPDATE #dbtRelatorioBancoHoras SET MES5_HE_70 = @HE_70, MES5_HE_100 = @HE_100 WHERE FUNC = @FUNC
+             --IF @MESC = 6 UPDATE #dbtRelatorioBancoHoras SET MES6_HE_70 = @HE_70, MES6_HE_100 = @HE_100 WHERE FUNC = @FUNC
+
+             SET @MESC = @MESC + 1
+             SET @MES = @MES + 1
+
+             IF @MES = 13
+                    BEGIN
+                    SET @MES = 1
+                    SET @ANO = @ANO + 1
+                    END
+             END
+
+       FETCH NEXT FROM funcs_cursor INTO @FUNC
+       END
+
+CLOSE funcs_cursor
+DEALLOCATE funcs_cursor
+
+SET @MESC = 1
+SET @MES = @P_MES_INICIAL
+SET @ANO = @P_ANO_INICIAL
+
+DECLARE @S NVARCHAR(MAX), @WHERE NVARCHAR(MAX)
+SET @S = 'SELECT FUNC_REG, FUNC_NOME, CAR_DESCRICAO, '
+SET @WHERE = 'WHERE '
+
+WHILE @MESC <= @P_MESES
+       BEGIN
+       SET @S = @S + 'MES' + CONVERT(NVARCHAR(MAX), @MESC) + '_HE_70 AS [' + SUBSTRING(dbo.fn_monthname(@MES), 1, 3) + ' ' + CONVERT(NVARCHAR(MAX), @ANO - 2000) + ' ' + CONVERT(NVARCHAR(MAX), @P_PORCENTO_1) + '%], '
+       SET @S = @S + 'MES' + CONVERT(NVARCHAR(MAX), @MESC) + '_HE_100 AS [' + SUBSTRING(dbo.fn_monthname(@MES), 1, 3) + ' ' + CONVERT(NVARCHAR(MAX), @ANO - 2000) + ' ' + CONVERT(NVARCHAR(MAX), @P_PORCENTO_2) + '%], '
+
+       SET @WHERE = @WHERE + 'MES' + CONVERT(NVARCHAR(MAX), @MESC) + '_HE_70 IS NOT NULL OR '
+       SET @WHERE = @WHERE + 'MES' + CONVERT(NVARCHAR(MAX), @MESC) + '_HE_100 IS NOT NULL OR '
+
+       SET @MESC = @MESC + 1
+       SET @MES = @MES + 1
+
+       IF @MES = 13
+             BEGIN
+             SET @MES = 1
+             SET @ANO = @ANO + 1
+             END
+       END
+
+SET @S = SUBSTRING(@S, 1, LEN(@S) - 1)
+SET @WHERE = SUBSTRING(@WHERE, 1, LEN(@WHERE) - 3)
+
+SET @S = @S + ' FROM #dbtRelatorioBancoHoras INNER JOIN Funcionarios ON FUNC_IND = FUNC LEFT JOIN Cargos ON CAR_IND = FUNC_CARGO ' 
+SET @S = @S + @WHERE
+SET @S = @S + ' ORDER BY FUNC_NOME'
+PRINT @S
+EXEC(@S)
+END

@@ -1,0 +1,10 @@
+C:\Disco D\Trabalhos\Projetos\AssepontoControle - N sobrescrever\bin\Assecontweb.dll
+C:\Disco D\Trabalhos\Projetos\AssepontoControle - N sobrescrever\bin\ExcelLibrary.dll
+C:\Disco D\Trabalhos\Projetos\AssepontoControle - N sobrescrever\bin\Gaia.Ajax.UI.WebControls.VideoPlayers.dll
+C:\Disco D\Trabalhos\Projetos\AssepontoControle - N sobrescrever\bin\Gaia.WebWidgets.dll
+C:\Disco D\Trabalhos\Projetos\AssepontoControle - N sobrescrever\bin\HumanAPIClient.dll
+C:\Disco D\Trabalhos\Projetos\AssepontoControle - N sobrescrever\bin\Telerik.Web.UI.dll
+C:\Disco D\Trabalhos\Projetos\AssepontoControle - N sobrescrever\bin\Telerik.Web.UI.Skins.dll
+C:\Disco D\Trabalhos\Projetos\AssepontoControle - N sobrescrever\obj\x86\Release\Asseponto.csproj.ResolveComReference.cache
+C:\Disco D\Trabalhos\Projetos\AssepontoControle - N sobrescrever\obj\x86\Release\Assecontweb.dll.licenses
+C:\Disco D\Trabalhos\Projetos\AssepontoControle - N sobrescrever\obj\x86\Release\Assecontweb.dll

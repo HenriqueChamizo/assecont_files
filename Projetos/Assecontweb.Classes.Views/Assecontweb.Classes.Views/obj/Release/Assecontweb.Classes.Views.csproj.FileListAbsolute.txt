@@ -1,0 +1,13 @@
+S:\USUARIOS\Renne\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\bin\Release\Assecontweb.Classes.Views.dll
+S:\USUARIOS\Renne\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\bin\Release\Assecontweb.Classes.Views.pdb
+S:\USUARIOS\Renne\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\bin\Release\Assecontweb.Classes.dll
+S:\USUARIOS\Renne\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\bin\Release\Assecontweb.Classes.Modelos.dll
+S:\USUARIOS\Renne\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\bin\Release\Assecontweb.Types.dll
+S:\USUARIOS\Renne\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\bin\Release\Telerik.Web.UI.dll
+S:\USUARIOS\Renne\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\bin\Release\Wr.Classes.dll
+S:\USUARIOS\Renne\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\bin\Release\Assecontweb.Classes.Email.dll
+S:\USUARIOS\Renne\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\bin\Release\Assecontweb.Classes.Sms.dll
+S:\USUARIOS\Renne\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\obj\Release\Assecontweb.Classes.Views.Properties.Resources.resources
+S:\USUARIOS\Renne\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\obj\Release\Assecontweb.Classes.Views.csproj.GenerateResource.Cache
+S:\USUARIOS\Renne\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\obj\Release\Assecontweb.Classes.Views.dll
+S:\USUARIOS\Renne\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\obj\Release\Assecontweb.Classes.Views.pdb

@@ -1,0 +1,454 @@
+CREATE PROCEDURE [dbo].[rst_variaveis2]
+  @P_DEPTO INT = NULL,
+  @P_FUNC INT = NULL,
+  @P_DATAINICIAL SMALLDATETIME,
+  @P_DATAFINAL SMALLDATETIME,
+  @P_MESCLAR TINYINT = 1, -- 1=adicionar/sobrepor valores calculados com digitados
+  @P_EVENTO INT = NULL,
+  @P_LISTAR TINYINT = 1,
+  @P_CRIARTMP TINYINT = 1
+--WITH ENCRYPTION
+AS
+DECLARE @GRUPO INT, @FUNC INT, @PARAM INT, @TIPO_LANCAMENTO_TRAB CHAR(1)
+DECLARE @EVENTO INT
+DECLARE @HORASFIXASLANCAR CHAR(6), @TOTAL CHAR(6), @dTOTAL SMALLDATETIME, @iTOTAL INT, @iMIN INT
+DECLARE @TIPO_FAIXA_EXTRA CHAR(1), @FAIXA INT, @FAIXAFER INT, @FAIXAEXPEDIENTE INT, @VALOR CHAR(7), @VALORHORA CHAR(7), @DIASSALARIO INT
+DECLARE @FERIAS1 SMALLDATETIME, @FERIAS2 SMALLDATETIME
+DECLARE @AFA1 SMALLDATETIME, @AFA2 SMALLDATETIME
+DECLARE @DT_ADM SMALLDATETIME, @DT_DEM SMALLDATETIME
+DECLARE @EXTRA SMALLDATETIME, @EXTRAN SMALLDATETIME
+DECLARE @cEXTRA CHAR(7), @cEXTRAN CHAR(7)
+DECLARE @TEMFAIXANOTURNA BIT, @TEMFAIXANOTURNA_FER BIT
+DECLARE @FALTADATA SMALLDATETIME
+
+SET DATEFORMAT dmy
+
+-- mesmo que dbo.rst_variaveis_texto e rst_relatorios_variaveis
+IF @P_CRIARTMP = 1
+    CREATE TABLE #dbtVariaveis (
+           [VAR_FUNC] [int] NOT NULL ,
+           [VAR_EVENTO] [int] NULL ,
+           [VAR_VALOR] [money],
+           [VAR_HORAS] [char] (10),
+           [VAR_DIAS] [int],
+           [VAR_EMPCODFOLHA] [char] (10),
+           [VAR_FALTADATA] SMALLDATETIME DEFAULT 0
+           ) ON [PRIMARY]
+
+IF @P_FUNC IS NOT NULL
+    DECLARE funcionarios_cursor CURSOR FOR
+      SELECT FUNC_IND, FUNC_TABPARAM, FUNC_DT_ADM, FUNC_DT_DEM
+      FROM Funcionarios
+      WHERE FUNC_IND = @P_FUNC
+ELSE
+IF @P_DEPTO IS NOT NULL
+       BEGIN
+       DECLARE funcionarios_cursor CURSOR FOR
+         SELECT FUNC_IND, FUNC_TABPARAM, FUNC_DT_ADM, FUNC_DT_DEM
+         FROM Funcionarios
+         WHERE dbo.fn_departamentopertencente(FUNC_EMPRESA, @P_DEPTO) = 1 AND (FUNC_DT_DEM IS NULL OR FUNC_DT_DEM > @P_DATAINICIAL) AND FUNC_AVULSO = 0 AND FUNC_MARCADO_EXCLUSAO = 0
+
+       SELECT @GRUPO = EMP_GRUPO FROM Empresas WHERE EMP_IND = @P_DEPTO
+       END
+ELSE
+       BEGIN
+       DECLARE funcionarios_cursor CURSOR FOR
+         SELECT FUNC_IND, FUNC_TABPARAM, FUNC_DT_ADM, FUNC_DT_DEM
+         FROM Funcionarios
+         WHERE FUNC_IND IN (SELECT FUNC FROM #dbtfuncionarios) AND FUNC_AVULSO = 0 AND FUNC_MARCADO_EXCLUSAO = 0
+
+       SELECT @GRUPO = EMP_GRUPO FROM Funcionarios INNER JOIN Empresas ON EMP_IND = FUNC_EMPRESA WHERE FUNC_IND = (SELECT TOP 1 FUNC FROM #dbtfuncionarios)
+       END
+
+OPEN funcionarios_cursor
+
+FETCH NEXT FROM funcionarios_cursor INTO @FUNC, @PARAM, @DT_ADM, @DT_DEM
+
+WHILE @@FETCH_STATUS = 0
+  BEGIN
+  SET @EVENTO = NULL
+
+  SELECT @TIPO_LANCAMENTO_TRAB = PAR_TIPO_LANCAMENTO_TRAB FROM Parametros WHERE PAR_IND = @PARAM
+
+  -- evento trabalhado
+  SELECT @EVENTO = PAR_EVENTOTRAB FROM Parametros INNER JOIN Eventos ON EVE_IND = PAR_EVENTOTRAB WHERE PAR_IND = @PARAM
+
+  IF @EVENTO IS NOT NULL
+      BEGIN
+      IF @TIPO_LANCAMENTO_TRAB = 'M' /*PARAMETRO_TRAB_TIPO_MENSALISTA*/
+         BEGIN
+         SET @DIASSALARIO = 30
+
+         -- férias
+         IF EXISTS(SELECT * FROM Ferias WHERE FER_FUNC = @FUNC AND FER_TIPO = 'C' AND dbo.fn_periodo_esta_contido(FER_DATA1, FER_DATA2, @P_DATAINICIAL, @P_DATAFINAL) = 1)
+            BEGIN
+            SELECT @FERIAS1 = FER_DATA1, @FERIAS2 = FER_DATA2
+            FROM Ferias
+            WHERE FER_FUNC = @FUNC AND dbo.fn_periodo_esta_contido(FER_DATA1, FER_DATA2, @P_DATAINICIAL, @P_DATAFINAL) = 1
+
+            IF @FERIAS1 < @P_DATAINICIAL SET @FERIAS1 = @P_DATAINICIAL
+            IF @FERIAS2 > @P_DATAFINAL SET @FERIAS2 = @P_DATAFINAL
+            
+            SET @DIASSALARIO = @DIASSALARIO - DATEDIFF(day, @FERIAS1, @FERIAS2) - 1
+            END
+
+         -- afastamentos
+         --IF EXISTS(SELECT * FROM Afastamentos WHERE AFA_FUNC = @FUNC AND (AFA_DATA2 IS NULL OR AFA_DATA2 < @P_DATAFINAL) AND AFA_DATA1 < @P_DATAFINAL)
+         IF EXISTS(SELECT * FROM Afastamentos WHERE AFA_FUNC = @FUNC AND (AFA_DATA2 IS NULL OR AFA_DATA2 > @P_DATAINICIAL))
+            BEGIN
+            SELECT @AFA1 = AFA_DATA1, @AFA2 = AFA_DATA2
+            FROM Afastamentos
+            --WHERE AFA_FUNC = @FUNC AND (AFA_DATA2 IS NULL OR AFA_DATA2 < @P_DATAFINAL) AND AFA_DATA1 < @P_DATAFINAL
+            WHERE AFA_FUNC = @FUNC AND (AFA_DATA2 IS NULL OR AFA_DATA2 > @P_DATAINICIAL)
+
+            IF @AFA1 < @P_DATAINICIAL SET @AFA1 = @P_DATAINICIAL
+            IF @AFA2 IS NULL OR @AFA2 > @P_DATAFINAL SET @AFA2 = @P_DATAFINAL
+            
+            SET @DIASSALARIO = @DIASSALARIO - DATEDIFF(day, @AFA1, @AFA2) - 1
+            END
+
+         -- admissão
+         IF @DT_ADM > @P_DATAINICIAL
+            SET @DIASSALARIO = @DIASSALARIO - DATEDIFF(day, @P_DATAINICIAL, @DT_ADM)
+
+         -- demissão
+         IF @DT_DEM IS NOT NULL AND @DT_DEM < @P_DATAFINAL
+            SET @DIASSALARIO = @DIASSALARIO - DATEDIFF(day, @DT_DEM, @P_DATAFINAL)
+
+         IF @DIASSALARIO > 30 SET @DIASSALARIO = 30
+         --EXEC variavel_salvar @P_FUNC = @FUNC, @P_EVENTO = @EVENTO, @P_VALOR = @DIASSALARIO
+
+         EXEC variavel_salvar @P_FUNC = @FUNC, @P_EVENTO = @EVENTO, @P_DIAS = @DIASSALARIO
+         END
+      ELSE
+      IF @TIPO_LANCAMENTO_TRAB = 'T' /*PARAMETRO_TRAB_TIPO_HORISTA_TRABALHADO*/
+         BEGIN
+         SELECT @TOTAL = dbo.fn_minutetohourlong(SUM(dbo.fn_smalldatetimetominute(CAL_TRAB)))
+         FROM Calculo
+         WHERE CAL_FUNC = @FUNC AND CAL_DATA >= @P_DATAINICIAL AND CAL_DATA <= @P_DATAFINAL AND CAL_TRAB > CAL_TRABN
+
+         SELECT @iMIN = SUM(dbo.fn_smalldatetimetominute(CAL_ABONO))
+         FROM Calculo
+         WHERE CAL_FUNC = @FUNC AND CAL_DATA >= @P_DATAINICIAL AND CAL_DATA <= @P_DATAFINAL
+
+         IF @iMIN > 0
+            SET @TOTAL = dbo.fn_minutetohourlong(dbo.fn_hourlongtominute(@TOTAL) + @iMIN)
+
+         EXEC variavel_salvar @P_FUNC = @FUNC, @P_EVENTO = @EVENTO, @P_HORAS = @TOTAL
+         END
+      ELSE
+      IF @TIPO_LANCAMENTO_TRAB = 'F' /*PARAMETRO_TRAB_TIPO_HORISTA_FIXO*/
+         BEGIN
+         SELECT @HORASFIXASLANCAR = PAR_HORASFIXASLANCAR FROM Parametros WHERE PAR_IND = @PARAM
+         EXEC variavel_salvar @P_FUNC = @FUNC, @P_EVENTO = @EVENTO, @P_HORAS = @HORASFIXASLANCAR
+         END
+      END
+
+  -- evento descontos
+  IF @TIPO_LANCAMENTO_TRAB = 'M' /*PARAMETRO_TRAB_TIPO_MENSALISTA*/ OR @TIPO_LANCAMENTO_TRAB = 'F' /*PARAMETRO_TRAB_TIPO_HORISTA_FIXO*/
+     BEGIN
+     SELECT @EVENTO = PAR_EVENTOATR FROM Parametros WHERE PAR_IND = @PARAM
+
+     SELECT @TOTAL = dbo.fn_minutetohourlong(SUM(dbo.fn_smalldatetimetominute(CAL_DESCONTO)))
+     FROM Calculo
+     WHERE CAL_FUNC = @FUNC AND CAL_DATA >= @P_DATAINICIAL AND CAL_DATA <= @P_DATAFINAL AND CAL_FALTAHORA = 0
+     
+     EXEC variavel_salvar @P_FUNC = @FUNC, @P_EVENTO = @EVENTO, @P_HORAS = @TOTAL
+     END
+
+  -- evento ddsr
+  IF @TIPO_LANCAMENTO_TRAB = 'M' /*PARAMETRO_TRAB_TIPO_MENSALISTA*/ OR @TIPO_LANCAMENTO_TRAB = 'F' /*PARAMETRO_TRAB_TIPO_HORISTA_FIXO*/
+     BEGIN
+     SELECT @EVENTO = PAR_EVENTODDSR FROM Parametros WHERE PAR_IND = @PARAM
+
+     SELECT @TOTAL = dbo.fn_minutetohourlong(SUM(dbo.fn_smalldatetimetominute(CAL_DDSR)))
+     FROM Calculo
+     WHERE CAL_FUNC = @FUNC AND CAL_DATA >= @P_DATAINICIAL AND CAL_DATA <= @P_DATAFINAL
+
+     EXEC variavel_salvar @P_FUNC = @FUNC, @P_EVENTO = @EVENTO, @P_HORAS = @TOTAL
+     END
+
+  -- evento faltas
+ IF @TIPO_LANCAMENTO_TRAB = 'M' /*PARAMETRO_TRAB_TIPO_MENSALISTA*/ OR @TIPO_LANCAMENTO_TRAB = 'F' /*PARAMETRO_TRAB_TIPO_HORISTA_FIXO*/
+     BEGIN
+     SELECT @EVENTO = PAR_EVENTOFALTAS FROM Parametros WHERE PAR_IND = @PARAM
+
+     IF (SELECT PAR_TIPOLANCAMENTOFALTAS FROM Parametros WHERE PAR_IND = @PARAM) = 'H' /*PARAMETRO_FALTAS_TIPO_LANCAMENTO_HORAS*/
+        BEGIN
+        SELECT @TOTAL = dbo.fn_minutetohourlong(SUM(dbo.fn_smalldatetimetominute(CAL_FALTAHORA)))
+        FROM Calculo
+        WHERE CAL_FUNC = @FUNC AND CAL_DATA >= @P_DATAINICIAL AND CAL_DATA <= @P_DATAFINAL
+
+        EXEC variavel_salvar @P_FUNC = @FUNC, @P_EVENTO = @EVENTO, @P_HORAS = @TOTAL
+        END
+     ELSE
+     IF (SELECT PAR_TIPOLANCAMENTOFALTAS FROM Parametros WHERE PAR_IND = @PARAM) = 'D' /*PARAMETRO_FALTAS_TIPO_LANCAMENTO_DIAS*/
+        BEGIN
+        SELECT @iTOTAL = COUNT(*)
+        FROM Calculo
+        WHERE CAL_FUNC = @FUNC AND CAL_DATA >= @P_DATAINICIAL AND CAL_DATA <= @P_DATAFINAL AND CAL_FALTAHORA > 0
+   
+        --EXEC variavel_salvar @P_FUNC = @FUNC, @P_EVENTO = @EVENTO, @P_VALOR = @iTOTAL
+        EXEC variavel_salvar @P_FUNC = @FUNC, @P_EVENTO = @EVENTO, @P_DIAS = @iTOTAL
+        END
+     END
+
+  -- evento dsr
+  IF @TIPO_LANCAMENTO_TRAB = 'T' /*PARAMETRO_TRAB_TIPO_HORISTA_TRABALHADO*/
+     BEGIN
+     SELECT @EVENTO = PAR_EVENTODSR FROM Parametros WHERE PAR_IND = @PARAM
+
+     SELECT @TOTAL = dbo.fn_minutetohourlong(SUM(dbo.fn_smalldatetimetominute(CAL_DSR)))
+     FROM Calculo
+     WHERE CAL_FUNC = @FUNC AND CAL_DATA >= @P_DATAINICIAL AND CAL_DATA <= @P_DATAFINAL
+
+     EXEC variavel_salvar @P_FUNC = @FUNC, @P_EVENTO = @EVENTO, @P_HORAS = @TOTAL
+     END
+
+  -- evento noturno
+  SELECT @EVENTO = PAR_EVENTONOT1 FROM Parametros WHERE PAR_IND = @PARAM
+
+  SELECT @TOTAL = dbo.fn_minutetohourlong(SUM(dbo.fn_smalldatetimetominute(CAL_NOTURNO)))
+  FROM Calculo
+  WHERE CAL_FUNC = @FUNC AND CAL_DATA >= @P_DATAINICIAL AND CAL_DATA <= @P_DATAFINAL
+
+  SELECT @iMIN = SUM(dbo.fn_smalldatetimetominute(CAL_ABONO_NOTURNO))
+  FROM Calculo
+  WHERE CAL_FUNC = @FUNC AND CAL_DATA >= @P_DATAINICIAL AND CAL_DATA <= @P_DATAFINAL
+
+  IF @iMIN > 0
+     SET @TOTAL = dbo.fn_minutetohourlong(dbo.fn_hourlongtominute(@TOTAL) + @iMIN)
+
+  EXEC variavel_salvar @P_FUNC = @FUNC, @P_EVENTO = @EVENTO, @P_HORAS = @TOTAL
+  ----------------------------------------------------
+
+  -- horas extras
+  SELECT @TIPO_FAIXA_EXTRA = PAR_TIPO_FAIXA_EXTRA, @FAIXA = PAR_EXTRAS_FAIXA, @FAIXAFER = PAR_EXTRASF_FAIXA
+  FROM Parametros WHERE PAR_IND = @PARAM
+
+  SELECT @TEMFAIXANOTURNA = (CASE WHEN FAI_NOT_EVENTO1 IS NOT NULL THEN 1 ELSE 0 END) FROM Faixas WHERE FAI_IND = @FAIXA
+  SELECT @TEMFAIXANOTURNA_FER = (CASE WHEN FAI_NOT_EVENTO1 IS NOT NULL THEN 1 ELSE 0 END) FROM Faixas WHERE FAI_IND = @FAIXAFER
+
+  -- tipo mensal
+  IF @TIPO_FAIXA_EXTRA = 'M' /*PARAMETRO_FAIXA_EXTRA_TIPO_MENSAL*/
+     BEGIN
+     IF @TEMFAIXANOTURNA = 1
+        BEGIN
+        -- extras diurnas
+        SELECT @TOTAL = dbo.fn_minutetohourlong(SUM(dbo.fn_smalldatetimetominute(CAL_EXTRA)))
+        FROM Calculo
+        WHERE CAL_FUNC = @FUNC AND CAL_DATA >= @P_DATAINICIAL AND CAL_DATA <= @P_DATAFINAL
+
+        EXEC variavel_decompor_faixa @P_FUNC = @FUNC, @P_EXTRA = @TOTAL, @P_FAIXA = @FAIXA, @P_EHNOTURNO = 0
+
+        -- extras noturnas
+        SELECT @TOTAL = dbo.fn_minutetohourlong(SUM(dbo.fn_smalldatetimetominute(CAL_EXTRAN)))
+        FROM Calculo
+        WHERE CAL_FUNC = @FUNC AND CAL_DATA >= @P_DATAINICIAL AND CAL_DATA <= @P_DATAFINAL
+
+        EXEC variavel_decompor_faixa @P_FUNC = @FUNC, @P_EXTRA = @TOTAL, @P_FAIXA = @FAIXA, @P_EHNOTURNO = 1
+        END
+     ELSE
+        BEGIN
+        -- extras diurnas + noturnas
+        SELECT @TOTAL = dbo.fn_minutetohourlong(SUM(dbo.fn_smalldatetimetominute(CAL_EXTRA) + dbo.fn_smalldatetimetominute(CAL_EXTRAN)))
+        FROM Calculo
+        WHERE CAL_FUNC = @FUNC AND CAL_DATA >= @P_DATAINICIAL AND CAL_DATA <= @P_DATAFINAL
+
+        EXEC variavel_decompor_faixa @P_FUNC = @FUNC, @P_EXTRA = @TOTAL, @P_FAIXA = @FAIXA, @P_EHNOTURNO = 0
+        END
+
+     IF @TEMFAIXANOTURNA_FER = 1
+        BEGIN
+        -- extras feriados diurnas
+        SELECT @TOTAL = dbo.fn_minutetohourlong(SUM(dbo.fn_smalldatetimetominute(CAL_EXTRAF)))
+        FROM Calculo
+        WHERE CAL_FUNC = @FUNC AND CAL_DATA >= @P_DATAINICIAL AND CAL_DATA <= @P_DATAFINAL
+
+        EXEC variavel_decompor_faixa @P_FUNC = @FUNC, @P_EXTRA = @TOTAL, @P_FAIXA = @FAIXAFER, @P_EHNOTURNO = 0
+
+        -- extras feriados noturnas
+        SELECT @TOTAL = dbo.fn_minutetohourlong(SUM(dbo.fn_smalldatetimetominute(CAL_EXTRANF)))
+        FROM Calculo
+        WHERE CAL_FUNC = @FUNC AND CAL_DATA >= @P_DATAINICIAL AND CAL_DATA <= @P_DATAFINAL
+
+        EXEC variavel_decompor_faixa @P_FUNC = @FUNC, @P_EXTRA = @TOTAL, @P_FAIXA = @FAIXAFER, @P_EHNOTURNO = 1
+        END
+     ELSE
+        BEGIN
+        -- extras feriados diurnas + noturnas
+        SELECT @TOTAL = dbo.fn_minutetohourlong(SUM(dbo.fn_smalldatetimetominute(CAL_EXTRAF)) + SUM(dbo.fn_smalldatetimetominute(CAL_EXTRANF)))
+        FROM Calculo
+        WHERE CAL_FUNC = @FUNC AND CAL_DATA >= @P_DATAINICIAL AND CAL_DATA <= @P_DATAFINAL
+
+        EXEC variavel_decompor_faixa @P_FUNC = @FUNC, @P_EXTRA = @TOTAL, @P_FAIXA = @FAIXAFER, @P_EHNOTURNO = 0
+        END
+     END
+  ELSE
+  -- tipo diário
+  IF @TIPO_FAIXA_EXTRA = 'D' /*PARAMETRO_FAIXA_EXTRA_TIPO_DIARIO*/
+     BEGIN
+     -- horas extras normais
+     DECLARE calculo_cursor CURSOR FOR
+       SELECT CAL_EXTRA, CAL_EXTRAN, dbo.fn_get_faixa_calculo_data(CAL_FUNC, CAL_DATA, 0 /*extra normal*/)
+       FROM Calculo
+       WHERE CAL_FUNC = @FUNC AND CAL_DATA >= @P_DATAINICIAL AND CAL_DATA <= @P_DATAFINAL
+
+     OPEN calculo_cursor
+
+     FETCH NEXT FROM calculo_cursor INTO @EXTRA, @EXTRAN, @FAIXAEXPEDIENTE
+
+     WHILE @@FETCH_STATUS = 0
+        BEGIN
+        IF @FAIXAEXPEDIENTE IS NULL SET @FAIXAEXPEDIENTE = @FAIXA
+
+        IF @TEMFAIXANOTURNA_FER = 1
+           BEGIN
+           IF @EXTRA > 0
+              BEGIN
+              SET @cEXTRA = dbo.fn_timetostr(@EXTRA)
+              EXEC variavel_decompor_faixa @P_FUNC = @FUNC, @P_EXTRA = @cEXTRA, @P_FAIXA = @FAIXAEXPEDIENTE, @P_EHNOTURNO = 0
+              END
+
+           IF @EXTRAN > 0
+              BEGIN
+              SET @cEXTRAN = dbo.fn_timetostr(@EXTRAN)
+              EXEC variavel_decompor_faixa @P_FUNC = @FUNC, @P_EXTRA = @cEXTRAN, @P_FAIXA = @FAIXAEXPEDIENTE, @P_EHNOTURNO = 1
+              END
+           END
+        ELSE
+           BEGIN
+           --SET @cEXTRA = dbo.fn_timetostr(@EXTRA + @EXTRAN)
+           SET @cEXTRA = dbo.fn_minutetohourlong(dbo.fn_smalldatetimetominute(@EXTRA) + dbo.fn_smalldatetimetominute(@EXTRAN))
+           EXEC variavel_decompor_faixa @P_FUNC = @FUNC, @P_EXTRA = @cEXTRA, @P_FAIXA = @FAIXAEXPEDIENTE, @P_EHNOTURNO = 0
+           END
+
+        FETCH NEXT FROM calculo_cursor INTO @EXTRA, @EXTRAN, @FAIXAEXPEDIENTE
+        END
+
+     CLOSE calculo_cursor
+     DEALLOCATE calculo_cursor     
+
+     -- horas extras feriados
+     DECLARE calculo_cursor CURSOR FOR
+       SELECT CAL_EXTRAF, CAL_EXTRANF, dbo.fn_get_faixa_calculo_data(CAL_FUNC, CAL_DATA, 1 /*extra feriado*/)
+       FROM Calculo
+       WHERE CAL_FUNC = @FUNC AND CAL_DATA >= @P_DATAINICIAL AND CAL_DATA <= @P_DATAFINAL
+
+     OPEN calculo_cursor
+
+     FETCH NEXT FROM calculo_cursor INTO @EXTRA, @EXTRAN, @FAIXAEXPEDIENTE
+
+     WHILE @@FETCH_STATUS = 0
+        BEGIN
+        IF @FAIXAEXPEDIENTE IS NULL SET @FAIXAEXPEDIENTE = @FAIXAFER
+
+        IF @TEMFAIXANOTURNA_FER = 1
+            BEGIN
+            IF @EXTRA > 0
+               BEGIN
+               SET @cEXTRA = dbo.fn_timetostr(@EXTRA)
+               EXEC variavel_decompor_faixa @P_FUNC = @FUNC, @P_EXTRA = @cEXTRA, @P_FAIXA = @FAIXAEXPEDIENTE, @P_EHNOTURNO = 0
+               END
+
+            IF @EXTRAN > 0
+               BEGIN
+               SET @cEXTRAN = dbo.fn_timetostr(@EXTRAN)
+               EXEC variavel_decompor_faixa @P_FUNC = @FUNC, @P_EXTRA = @cEXTRAN, @P_FAIXA = @FAIXAEXPEDIENTE, @P_EHNOTURNO = 1
+               END
+            END
+        ELSE
+            BEGIN
+            SET @EXTRA = @EXTRA + @EXTRAN
+            
+            IF @EXTRA > 0
+               BEGIN
+               SET @cEXTRA = dbo.fn_timetostr(@EXTRA)
+               EXEC variavel_decompor_faixa @P_FUNC = @FUNC, @P_EXTRA = @cEXTRA, @P_FAIXA = @FAIXAEXPEDIENTE, @P_EHNOTURNO = 0
+               END
+            END
+
+        FETCH NEXT FROM calculo_cursor INTO @EXTRA, @EXTRAN, @FAIXAEXPEDIENTE
+        END
+
+     CLOSE calculo_cursor
+     DEALLOCATE calculo_cursor
+     END
+  
+  BEGIN -- variaveis digitadas
+  DECLARE variaveis_cursor CURSOR FOR
+    --SELECT VAR_EVENTO, dbo.fn_moneytostring(VAR_VALOR), VAR_HORA FROM Variaveis WHERE VAR_FUNC = @FUNC
+    SELECT VAR_FUNC, VAR_EVENTO, VAR_VALOR, VAR_HORA FROM Variaveis
+    INNER JOIN Funcionarios ON FUNC_IND = VAR_FUNC
+    WHERE VAR_FUNC = @FUNC AND
+          (FUNC_DT_DEM IS NULL OR FUNC_DT_DEM > @P_DATAINICIAL) AND
+          FUNC_AVULSO = 0 AND
+          (VAR_MES IS NULL OR (VAR_MES = MONTH(@P_DATAINICIAL) AND VAR_ANO = YEAR(@P_DATAINICIAL)))
+
+  OPEN variaveis_cursor
+
+  FETCH NEXT FROM variaveis_cursor INTO @FUNC, @EVENTO, @VALOR, @VALORHORA
+
+  WHILE @@FETCH_STATUS = 0
+    BEGIN
+    EXEC variavel_salvar @P_FUNC = @FUNC, @P_EVENTO = @EVENTO, @P_VALOR = @VALOR, @P_HORAS = @VALORHORA
+    FETCH NEXT FROM variaveis_cursor INTO @FUNC, @EVENTO, @VALOR, @VALORHORA
+    END
+
+  CLOSE variaveis_cursor
+  DEALLOCATE variaveis_cursor
+  -------------------------------------------------------
+  END
+
+-- registros de falta (folha dominio)
+  IF (SELECT LVA_FALTA_INIDATA FROM ConfigVariaveis WHERE LVA_GRUPO = @GRUPO) > 0 AND
+       (SELECT LVA_FALTA_TAMDATA FROM ConfigVariaveis WHERE LVA_GRUPO = @GRUPO) > 0
+         BEGIN
+         IF (EXISTS (SELECT * FROM Calculo WHERE CAL_FUNC = @FUNC AND CAL_DATA >= @P_DATAINICIAL AND CAL_DATA <= @P_DATAFINAL AND CAL_FALTAHORA > 0))
+               BEGIN
+               DECLARE faltas_cursor CURSOR FOR
+                    SELECT CAL_DATA FROM Calculo WHERE CAL_FUNC = @FUNC AND CAL_DATA >= @P_DATAINICIAL AND CAL_DATA <= @P_DATAFINAL AND CAL_FALTAHORA > 0
+
+               OPEN faltas_cursor
+
+               FETCH NEXT FROM faltas_cursor INTO @FALTADATA
+
+               WHILE @@FETCH_STATUS = 0
+                    BEGIN
+                    EXEC variavel_salvar @P_FUNC = @FUNC, @P_FALTADATA = @FALTADATA
+                    FETCH NEXT FROM faltas_cursor INTO @FALTADATA
+                    END
+
+               CLOSE faltas_cursor
+               DEALLOCATE faltas_cursor
+               END
+         END
+
+  -- finalizar com o código de empresa para a folha
+  UPDATE #dbtVariaveis
+  SET VAR_EMPCODFOLHA = (SELECT dbo.fn_get_codigo_folha_departamento(EMP_IND)
+                         FROM Empresas
+                         INNER JOIN Funcionarios ON FUNC_EMPRESA = EMP_IND
+                         WHERE FUNC_IND = @FUNC)
+  WHERE VAR_FUNC = @FUNC
+
+
+  FETCH NEXT FROM funcionarios_cursor INTO @FUNC, @PARAM, @DT_ADM, @DT_DEM
+  END
+
+CLOSE funcionarios_cursor
+DEALLOCATE funcionarios_cursor
+
+IF @P_CRIARTMP = 1
+    SELECT 
+       VAR_FUNC, 
+       VAR_EVENTO, 
+       VAR_VALOR, 
+       VAR_HORAS, 
+       dbo.fn_zerodigit(EVE_COD, 3) AS EVE_COD, 
+       EVE_DESCRICAO, 
+       EVE_PORCENTAGEM
+    FROM #dbtVariaveis
+    INNER JOIN Eventos ON EVE_IND = VAR_EVENTO
+    ORDER BY EVE_COD
+
