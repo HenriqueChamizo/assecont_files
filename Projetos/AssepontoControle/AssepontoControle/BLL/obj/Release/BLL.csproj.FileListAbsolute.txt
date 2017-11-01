@@ -54,3 +54,13 @@ C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\B
 C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\BLL\obj\Release\BLL.csproj.CoreCompileInputs.cache
 C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\BLL\obj\Release\BLL.dll
 C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\BLL\obj\Release\BLL.pdb
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Release\BLL.dll
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Release\BLL.pdb
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Release\DAO.dll
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Release\Modelo.dll
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Release\DAO.pdb
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Release\Modelo.pdb
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\BLL\obj\Release\BLL.csproj.CoreCompileInputs.cache
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\BLL\obj\Release\BLL.dll
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\BLL\obj\Release\BLL.pdb

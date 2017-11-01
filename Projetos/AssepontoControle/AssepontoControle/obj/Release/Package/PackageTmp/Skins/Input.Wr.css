@@ -1,0 +1,145 @@
+/*Telerik RadInput Wr Skin*/
+
+/*global*/
+
+.RadInput_Wr,
+.RadInputMgr_Wr
+{
+	font:12px "segoe ui",arial,sans-serif;
+}
+
+/*textbox states*/
+
+html body .RadInput_Wr .riTextBox,
+html body .RadInputMgr_Wr
+{
+	border-color:#6788be;
+	background:#fff;
+	color:#000;
+	font:12px "segoe ui",arial,sans-serif;
+	/* wrenne */
+}
+
+html body .RadInput_Wr .riEmpty,
+html body .RadInput_Empty_Wr
+{
+	color:#777;
+}
+
+html body .RadInput_Wr .riHover,
+html body .RadInput_Hover_Wr,
+html body .RadInput_Wr .riFocused,
+html body .RadInput_Focused_Wr
+{
+	border-color:#3f5f94;
+}
+
+html body .RadInput_Wr .riRead,
+html body .RadInput_Read_Wr
+{
+	border-color:#bebebe;
+}
+
+html body .RadInput_Wr .riDisabled,
+html body .RadInput_Disabled_Wr
+{
+	border-color:#bebebe;
+	color:#777;
+	cursor:default;
+}
+
+html body .RadInput_Wr .riError,
+html body .RadInput_Error_Wr
+{
+	border-color:#d24000;
+	background:#fff 100% -298px no-repeat url('Input/sprite.gif');
+	color:#b32d34;
+	/* wrenne */
+	_border-radius: 4px;
+}
+
+.RadForm.rfdTextbox .RadInput_Wr .riError[type="text"],
+.RadForm.rfdTextbox .RadInput_Error_Wr[type="text"]
+{
+	border-color:#d24000;
+	background:#fff 100% -298px no-repeat url('Input/sprite.gif');
+	color:#b32d34;
+}
+
+html body .RadInput_Wr .riNegative,
+html body .RadInput_Negative_Wr
+{
+	color:#444;
+}
+
+/*buttons*/
+
+.RadInput_Wr a
+{
+	background:transparent no-repeat url('Input/sprite.gif');
+}
+
+/*go*/
+
+.RadInput_Wr .riBtn a
+{
+	width:20px;
+	height:18px;
+	line-height:18px;
+	background-position:3px 5px;
+}
+
+.RadInput_Wr .riBtn a:hover
+{
+	background-position:3px -45px;
+}
+
+/*spin*/
+
+.RadInput_Wr .riSpin a
+{
+	width:15px;
+	height:7px;
+	line-height:7px;
+}
+
+.RadInput_Wr a.riUp
+{
+	background-position:4px -98px;
+}
+
+.RadInput_Wr a.riUp:hover
+{
+	background-position:4px -148px;
+}
+
+.RadInput_Wr a.riDown
+{
+	background-position:4px -199px;
+}
+
+.RadInput_Wr a.riDown:hover
+{
+	background-position:4px -249px;
+}
+
+/*label*/
+
+.RadInput_Wr .riLabel
+{
+	color:#000;
+}
+
+/*rtl*/
+
+html body .RadInputRTL_Wr .riError,
+html body .RadInputRTL_Error_Wr
+{
+	background-position:3px -298px;
+}
+
+.RadForm.rfdTextbox .RadInputRTL_Wr .riError[type="text"],
+.RadForm.rfdTextbox .RadInputRTL_Error_Wr[type="text"]
+{
+	background-position:3px -298px;
+}

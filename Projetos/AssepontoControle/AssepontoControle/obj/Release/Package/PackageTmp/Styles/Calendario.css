@@ -1,0 +1,292 @@
+﻿/*Telerik RadCalendar Special skin*/
+
+table.RadCalendar_Special
+{
+    border-collapse: separate;
+    border: 0;
+    color: #fff;
+    font: 10pt "segoe ui";
+}
+
+table.RadCalendarMonthView
+{
+    background: white;
+}
+
+    table.RadCalendarMonthView td
+    {
+        padding: 5px !important;
+    }
+
+.RadCalendarMonthView input
+{
+    background: #1A4C83;
+    color: white;
+}
+
+.RadCalendarMonthView a:hover
+{
+    background: bisque;
+}
+
+.calendarToday
+{
+    background: #FFFDE4 !important;
+    border-color: #1A4C83 !important;
+}
+
+
+/*titlebar*/
+
+.RadCalendar_Special .rcTitlebar
+{
+    width: 100%;
+    border: 0;
+    padding: 0;
+    background: 0 0 no-repeat url(Common/rcTitlebar.gif);
+}
+
+    .RadCalendar_Special .rcTitlebar table
+    {
+        width: 100%;
+        border-collapse: separate;
+        border: 0;
+        font: 12pt "segoe ui",arial,sans-serif;
+        text-transform: uppercase;
+        height: 30px;
+        color: #1A4C83;
+        background: white;
+    }
+
+    .RadCalendar_Special .rcTitlebar td
+    {
+        border: 0;
+        padding: 0;
+        text-align: center;
+        vertical-align: -webkit-baseline-middle;
+    }
+
+    .RadCalendar_Special .rcTitlebar .rcTitle
+    {
+        width: 100%;
+        cursor: default;
+    }
+
+    .RadCalendar_Special .rcTitlebar .rcFastPrev,
+    .RadCalendar_Special .rcTitlebar .rcFastNext
+    {
+        display: none !important;
+    }
+
+    .RadCalendar_Special .rcTitlebar .rcPrev,
+    .RadCalendar_Special .rcTitlebar .rcNext
+    {
+        display: initial !important;
+        width: 17px;
+        height: 16px;
+        overflow: hidden;
+        margin: 0 6px;
+        background: transparent url(Common/specialsprite.gif) no-repeat;
+        text-indent: -2222px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .RadCalendar_Special .rcTitlebar .rcFastPrev
+    {
+        background-position: 0 0;
+    }
+
+        .RadCalendar_Special .rcTitlebar .rcFastPrev:hover
+        {
+            background-position: 0 -50px;
+        }
+
+    .RadCalendar_Special .rcTitlebar .rcPrev
+    {
+        background-position: 0 -100px;
+    }
+
+        .RadCalendar_Special .rcTitlebar .rcPrev:hover
+        {
+            background-position: 0 -150px;
+        }
+
+    .RadCalendar_Special .rcTitlebar .rcNext
+    {
+        background-position: 0 -200px;
+    }
+
+        .RadCalendar_Special .rcTitlebar .rcNext:hover
+        {
+            background-position: 0 -250px;
+        }
+
+    .RadCalendar_Special .rcTitlebar .rcFastNext
+    {
+        background-position: 0 -300px;
+    }
+
+        .RadCalendar_Special .rcTitlebar .rcFastNext:hover
+        {
+            background-position: 0 -350px;
+        }
+
+.RadCalendar_Special .rcMain
+{
+    width: 100%;
+    border: 0;
+    padding: 0;
+}
+
+.RadCalendar_Special .rcMainTable
+{
+    border-collapse: separate;
+    border: 0;
+    width: 100%;
+    font: 10pt "segoe ui",arial,sans-serif;
+}
+
+.RadCalendar .rcMainTable td
+{
+    height: 150px;
+}
+
+.RadCalendar .calendarioComp
+{
+    margin-top: 8px;
+    margin-right: 1px;
+    float: right;
+}
+
+    .RadCalendar .calendarioComp td
+    {
+        border: 0px !Important;
+        height: 50px !Important;
+    }
+
+/*header, footer*/
+
+.RadCalendar_Special .rcHeader,
+.RadCalendar_Special .rcFooter
+{
+    border: 0;
+    padding: 0;
+}
+
+/*week numbers and days*/
+
+.RadCalendar_Special .rcWeek th,
+.RadCalendar_Special .rcRow th
+{
+    border: 1px solid white;
+    font-weight: normal;
+    vertical-align: middle;
+    text-align: center;
+    cursor: default;
+    color: White;
+    text-transform: uppercase;
+}
+
+.RadCalendar_Special .rcWeek th
+{
+    line-height: 28px;
+    padding-bottom: 7px;
+    background: 0 -600px repeat-x url(Common/specialsprite.gif);
+}
+
+.RadCalendar .rcWeek th
+{
+    text-align: center !important;
+    border: 1px solid white !important;
+    background: #1A4C83 !important;
+}
+
+/*date cells*/
+/*.RadCalendar_Special .rcRow td
+{
+    background-color: #F2F2F3;
+    color: #1A4C83;
+    border-color: white;
+}*/
+
+.RadCalendar td.rcOtherMonth
+{
+    background: white;
+}
+
+.RadCalendar .rcMainTable td
+{
+    _height: 160px;
+}
+
+.RadCalendar_Special .rcRow a, .RadCalendar_Special .rcRow span, .RadCalendar_Special .rcTemplate
+{
+    display: block;
+    text-decoration: none;
+}
+
+.RadCalendar_Special .rcTemplate
+{
+    background: #1A4C83 !important;
+    color: white;
+}
+
+.RadCalendar_Special .rcRow a
+{
+    width: 115px;
+    color: black;
+}
+
+.RadCalendar .rcRow td
+{
+    vertical-align: text-top !important;
+    border-width: 3px !important;
+    background-color: #F2F2F3;
+    color: #1A4C83;
+    border-color: white;
+}
+
+.RadCalendar_Special .rcRow .rcHover a,
+.RadCalendar_Special .rcRow .rcSelected a
+{
+    background-position: 0 -500px;
+    color: black;
+    cursor: pointer;
+}
+
+.RadCalendar .rcRow td:hover
+{
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    padding: 0;
+    text-align: right;
+    vertical-align: -webkit-baseline-middle;
+    border-color: white;
+    opacity: 0.4;
+}
+
+/*special days*/
+
+.RadCalendar_Special .rcRow .rcHover .rcTemplate,
+.RadCalendar_Special .rcRow .rcSelected .rcTemplate
+{
+    color: #fc0;
+    cursor: pointer;
+}
+
+.RadCalendar_Special .rcRow .rcDayDate
+{
+    background: 0 0 no-repeat url(Common/t_date.gif);
+}
+
+.RadCalendar_Special .rcRow .rcDayMortgage
+{
+    background: 0 0 no-repeat url(Common/t_mortgage.gif);
+}
+
+.RadCalendar_Special .rcRow .rcDayBirthday
+{
+    background: 0 0 no-repeat url(Common/t_birthday.gif);
+}
