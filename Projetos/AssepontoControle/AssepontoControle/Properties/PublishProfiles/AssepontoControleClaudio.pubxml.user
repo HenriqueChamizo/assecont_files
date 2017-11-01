@@ -140,7 +140,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 16:30:27</publishTime>
     </File>
     <File Include="Arquivos/EmailTreinamentoConfirmacao.htm">
-      <publishTime>10/24/2017 13:42:33</publishTime>
+      <publishTime>10/27/2017 11:14:37</publishTime>
     </File>
     <File Include="Arquivos/EmailTreinamentoEnvioCodigo.htm">
       <publishTime>09/26/2017 13:52:43</publishTime>
@@ -176,25 +176,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:17</publishTime>
     </File>
     <File Include="bin/Assecontweb.dll">
-      <publishTime>10/26/2017 16:49:24</publishTime>
+      <publishTime>01/11/2017 10:11:06</publishTime>
     </File>
     <File Include="bin/Assecontweb.pdb">
-      <publishTime>10/26/2017 16:49:24</publishTime>
+      <publishTime>01/11/2017 10:11:06</publishTime>
     </File>
     <File Include="bin/BLL.dll">
-      <publishTime>10/25/2017 15:56:45</publishTime>
+      <publishTime>01/11/2017 10:11:03</publishTime>
     </File>
     <File Include="bin/BLL.pdb">
-      <publishTime>10/25/2017 15:56:45</publishTime>
+      <publishTime>01/11/2017 10:11:03</publishTime>
     </File>
     <File Include="bin/Chamizo.Web.Control.dll">
       <publishTime>06/02/2017 16:36:31</publishTime>
     </File>
     <File Include="bin/DAO.dll">
-      <publishTime>10/25/2017 15:56:38</publishTime>
+      <publishTime>01/11/2017 10:11:03</publishTime>
     </File>
     <File Include="bin/DAO.pdb">
-      <publishTime>10/25/2017 15:56:38</publishTime>
+      <publishTime>01/11/2017 10:11:03</publishTime>
     </File>
     <File Include="bin/Excel.dll">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -219,6 +219,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="bin/Model.pdb">
       <publishTime>10/25/2017 15:56:37</publishTime>
+    </File>
+    <File Include="bin/Modelo.dll">
+      <publishTime>01/11/2017 10:11:02</publishTime>
+    </File>
+    <File Include="bin/Modelo.pdb">
+      <publishTime>01/11/2017 10:11:02</publishTime>
     </File>
     <File Include="bin/Telerik.Web.UI.dll">
       <publishTime>06/02/2017 16:36:27</publishTime>
@@ -740,10 +746,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/02/2017 16:36:27</publishTime>
     </File>
     <File Include="Images/treinamento-asseponto1-header.png">
-      <publishTime>10/24/2017 13:41:56</publishTime>
+      <publishTime>10/27/2017 11:14:38</publishTime>
     </File>
     <File Include="Images/treinamento-asseponto1.jpg">
-      <publishTime>10/24/2017 11:41:19</publishTime>
+      <publishTime>10/27/2017 11:14:38</publishTime>
     </File>
     <File Include="Images/Treinamento/WebEx_Etapa1.jpg">
       <publishTime>06/02/2017 16:36:27</publishTime>
@@ -788,7 +794,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/02/2017 16:36:27</publishTime>
     </File>
     <File Include="MasterPages/Assecont.Master">
-      <publishTime>06/02/2017 16:36:27</publishTime>
+      <publishTime>10/31/2017 14:28:09</publishTime>
     </File>
     <File Include="MasterPages/Clientes.Master">
       <publishTime>06/02/2017 16:36:27</publishTime>
@@ -827,7 +833,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/02/2017 16:36:27</publishTime>
     </File>
     <File Include="Revenda/Clientes/Default.aspx">
-      <publishTime>10/25/2017 11:53:36</publishTime>
+      <publishTime>10/27/2017 11:14:38</publishTime>
     </File>
     <File Include="Revenda/Clientes/Pendencia.aspx">
       <publishTime>06/02/2017 16:36:27</publishTime>
@@ -869,10 +875,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/02/2017 16:36:27</publishTime>
     </File>
     <File Include="Revenda/Relatorios/RelatorioClientesExpirados.aspx">
-      <publishTime>10/25/2017 14:22:21</publishTime>
+      <publishTime>10/31/2017 16:02:49</publishTime>
     </File>
     <File Include="Revenda/Relatorios/RelatorioContratoManutencao.aspx">
-      <publishTime>10/25/2017 14:20:28</publishTime>
+      <publishTime>10/27/2017 11:14:38</publishTime>
     </File>
     <File Include="RevendaCadastro/CadastroRevendas.aspx">
       <publishTime>06/02/2017 16:36:27</publishTime>
@@ -1552,6 +1558,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Suporte/Pesquisa/pesquisaTreinamentoDetalhado.aspx">
       <publishTime>06/02/2017 16:36:28</publishTime>
     </File>
+    <File Include="Suporte/Planos/Default.aspx">
+      <publishTime>10/30/2017 14:42:38</publishTime>
+    </File>
+    <File Include="Suporte/Planos/Solicitacao.aspx">
+      <publishTime>10/30/2017 17:33:24</publishTime>
+    </File>
     <File Include="Suporte/Questionarios/ConfirmacaoQuestionario.aspx">
       <publishTime>06/02/2017 16:36:28</publishTime>
     </File>
@@ -1616,7 +1628,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/02/2017 16:36:28</publishTime>
     </File>
     <File Include="Suporte/Treinamentos/addAgendaCliente.aspx">
-      <publishTime>10/26/2017 16:59:32</publishTime>
+      <publishTime>10/27/2017 11:14:38</publishTime>
     </File>
     <File Include="Suporte/Treinamentos/addTreinamento.aspx">
       <publishTime>06/02/2017 16:36:28</publishTime>
@@ -1643,7 +1655,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/02/2017 16:36:31</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>10/25/2017 15:28:17</publishTime>
+      <publishTime>01/11/2017 10:11:12</publishTime>
     </File>
     <File Include="Web.sitemap">
       <publishTime>06/02/2017 16:36:31</publishTime>

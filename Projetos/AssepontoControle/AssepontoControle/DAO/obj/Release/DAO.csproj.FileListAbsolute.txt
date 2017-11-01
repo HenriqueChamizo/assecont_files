@@ -42,3 +42,11 @@ C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\D
 C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\DAO\obj\Release\DAO.csproj.CoreCompileInputs.cache
 C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\DAO\obj\Release\DAO.dll
 C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\DAO\obj\Release\DAO.pdb
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\DAO\bin\Release\DAO.dll
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\DAO\bin\Release\DAO.pdb
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\DAO\bin\Release\Modelo.dll
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\DAO\bin\Release\Modelo.pdb
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\DAO\obj\Release\DAO.csprojResolveAssemblyReference.cache
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\DAO\obj\Release\DAO.csproj.CoreCompileInputs.cache
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\DAO\obj\Release\DAO.dll
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\DAO\obj\Release\DAO.pdb

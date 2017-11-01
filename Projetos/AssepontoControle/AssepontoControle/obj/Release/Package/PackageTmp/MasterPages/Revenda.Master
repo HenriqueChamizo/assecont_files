@@ -1,0 +1,118 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Revenda.master.cs" Inherits="Asseponto.MasterPages.Revenda" %>
+
+<!DOCTYPE html>
+
+<html>
+<head id="Head1" runat="server">
+    <meta charset="utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="shortcut icon" href="../Images/Logos/Asseponto4.ico" />
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+
+    <link href="../Skins/ComboBox.flv.css" rel="stylesheet" />
+    <link href="../Skins/Grid.flv.css" rel="stylesheet" type="text/css" />
+    <link href="../Skins/Menu_Blue.css" rel="stylesheet" type="text/css" />
+
+    <link href="~/Styles/FormView.css" rel="stylesheet" type="text/css" />
+    <link href="~/Skins/Menu.Wr.css" rel="stylesheet" type="text/css" />
+    <link href="~/Skins/Grid.Wr.css" rel="stylesheet" type="text/css" />
+    <link href="~/Skins/Calendar.Wr.css" rel="stylesheet" type="text/css" />
+
+    <link href="~/Styles/MenuTecno.css" rel="stylesheet" />
+
+
+    <script src="../JQuery/jquery-1.10.2.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+        </telerik:RadScriptManager>
+        <header id="HeaderMain" runat="server">
+            <section id="SectionHeader" runat="server">
+                <table style="width: 100%; min-height: 40px;">
+                    <tr>
+                        <td>
+                            <a id="HomePortal" runat="server" target="_blank" href="http://www.assecont.com.br/">
+                                <asp:Image ID="Logotipo" runat="server" ImageUrl="../Images/Logos/Logo.png" Width="220" />
+                            </a>
+                        </td>
+                        <td style="text-align: right; width: 250px;">
+                            <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/Logos/logoAsseponto1995.png" Width="260px" />
+                            <%--<img src="../../Images/Logos/logoAsseponto1995.png" width="260" />--%>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+
+            <nav id="nav" runat="server">
+                <section id="SectionNavPortal">
+                    <div id="cssmenu" runat="server">
+                        <ul>
+                            <li>
+                                <asp:HyperLink ID="HyperClientes" runat="server" NavigateUrl="~/revenda/clientes/default.aspx">Clientes</asp:HyperLink>
+                            </li>
+                            <li>
+                                <asp:HyperLink ID="HyperPedidos" runat="server" NavigateUrl="~/revenda/pedidos/default.aspx">Pedidos</asp:HyperLink>
+                            </li>
+                            <li>
+                                <asp:HyperLink ID="HyperImplatacoes" runat="server" NavigateUrl="~/revenda/implantacoes/default.aspx">Implantações</asp:HyperLink>
+                            </li>
+                            <li id="Li1" runat="server" class="has-sub"><a id="A1" runat="server" href="#">Relatórios</a>
+                                <ul>
+                                    <li>
+                                        <asp:HyperLink ID="HyperContratoNaoRecebido" runat="server" NavigateUrl="../Revenda/Relatorios/RelatorioContratoManutencao.aspx">Relatório Contratos de Manutenção </asp:HyperLink></li>
+                                    <li>
+                                        <asp:HyperLink ID="HyperClienteExpirados" runat="server" NavigateUrl="../Revenda/Relatorios/RelatorioClientesExpirados.aspx">Relatório clientes Expirados</asp:HyperLink></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <asp:LinkButton ID="HyperCadastro" runat="server" OnClick="HyperCadastro_Click">Cadastro</asp:LinkButton>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </nav>
+        </header>
+
+        <div id="SectiontWebsite">
+            <div id="sitemappathwrapper1" runat="server">
+                <div id="sitemappathwrapper2">
+                    <div id="sitemappath">
+                        <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" Font-Size="0.8em"
+                            PathSeparator="&nbsp;&nbsp;>&nbsp;&nbsp;" CssClass="sitemappathclass" Height="24px">
+                            <CurrentNodeStyle CssClass="sitemappathcurrentnodestyle" />
+                            <NodeStyle CssClass="sitemappathrootnodestyle" />
+                            <PathSeparatorStyle CssClass="sitemappathseparatorstyle" />
+                            <RootNodeStyle CssClass="sitemappathrootnodestyle" />
+                        </asp:SiteMapPath>
+                    </div>
+                </div>
+            </div>
+            <div id="sitetitle">
+                <wr:PageTitle ID="PageTitl1" runat="server" ImageFolder="~/images/pagetitles" />
+            </div>
+            <div id="siteconteudowrapper" style="padding-top: 10px;">
+                <div id="siteconteudo">
+                    <asp:ContentPlaceHolder ID="contentplaceMenuEsquerdo" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <div id="sitecorpo">
+                        <asp:ContentPlaceHolder ID="contentplaceConteudo" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <flv:WbFooter runat="server" ID="WbFooter" />
+            <aside id="FootNoteAddressPortal">
+                <div id="Address">
+                    Rua Mário, 194 | Vila Romana | São Paulo/SP | CEP 05.048-010 | 11 2173-8888 | Horário 08:00-12:30-13:30-17:30
+                </div>
+            </aside>
+        </footer>
+    </form>
+</body>
+</html>

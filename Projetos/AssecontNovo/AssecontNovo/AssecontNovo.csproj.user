@@ -9,7 +9,7 @@
     <UseGlobalApplicationHostFile />
     <NameOfLastUsedPublishProfile>AssecontNova</NameOfLastUsedPublishProfile>
     <Use64BitIISExpress />
-    <ProjectView>ShowAllFiles</ProjectView>
+    <ProjectView>ProjectFiles</ProjectView>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

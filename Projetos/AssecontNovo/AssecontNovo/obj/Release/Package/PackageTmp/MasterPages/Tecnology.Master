@@ -74,9 +74,10 @@
                                 <ul>
                                     <li>
                                         <asp:HyperLink ID="HyperRevendasGold" runat="server" NavigateUrl="~/Tecnologia/Revendas/rvGold.aspx">Revenda Gold</asp:HyperLink>
-                                    <li>
-                                        <asp:HyperLink ID="HyperRevendasPremium" runat="server" NavigateUrl="~/Tecnologia/Revendas/rvPremium.aspx">Revenda Premium</asp:HyperLink>
                                     </li>
+                                    <%--<li>
+                                        <asp:HyperLink ID="HyperRevendasPremium" runat="server" NavigateUrl="~/Tecnologia/Revendas/rvPremium.aspx">Revenda Premium</asp:HyperLink>
+                                    </li>--%>
                                 </ul>
                             </li>
                             <li class="has-sub"><a href="#">Produtos</a>
