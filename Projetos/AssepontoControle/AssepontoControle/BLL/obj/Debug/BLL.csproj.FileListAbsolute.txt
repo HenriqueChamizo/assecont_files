@@ -54,3 +54,13 @@ C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\B
 C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\BLL\obj\Debug\BLL.pdb
 C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\Modelo.dll
 C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\Modelo.pdb
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\BLL.dll
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\BLL.pdb
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\DAO.dll
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\Modelo.dll
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\DAO.pdb
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\BLL\bin\Debug\Modelo.pdb
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\BLL\obj\Debug\BLL.dll
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\BLL\obj\Debug\BLL.pdb

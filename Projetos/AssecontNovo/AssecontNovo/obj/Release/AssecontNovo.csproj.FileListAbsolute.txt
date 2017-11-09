@@ -146,3 +146,4 @@ C:\Disco D\GitHub\assecont_files\Projetos\AssecontNovo\AssecontNovo\obj\Release\
 C:\Disco D\GitHub\assecont_files\Projetos\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.dll
 C:\Disco D\GitHub\assecont_files\Projetos\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.pdb
 C:\Disco D\GitHub\assecont_files\Projetos\AssecontNovo\AssecontNovo\obj\Release\AssecontNovo.csprojResolveAssemblyReference.cache
+C:\Disco D\GitHub\assecont_files\Projetos\AssecontNovo\AssecontNovo\bin\Assecontweb.Classes.Views.pdb

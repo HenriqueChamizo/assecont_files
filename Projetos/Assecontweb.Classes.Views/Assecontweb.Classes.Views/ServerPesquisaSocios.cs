@@ -268,7 +268,7 @@ namespace Assecontweb.Classes.Views
                     {
                         RadioButtonList rb = Global.Bit(Convert.ToInt32(dr["QUESTAO"]));
                         name = rb.ID += i;
-                        rb.SelectedIndex = Convert.ToInt32(dr["RESPOSTA"]);
+                        rb.SelectedIndex = Convert.ToInt32(dr["RESPOSTA"] is DBNull ? 0 : dr["RESPOSTA"]);
                         panel.Controls.Add(rb);
                     }
 
@@ -276,7 +276,7 @@ namespace Assecontweb.Classes.Views
                     {
                         RadioButtonList rb = Global.Numeracao(Convert.ToInt32(dr["QUESTAO"]));
                         name = rb.ID += i;
-                        rb.SelectedIndex = Convert.ToInt32(dr["RESPOSTA"]);
+                        rb.SelectedIndex = Convert.ToInt32(dr["RESPOSTA"] is DBNull ? 0 : dr["RESPOSTA"]);
                         panel.Controls.Add(rb);
                     }
 
@@ -285,7 +285,7 @@ namespace Assecontweb.Classes.Views
                     {
                         TextBox txt = Global.Dissertativa(Convert.ToInt32(dr["QUESTAO"]));
                         txt.ID += i;
-                        txt.Text = dr["RESPOSTA"].ToString().Trim();
+                        txt.Text = (dr["RESPOSTA"] is DBNull ? "" : dr["RESPOSTA"]).ToString().Trim();
                         panel.Controls.Add(txt);
                     }
 
@@ -293,7 +293,7 @@ namespace Assecontweb.Classes.Views
                     {
                         RadioButtonList rb = Global.Frequencia(Convert.ToInt32(dr["QUESTAO"]));
                         name = rb.ID += i;
-                        rb.SelectedIndex = Convert.ToInt32(dr["RESPOSTA"]);
+                        rb.SelectedIndex = Convert.ToInt32(dr["RESPOSTA"] is DBNull ? 0 : dr["RESPOSTA"]);
                         panel.Controls.Add(rb);
                     }
 
@@ -301,7 +301,7 @@ namespace Assecontweb.Classes.Views
                     {
                         RadioButtonList rb = Global.Qualificacao(Convert.ToInt32(dr["QUESTAO"]));
                         name = rb.ID += i;
-                        rb.SelectedIndex = Convert.ToInt32(dr["RESPOSTA"]);
+                        rb.SelectedIndex = Convert.ToInt32(dr["RESPOSTA"] is DBNull ? 0 : dr["RESPOSTA"]);
                         panel.Controls.Add(rb);
                     }
 

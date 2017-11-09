@@ -72,10 +72,10 @@
 
                         <telerik:GridTemplateColumn DataField="CLISOC_IND" HeaderText="Abrir" UniqueName="CLISOC_IND" ShowSortIcon="false">
                             <ItemTemplate>
-                       <%--         <asp:HyperLink ID="HyperArquivo" runat="server" Target="_blank" NavigateUrl='<%# string.Format("~/pesquisas/pesquisaSatisfacao.aspx?I={0}", (new Wr.Classes.Crypto()).Encrypt(Eval("QUERESDADOS_IND").ToString())) %>'>
+                                <%--<asp:HyperLink ID="HyperArquivo1" runat="server" Target="_blank" NavigateUrl='<%# string.Format("~/pesquisas/pesquisaSatisfacao.aspx?I={0}", (new Wr.Classes.Crypto()).Encrypt(Eval("QUERESDADOS_IND").ToString())) %>'>
                                     <asp:Image ID="Image3" runat="server" ImageUrl="~/Imagens/24x24/Open24x24.png" />
                                 </asp:HyperLink>--%>
-                                <asp:HyperLink ID="HyperArquivo" runat="server" Target="_blank" NavigateUrl='<%# string.Format("~/pesquisas/pesquisaSatisfacao.aspx?v=Fu04k4eCM+vLX2Wb5GXUejTdtH/0142cWYoHJ2iizOw=&I={0}&D={1}", (new Wr.Classes.Crypto()).Encrypt(Eval("CLISOC_IND").ToString()), Eval("DATARESPOSTA",  "{0:dd/MM/yyyy}")) %>'>
+                                <asp:HyperLink ID="HyperArquivo2" runat="server" Target="_blank" NavigateUrl='<%# string.Format("~/pesquisas/pesquisaSatisfacao.aspx?v=Fu04k4eCM+vLX2Wb5GXUejTdtH/0142cWYoHJ2iizOw=&I={0}&D={1}", (new Wr.Classes.Crypto()).Encrypt(Eval("CLISOC_IND").ToString()), Eval("DATARESPOSTA",  "{0:dd/MM/yyyy}")) %>'>
                                     <asp:Image ID="Image1" runat="server" ImageUrl="~/Imagens/24x24/Open24x24.png" />
                                 </asp:HyperLink>
                             </ItemTemplate>

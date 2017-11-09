@@ -46,8 +46,9 @@
     <Reference Include="Assecontweb.Classes">
       <HintPath>..\dlls\Assecontweb.Classes.dll</HintPath>
     </Reference>
-    <Reference Include="Assecontweb.Classes.Views">
-      <HintPath>..\dlls\Assecontweb.Classes.Views.dll</HintPath>
+    <Reference Include="Assecontweb.Classes.Views, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Assecontweb.Classes.Views\Assecontweb.Classes.Views\bin\Debug\Assecontweb.Classes.Views.dll</HintPath>
     </Reference>
     <Reference Include="Assecontweb.Types">
       <HintPath>..\dlls\Assecontweb.Types.dll</HintPath>

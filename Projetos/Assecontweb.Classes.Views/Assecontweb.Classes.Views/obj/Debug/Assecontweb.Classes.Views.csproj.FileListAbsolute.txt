@@ -18,3 +18,16 @@ H:\Arquivos\ProgsComponentes\ComponentesC#\Assecontweb.Classes.Views\Assecontweb
 H:\Arquivos\ProgsComponentes\ComponentesC#\Assecontweb.Classes.Views\Assecontweb.Classes.Views\bin\Debug\Wr.Classes.pdb
 H:\Arquivos\ProgsComponentes\ComponentesC#\Assecontweb.Classes.Views\Assecontweb.Classes.Views\bin\Debug\HumanAPIClient.pdb
 H:\Arquivos\ProgsComponentes\ComponentesC#\Assecontweb.Classes.Views\Assecontweb.Classes.Views\bin\Debug\HumanAPIClient.xml
+C:\Disco D\GitHub\assecont_files\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\bin\Debug\Assecontweb.Classes.Views.dll
+C:\Disco D\GitHub\assecont_files\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\bin\Debug\Assecontweb.Classes.Views.pdb
+C:\Disco D\GitHub\assecont_files\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\bin\Debug\Assecontweb.Classes.dll
+C:\Disco D\GitHub\assecont_files\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\bin\Debug\Assecontweb.Classes.Modelos.dll
+C:\Disco D\GitHub\assecont_files\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\bin\Debug\Assecontweb.Types.dll
+C:\Disco D\GitHub\assecont_files\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\bin\Debug\Telerik.Web.UI.dll
+C:\Disco D\GitHub\assecont_files\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\bin\Debug\Assecontweb.Classes.Sms.dll
+C:\Disco D\GitHub\assecont_files\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\bin\Debug\Assecontweb.Classes.Email.dll
+C:\Disco D\GitHub\assecont_files\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\obj\Debug\Assecontweb.Classes.Views.Properties.Resources.resources
+C:\Disco D\GitHub\assecont_files\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\obj\Debug\Assecontweb.Classes.Views.csproj.GenerateResource.Cache
+C:\Disco D\GitHub\assecont_files\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\obj\Debug\Assecontweb.Classes.Views.csproj.CoreCompileInputs.cache
+C:\Disco D\GitHub\assecont_files\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\obj\Debug\Assecontweb.Classes.Views.dll
+C:\Disco D\GitHub\assecont_files\Projetos\Assecontweb.Classes.Views\Assecontweb.Classes.Views\obj\Debug\Assecontweb.Classes.Views.pdb

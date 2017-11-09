@@ -32,7 +32,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:03</publishTime>
     </File>
     <File Include="Avisos/ConfirmacaoEnvioTecnologia.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:03</publishTime>
     </File>
     <File Include="Avisos/ConfirmacaoHoleritePedidoNewPwd.aspx">
       <publishTime>09/25/2017 10:11:03</publishTime>
@@ -47,10 +47,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:03</publishTime>
     </File>
     <File Include="bin/AssecontNovo.dll">
-      <publishTime>11/01/2017 10:36:13</publishTime>
+      <publishTime>08/11/2017 13:54:28</publishTime>
     </File>
     <File Include="bin/AssecontNovo.pdb">
-      <publishTime>11/01/2017 10:36:13</publishTime>
+      <publishTime>08/11/2017 13:54:28</publishTime>
     </File>
     <File Include="bin/Assecontweb.Classes.dll">
       <publishTime>09/25/2017 10:11:15</publishTime>
@@ -59,7 +59,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:15</publishTime>
     </File>
     <File Include="bin/Assecontweb.Classes.Views.dll">
-      <publishTime>09/25/2017 10:11:15</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Assecontweb.Classes.Views.pdb">
+      <publishTime>08/11/2017 13:53:00</publishTime>
     </File>
     <File Include="bin/Assecontweb.Types.dll">
       <publishTime>09/25/2017 10:11:15</publishTime>
@@ -86,7 +89,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:15</publishTime>
     </File>
     <File Include="bin/Wr.Classes.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:15</publishTime>
     </File>
     <File Include="bootstrap/css/bootstrap-theme.css">
       <publishTime>09/25/2017 10:11:08</publishTime>
@@ -122,10 +125,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="bootstrap/fonts/glyphicons-halflings-regular.woff">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="bootstrap/fonts/glyphicons-halflings-regular.woff2">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="bootstrap/js/bootstrap.js">
       <publishTime>09/25/2017 10:11:08</publishTime>
@@ -146,7 +149,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:03</publishTime>
     </File>
     <File Include="Classes/Emails/FormSolicSimples/FormSolicSimples.htm">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:03</publishTime>
     </File>
     <File Include="Classes/Emails/FormularioWorkShop/FormularioWorkShop.htm">
       <publishTime>09/25/2017 10:11:03</publishTime>
@@ -188,7 +191,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:03</publishTime>
     </File>
     <File Include="Consultoria/Empresarial.old.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:03</publishTime>
     </File>
     <File Include="Consultoria/Tributario.aspx">
       <publishTime>09/25/2017 10:11:03</publishTime>
@@ -209,7 +212,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:03</publishTime>
     </File>
     <File Include="Contabilidade/Cotacao/form.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:03</publishTime>
     </File>
     <File Include="Contabilidade/default.aspx">
       <publishTime>09/25/2017 10:11:03</publishTime>
@@ -254,7 +257,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="Grupo/Atendimento/default.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="Grupo/Atendimento/Ouvidoria.aspx">
       <publishTime>09/25/2017 10:11:04</publishTime>
@@ -293,7 +296,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="Grupo/localizacao.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="Grupo/NbrIso.aspx">
       <publishTime>09/25/2017 10:11:04</publishTime>
@@ -311,7 +314,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="HoleriteFunc/default.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="HoleriteFunc/HoleriteFuncionario.aspx">
       <publishTime>09/25/2017 10:11:04</publishTime>
@@ -335,7 +338,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="Imagens/16x16/email16x16.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="Imagens/16x16/exclamation16x16.png">
       <publishTime>09/25/2017 10:11:04</publishTime>
@@ -392,10 +395,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="Imagens/24x24/asseAdmin24x24.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="Imagens/24x24/assecontWeb24x24.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="Imagens/24x24/auditoria24x24.png">
       <publishTime>09/25/2017 10:11:04</publishTime>
@@ -479,13 +482,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="Imagens/24x24/letterS_24x24.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="Imagens/24x24/link24x24.png">
       <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="Imagens/24x24/lion24x24.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="Imagens/24x24/logoAssecont24x24.png">
       <publishTime>09/25/2017 10:11:04</publishTime>
@@ -500,7 +503,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="Imagens/24x24/OpenWhite24x24.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="Imagens/24x24/ouvidoria24x24.png">
       <publishTime>09/25/2017 10:11:04</publishTime>
@@ -527,13 +530,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="Imagens/24x24/requerimentos24x24.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="Imagens/24x24/rules24x24.png">
       <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="Imagens/24x24/saopaulo24x24.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="Imagens/24x24/school24x24.png">
       <publishTime>09/25/2017 10:11:04</publishTime>
@@ -563,7 +566,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="Imagens/32x32/handshake32.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="Imagens/32x32/home32x32.png">
       <publishTime>09/25/2017 10:11:04</publishTime>
@@ -707,7 +710,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="Imagens/Banner/Banner3.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:04</publishTime>
     </File>
     <File Include="Imagens/Banner/BannerContabil/Banner1.png">
       <publishTime>09/25/2017 10:11:04</publishTime>
@@ -764,7 +767,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:06</publishTime>
     </File>
     <File Include="Imagens/boxArticle/boxRevenda.png">
-      <publishTime>11/01/2017 10:26:34</publishTime>
+      <publishTime>01/11/2017 17:18:43</publishTime>
     </File>
     <File Include="Imagens/boxArticle/Carep.png">
       <publishTime>09/25/2017 10:11:06</publishTime>
@@ -845,7 +848,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:05</publishTime>
     </File>
     <File Include="Imagens/CertificIsoPqec/PlacaPqec2012.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:05</publishTime>
     </File>
     <File Include="Imagens/CertificIsoPqec/PlacaPqec2013.jpg">
       <publishTime>09/25/2017 10:11:05</publishTime>
@@ -857,7 +860,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:05</publishTime>
     </File>
     <File Include="Imagens/Comunicado/footerComunicado.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:06</publishTime>
     </File>
     <File Include="Imagens/Comunicado/holeriteExemplo.png">
       <publishTime>09/25/2017 10:11:06</publishTime>
@@ -902,7 +905,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:06</publishTime>
     </File>
     <File Include="Imagens/Email/aviso/topo4.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:06</publishTime>
     </File>
     <File Include="Imagens/Email/aviso/topo5.png">
       <publishTime>09/25/2017 10:11:06</publishTime>
@@ -980,13 +983,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:06</publishTime>
     </File>
     <File Include="Imagens/logos/holeriteOnline.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:06</publishTime>
     </File>
     <File Include="Imagens/logos/iso9001.png">
       <publishTime>09/25/2017 10:11:06</publishTime>
     </File>
     <File Include="Imagens/logos/logAssecontWeb.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:06</publishTime>
     </File>
     <File Include="Imagens/logos/Logo.png">
       <publishTime>09/25/2017 10:11:06</publishTime>
@@ -1064,13 +1067,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:06</publishTime>
     </File>
     <File Include="Imagens/social/assecontestrela.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Imagens/social/assecontFutebolQuintas.png">
       <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Imagens/social/assecontfutsal.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Imagens/social/paraciclismo-de-estrada.png">
       <publishTime>09/25/2017 10:11:07</publishTime>
@@ -1121,10 +1124,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:06</publishTime>
     </File>
     <File Include="Imagens/Tecnologia/Pagina-Folha-de-Pagamento-Final.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:06</publishTime>
     </File>
     <File Include="Imagens/Tecnologia/parceiros.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:06</publishTime>
     </File>
     <File Include="Imagens/Tecnologia/Rep/LeitorDigital.png">
       <publishTime>09/25/2017 10:11:06</publishTime>
@@ -1157,7 +1160,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:06</publishTime>
     </File>
     <File Include="Imagens/Tecnologia/Rep/logo_proveu.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:06</publishTime>
     </File>
     <File Include="Imagens/Tecnologia/Rep/logo_rw.png">
       <publishTime>09/25/2017 10:11:06</publishTime>
@@ -1172,7 +1175,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:06</publishTime>
     </File>
     <File Include="Imagens/Tecnologia/Rep/logo_zpm.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:06</publishTime>
     </File>
     <File Include="Imagens/Tecnologia/Rep/TecladoREP.png">
       <publishTime>09/25/2017 10:11:06</publishTime>
@@ -1211,7 +1214,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Jquery/Banner/jquery.min.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Jquery/Banner/jquery.skitter.js">
       <publishTime>09/25/2017 10:11:07</publishTime>
@@ -1253,7 +1256,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Jquery/Carroseul/Images/video.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Jquery/Carroseul/jquery.carousel-1.1.js">
       <publishTime>09/25/2017 10:11:07</publishTime>
@@ -1262,7 +1265,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Jquery/ControlVisible/Visible.js">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Jquery/Dropit/dropdown.js">
       <publishTime>09/25/2017 10:11:07</publishTime>
@@ -1277,7 +1280,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Jquery/jquery-3.2.1.min.map">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Jquery/jquery_1_11_3.js">
       <publishTime>09/25/2017 10:11:07</publishTime>
@@ -1340,7 +1343,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="MasterPages/Tecnology.Master">
-      <publishTime>01/11/2017 10:22:32</publishTime>
+      <publishTime>01/11/2017 17:18:43</publishTime>
     </File>
     <File Include="packages.config">
       <publishTime>09/25/2017 10:11:15</publishTime>
@@ -1352,7 +1355,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Pesquisas/pesquisaDepto.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>01/11/2017 17:18:43</publishTime>
     </File>
     <File Include="Pesquisas/pesquisaSatisfacao.aspx">
       <publishTime>09/25/2017 10:11:07</publishTime>
@@ -1361,10 +1364,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Questionarios/QuestionarioObrigacao.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>01/11/2017 17:18:43</publishTime>
     </File>
     <File Include="Questionarios/QuestionarioSocios.aspx">
-      <publishTime>09/25/2017 10:11:07</publishTime>
+      <publishTime>08/11/2017 10:52:29</publishTime>
     </File>
     <File Include="Questionarios/QuestionarioSociosTotalizado.aspx">
       <publishTime>09/25/2017 10:11:07</publishTime>
@@ -1403,7 +1406,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Skins/Editor/ToolBarSprites.gif">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Skins/Editor/ToolbarVerticalSprites.gif">
       <publishTime>09/25/2017 10:11:07</publishTime>
@@ -1412,7 +1415,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Skins/Grid/AddRecord.gif">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Skins/Grid/Cancel.gif">
       <publishTime>09/25/2017 10:11:07</publishTime>
@@ -1433,7 +1436,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Skins/Grid/Metro.gif">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Skins/Grid/MoveDown.gif">
       <publishTime>09/25/2017 10:11:07</publishTime>
@@ -1484,7 +1487,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Skins/Menu/rmRootExpand.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Skins/Menu/rmRoundedLeft.png">
       <publishTime>09/25/2017 10:11:07</publishTime>
@@ -1511,7 +1514,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Skins/Slide/bg_body.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Skins/Slide/bg_bottom_border.jpg">
       <publishTime>09/25/2017 10:11:07</publishTime>
@@ -1550,7 +1553,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Styles/BannerPrincipal.css">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Styles/bxslider.css">
       <publishTime>09/25/2017 10:11:07</publishTime>
@@ -1610,43 +1613,43 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/Asseponto/Manual/Gerar.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/Asseponto/Manual/ManualAssePontoII.pdf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/Asseponto/Manual/MarcacaoIgnorada.pdf">
       <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/Asseponto/Manual/OcorrenciaTratamentos.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/Asseponto/Manual/relatorios.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/Asseponto/Manual/rotinasTratamento.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/Asseponto/ManualRep/Manual_REP_CONTROL_ID.pdf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/Asseponto/ManualRep/Manual_REP_DIMEP.pdf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/Asseponto/ManualRep/MANUAL_REP_ECO_500_ZPM.pdf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/Asseponto/ManualRep/Manual_REP_GERTEC.pdf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/Asseponto/ManualRep/Manual_REP_HENRY.pdf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/Asseponto/ManualRep/Manual_REP_IDDATA.pdf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/Asseponto/ManualRep/Manual_REP_TRILOBIT.pdf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/Asseponto/Planilha relação dos funcionarios e config AssePonto4.xls">
       <publishTime>09/25/2017 10:11:07</publishTime>
@@ -1664,145 +1667,145 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/AssepontoWeb/default.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/AssepontoWeb/DuvidasAcessoRemoto.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/AssepontoWeb/Implantacao.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/AssepontoWeb/Manual/backup.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/AssepontoWeb/Manual/bancoHoras.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/AssepontoWeb/Manual/cadastro.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/AssepontoWeb/Manual/default.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/AssepontoWeb/Manual/Gerar.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/AssepontoWeb/Manual/ManualAssePontoII.pdf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/AssepontoWeb/Manual/MarcacaoIgnorada.pdf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/AssepontoWeb/Manual/OcorrenciaTratamentos.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/AssepontoWeb/Manual/relatorios.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/AssepontoWeb/Manual/rotinasTratamento.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/AssepontoWeb/ManualRep/Manual_REP_CONTROL_ID.pdf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/AssepontoWeb/ManualRep/Manual_REP_DIMEP.pdf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/AssepontoWeb/ManualRep/MANUAL_REP_ECO_500_ZPM.pdf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/AssepontoWeb/ManualRep/Manual_REP_GERTEC.pdf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/AssepontoWeb/ManualRep/Manual_REP_HENRY.pdf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/AssepontoWeb/ManualRep/Manual_REP_IDDATA.pdf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/AssepontoWeb/ManualRep/Manual_REP_TRILOBIT.pdf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/AssepontoWeb/Planilha relação dos funcionarios e config AssePontoWeb.xls">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/AssepontoWeb/RepsCompativeis.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/AssepontoWeb/vantagens.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/default.aspx">
       <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="Tecnologia/depoimentos.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="Tecnologia/FolhaPagWeb.aspx">
       <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/Formularios/ConfirmacaoSolicitacao.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/Formularios/FormSolicitSimples.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/Formularios/FormularioSolicitacao.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/Formularios/InscWorkshop.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/HorarioAtedimento.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:07</publishTime>
     </File>
     <File Include="Tecnologia/localizacao.aspx">
       <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="Tecnologia/ManualArquivos/01Manual SQL.pdf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="Tecnologia/ManualArquivos/02Compartilhando SQL.pdf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="Tecnologia/ManualArquivos/03Criando Banco.pdf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="Tecnologia/ManualArquivos/04Scriptsiniciais.pdf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="Tecnologia/ManualArquivos/05Importação planilha.pdf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="Tecnologia/ManualArquivos/06Incluindo REP no Asseponto4.pdf">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="Tecnologia/ManualArquivos/default.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="Tecnologia/Portaria/dafault.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="Tecnologia/Revendas/rvGold.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="Tecnologia/Revendas/rvPremium.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="Tecnologia/Suporte/contatoTec.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="Tecnologia/Suporte/default.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="Tecnologia/Suporte/vantagensManutencao.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="Tecnologia/TecerizaoPonto.aspx">
       <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="Teste/Assefin/default.aspx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="Web.config">
       <publishTime>11/01/2017 10:36:53</publishTime>
@@ -1811,40 +1814,40 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="WebControl/MenuLeftAssecontWeb.ascx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="WebControl/MenuLeftAsseponto4.ascx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="WebControl/MenuLeftAssepontoWeb.ascx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="WebControl/MenuLeftAtendimento.ascx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="WebControl/MenuTopCotacao.ascx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="WebControl/MenuTopManulAsseponto.ascx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="WebControl/PageTitle.ascx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="WebControl/WbAtualizarCelular.ascx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="WebControl/WbCanaisSuporte.ascx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="WebControl/WbFooter.ascx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="WebControl/WbHeader.ascx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
     <File Include="WebControl/WbLocalizacao.ascx">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/25/2017 10:11:08</publishTime>
     </File>
   </ItemGroup>
 </Project>

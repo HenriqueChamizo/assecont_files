@@ -39,3 +39,9 @@ C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\M
 C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
 C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\Modelo\obj\Debug\Modelo.dll
 C:\Disco D\BitBucket\assecont.old\Projetos\AssepontoControle\AssepontoControle\Modelo\obj\Debug\Modelo.pdb
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\Modelo\bin\Debug\Modelo.dll
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\Modelo\bin\Debug\Modelo.pdb
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\Modelo\obj\Debug\Modelo.dll
+C:\Disco D\GitHub\assecont_files\Projetos\AssepontoControle\AssepontoControle\Modelo\obj\Debug\Modelo.pdb

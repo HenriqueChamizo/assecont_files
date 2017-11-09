@@ -47,17 +47,16 @@ namespace AssecontNovo.Questionarios
             {
                 //if (!access.CheckPermission(Assecontweb.Classes.AccessApp.PermissoesList.FerramentasQuestionariosVisualizacaoQuestionario))
                 //{
-                    RadGridQuestionarioSocios.Visible = lbDataCombo.Visible = comboboxDatas.Visible =
-                    comboboxRespondidos.Visible = lbResponderam.Visible = btTotalizado.Visible = false;
-                    Responderam = comboboxRespondidos.SelectedIndex = 0;
+                //RadGridQuestionarioSocios.Visible = lbDataCombo.Visible = comboboxDatas.Visible = comboboxRespondidos.Visible = lbResponderam.Visible = btTotalizado.Visible = false;
+                //Responderam = comboboxRespondidos.SelectedIndex = 0;
                 //}
                 //else if (!IsPostBack)
                 //{
-                //    RadGridNaoResponderam.Visible = false;
-                //    Responderam = comboboxRespondidos.SelectedIndex = 1;
+                    RadGridNaoResponderam.Visible = false;
+                    Responderam = comboboxRespondidos.SelectedIndex = 1;
                 //}
-                //else 
-                //{ 
+                //else
+                //{
                 //    lbDataCombo.Visible = comboboxDatas.Visible = Responderam == 0 ? false : true;
                 //}
             }

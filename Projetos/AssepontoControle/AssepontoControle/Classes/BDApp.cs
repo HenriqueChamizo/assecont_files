@@ -162,16 +162,16 @@ namespace Asseponto.Classes
         public string getClienteOrRevendaCnpjCpf(int Ind)
         {
             return getFieldValueString(string.Format(@"select top 1 
-		                                                        case 
-			                                                        when MNT_CLIENTE is not null
-			                                                        then dbo.fn_asseponto_trim_cnpj(CAD_CNPJ) 
-			                                                        else dbo.fn_asseponto_trim_cnpj(REV_CNPJ) 
-		                                                        end
-                                                        from AssepontoClientes
-                                                        left join AssepontoManutencao on MNT_CLIENTE = CAD_IND
-                                                        inner join AssepontoRevendas on REV_IND = CAD_REVENDA
-                                                        where CAD_IND = {0} 
-                                                        order by MNT_DATA desc", Ind));
+		                                                    case 
+			                                                    when MNT_CLIENTE is not null and MNT_REVENDA is null
+			                                                    then dbo.fn_asseponto_trim_cnpj(CAD_CNPJ) 
+			                                                    else dbo.fn_asseponto_trim_cnpj(REV_CNPJ) 
+		                                                    end
+                                                    from AssepontoClientes
+                                                    left join AssepontoManutencao on MNT_CLIENTE = CAD_IND and MNT_CANCELADO != 1
+                                                    inner join AssepontoRevendas on REV_IND = CAD_REVENDA
+                                                    where CAD_IND = {0}
+                                                    order by MNT_DATA desc", Ind));
         }
 
         public string getClienteRazaoSocialFromImplantacao(int Ind)

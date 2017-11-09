@@ -11,7 +11,7 @@ namespace AssecontNovo.Pesquisas
                 serverViews.Cliente = Convert.ToInt32((new Wr.Classes.Crypto()).Decrypt(Request.QueryString["i"].Replace(' ', '+')));
             }
 
-            //if(!string.IsNullOrEmpty(Request.QueryString["q"]))
+            //if (!string.IsNullOrEmpty(Request.QueryString["q"]))
             //{
             //    serverViews.QuestId = Convert.ToInt32((new Wr.Classes.Crypto()).Decrypt(Request.QueryString["q"].Replace(' ', '+')));
             //}
